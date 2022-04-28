@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-16">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AVIJACIJSKI KVIZ</title>
+  <link rel="stylesheet" type="text/css" href="/index.css">
+</head>
+<body>
+
+<div id="main">
+  <div id="title" class="flex-col">AVIJACIJSKI KVIZ</div>
+  <div id="sub-title" class="flex-col">IZABERITE TEMU</div>
+  <div id="topics-container" class="flex-col">
+    <div id="topics-list" class="flex-col"></div>
+    <div id="topic-buttons-container" class="flex-row">
+      <div class="flex-col btn" id="back-btn">Nazad</div>
+      <div class="flex-col btn" id="all-questions-btn">Sva Pitanja</div>
+      <div class="flex-col btn" id="random-questions-btn">20 Nasumicnih Pitanja</div>
+    </div>
+
+  </div>
+
+  <div id="questions-container" class="flex-col">
+    <div id="current-question" class="flex-col">
+      <div id="current-question-text"></div>
+      <div id="open-modal-btn" class="flex-col btn">VIDI SLIKU</div>
+    </div>
+    <div id="answers-container" class="flex-col"></div>
+  </div>
+
+  <div id="footer" class="flex-row">
+    <div id="score-wrapper" class="flex-row">
+      <span class="label">Tacno:</span>
+      <span class="label label-output" id="correct-answers">0</span>
+      <span class="label">Ukupno:</span>
+      <span class="label label-output" id="total-answers">0</span>
+      <div class="flex-col btn" id="next-question-btn">SLEDECE</div>
+    </div>
+    <div id="end-game-wrapper" class="flex-row">
+      <span id="end-game-label" class="label">KRAJ TESTA</span>
+      <div class="flex-col btn" id="new-test-btn">NOVI TEST</div>
+    </div>
+  </div>
+  <div id="modal" class="flex-col">
+    <div id="modal-inner" class="flex-col">
+      <div id="close-modal-btn" class="flex-col btn">ZATVORI</div>
+      <div id="image-wrapper">
+        <img id="image" src="" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="/index.js"></script>
+</body>
+</html>
