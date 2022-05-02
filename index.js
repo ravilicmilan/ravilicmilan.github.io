@@ -42,7 +42,8 @@ const APP = {
   correctAnswers: 0,
   totalAnswers: 0,
   currentImage: null,
-  nextQuestionDisabled: true
+  nextQuestionDisabled: true,
+  disableAnswersButtons: false
 };
 
 function loadJsonData () {
@@ -103,6 +104,10 @@ function handleTopicClick (e) {
 }
 
 function handleAnswerClick (e) {
+  if (APP.disableAnswersButtons) {
+    return;
+  }
+
   APP.nextQuestionDisabled = false;
   const answerId = this.id;
   const correct = this.dataset.correct;
@@ -120,6 +125,7 @@ function handleAnswerClick (e) {
 
   APP.totalAnswers++;
   totalAnswersEl.innerHTML = APP.totalAnswers;
+  APP.disableAnswersButtons = true;
 
   if (APP.currentQuestionIdx === APP.selectedQuestions.length - 1) {
     showQuizFinished();
@@ -236,6 +242,8 @@ function handleNextQuestionClick () {
   if (APP.nextQuestionDisabled) {
     return false;
   }
+
+  APP.disableAnswersButtons = false;
   APP.currentQuestionIdx++;
   APP.currentImage = null;
   APP.nextQuestionDisabled = true;
