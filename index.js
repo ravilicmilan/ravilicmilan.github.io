@@ -96,7 +96,7 @@ function handleOpenModalClick () {
 }
 
 function handleTopicClick (e) {
-  console.log(this.dataset.topic);
+  // console.log(this.dataset.topic);
   APP.currentTopic = this.dataset.topic;
   subTitleEl.innerHTML = 'Tema: ' + this.innerHTML;
   topicButtonsContainer.style.display = 'flex';
