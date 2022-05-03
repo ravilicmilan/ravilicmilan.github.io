@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AVIJACIJSKI KVIZ</title>
   <link rel="stylesheet" type="text/css" href="/index.css">
+  <meta name="description" content="Avijacijski kviz za pripremu za polaganje teorijskog ispita za PPL.">
 </head>
 <body>
 
 <div id="main">
-  <div id="title" class="flex-col">AVIJACIJSKI KVIZ</div>
+  <div id="title" class="flex-row">AVIJACIJSKI KVIZ <span id="indicator" class="flex-col"></span> </div>
   <div id="sub-title" class="flex-col">IZABERITE TEMU</div>
   <div id="topics-container" class="flex-col">
     <div id="topics-list" class="flex-col"></div>
@@ -18,7 +19,6 @@
       <div class="flex-col btn" id="all-questions-btn">Sva Pitanja</div>
       <div class="flex-col btn" id="random-questions-btn">20 Nasumicnih Pitanja</div>
     </div>
-
   </div>
 
   <div id="questions-container" class="flex-col">
@@ -43,15 +43,14 @@
     </div>
   </div>
   <div id="modal" class="flex-col">
+    <div id="close-modal-btn" class="flex-col btn">ZATVORI</div>
     <div id="modal-inner" class="flex-col">
-      <div id="close-modal-btn" class="flex-col btn">ZATVORI</div>
-      <div id="image-wrapper">
-        <img id="image" src="" alt="">
-      </div>
+      <div id="image-wrapper"></div>
     </div>
   </div>
 </div>
 
+<script type="text/javascript" src="/data.js"></script>
 <script type="text/javascript" src="/index.js"></script>
 </body>
 </html>

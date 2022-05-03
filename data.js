@@ -1,4 +1,4 @@
- {
+const DATA = {
   "questions": [
     {
       "id": "1265",
@@ -37681,4 +37681,4 @@
       "topicName": "Principi leta"
     }
   ]
-}
+};

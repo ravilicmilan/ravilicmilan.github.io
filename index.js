@@ -20,7 +20,8 @@ const newTestBtn = document.getElementById('new-test-btn');
 const endGameLabel = document.getElementById('end-game-label');
 const modal = document.getElementById('modal');
 const closeModalBtn = document.getElementById('close-modal-btn');
-const imageEl = document.getElementById('image');
+const imageWrapper = document.getElementById('image-wrapper');
+const indicator = document.getElementById('indicator');
 
 allQuestionsBtn.addEventListener('click', handleAllQuestionsClick);
 randomQuestionsBtn.addEventListener('click', handleRandomQuestionsClick);
@@ -43,17 +44,45 @@ const APP = {
   totalAnswers: 0,
   currentImage: null,
   nextQuestionDisabled: true,
-  disableAnswersButtons: false
+  disableAnswersButtons: false,
+  images: []
 };
 
-function loadJsonData () {
-  fetch('/data.json').then(res => res.json()).then(data => {
-    // console.log('IMALI DATA???', data);
-    APP.questionsArr = data.questions;
-    APP.answersArr = data.answers;
-    APP.topicsArr = data.topics;
-    addTopicsToDom(APP.topicsArr);
-  });
+const images = [
+  'Slika-PPL-Kom-1.jpg', 'Slika-PPL-Nav-1.jpg', 'Slika-PPL-Nav-2.jpg', 'Slika-PPL-Nav-3.jpg', 'Slika-PPL-Nav-4.jpg',
+  'Slika-PPL-Nav-10.jpg', 'Slika-PPL-Nav-11.jpg', 'Slika-PPL-Nav-12.jpg', 'Slika-PPL-Nav-13.jpg', 'Slika-PPL-AKG-1.jpg',
+  'Slika-PPL-AKG-2.jpg', 'Slika-PPL-AKG-3.jpg', 'Slika-PPL-FPP-2.jpg', 'Slika-PPL-FPP-7.jpg',
+  'Slika-PPL-FPP-8.jpg', 'Slika-PPL-FPP-9.jpg', 'Slika-PPL-FPP-10.jpg', 'Slika-PPL-FPP-13.jpg', 'Slika-PPL-FPP-14.jpg',
+  'Slika-PPL-FPP-15.jpg', 'Slika-PPL-FPP-16.jpg', 'Slika-PPL-FPP-17.jpg', 'Slika-PPL-Meteo-1.jpg', 'Slika-PPL-Meteo-2.jpg',
+  'Slika-PPL-Meteo-4.jpg', 'Slika-PPL-Meteo-5.jpg', 'Slika-PPL-Meteo-6.jpg', 'Slika-PPL-Meteo-10.jpg', 'Slika-PPL-Meteo-15.jpg',
+  'Slika-PPL-OP-1.jpg', 'Slika-PPL-OP-2.jpg', 'Slika-PPL-OP-3.jpg', 'Slika-PPL-OP-4.jpg', 'Slika-PPL-PoF-1.jpg',
+  'Slika-PPL-PoF-2.jpg'
+];
+let imgCount = 0;
+
+function loadAllImages () {
+  for (let i = 0; i < images.length; i++) {
+    const img = new Image();
+    img.src = '/images/' + images[i];
+    img.onload = function () {
+      imgCount++;
+
+      if (imgCount === images.length) {
+        // console.log('ALL IMAGES LOADED:::');
+        indicator.style.background = '#2c2';
+      }
+
+    };
+    APP.images.push({ image: images[i], el: img });
+  }
+}
+
+function loadData () {
+  APP.questionsArr = DATA.questions;
+  APP.answersArr = DATA.answers;
+  APP.topicsArr = DATA.topics;
+  addTopicsToDom(APP.topicsArr);
+  loadAllImages();
 }
 
 function addTopicsToDom (topicsArr) {
@@ -91,12 +120,15 @@ function handleCloseModalClick () {
 }
 
 function handleOpenModalClick () {
-  imageEl.src = '/images/' + APP.currentImage;
+  const imageToShow = APP.images.filter(image => image.image === APP.currentImage)[0];
+  if (imageWrapper.childElementCount > 0) {
+    imageWrapper.firstChild.remove();
+  }
+  imageWrapper.appendChild(imageToShow.el);
   modal.style.display = 'flex';
 }
 
 function handleTopicClick (e) {
-  // console.log(this.dataset.topic);
   APP.currentTopic = this.dataset.topic;
   subTitleEl.innerHTML = 'Tema: ' + this.innerHTML;
   topicButtonsContainer.style.display = 'flex';
@@ -275,4 +307,4 @@ function randomInt (min, max) {
 }
 
 
-loadJsonData();
+loadData();
