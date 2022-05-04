@@ -180,6 +180,7 @@ function handleNewTestClick () {
   APP.correctAnswers = 0;
   APP.totalAnswers = 0;
   APP.nextQuestionDisabled = true;
+  APP.disableAnswersButtons = false;
   correctAnswersEl.innerHTML = 0;
   totalAnswersEl.innerHTML = 0;
   scoreWrapper.style.display = 'flex';
