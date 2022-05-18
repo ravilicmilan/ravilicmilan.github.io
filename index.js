@@ -39,7 +39,6 @@ const APP = {
   selectedQuestions: [],
   selectedAnswers: [],
   currentQuestionIdx: 0,
-  selectedTopic: null,
   correctAnswers: 0,
   totalAnswers: 0,
   currentImage: null,

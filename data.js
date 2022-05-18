@@ -3828,12 +3828,14 @@ const DATA = {
     {
       "id": "2177",
       "question": "Vaš vazduhoplov ima:\nMasu na poletanju: 2353 tbs\nProračunati položaj centra težišta na poletanju: 89.75 inches iza referentne linije\nPredviđenu potrošnju goriva: 200 lbs sa centrom težišta 85.00 inches nazad od referentne linije. Koja će biti pozicija centra težišta na sletanju?",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 105
     },
     {
       "id": "2178",
       "question": "Opseg centar težišta većine vazduhoplova se smanjuje, sa povećanjem mase, kao rezultat od: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 62
     },
     {
       "id": "2179",
@@ -3848,7 +3850,8 @@ const DATA = {
     {
       "id": "2181",
       "question": "Kakav je uticaj nagiba piste na poletanje? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 28
     },
     {
       "id": "2182",
@@ -3858,37 +3861,50 @@ const DATA = {
     {
       "id": "2183",
       "question": "Ako je gustina atmosfere smanjena, dužina poletanja će je: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 10
     },
     {
       "id": "2184",
       "question": "Ako se gustina vazduha poveća iznad ISA uslova, to će usloviti: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 1
+    },
+    {
+      "id": "10106",
+      "question": "Kolika je masa 1m3 vazduha?",
+      "topicId": "perfom",
+      "sortNo": 5
     },
     {
       "id": "2185",
       "question": "Relativno mala gustina atmosfere će prouzrokovati umanjenje: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 75
     },
     {
       "id": "2186",
       "question": "Osnovni razlog poletanja u vetar je da bi se: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 63
     },
     {
       "id": "2187",
       "question": "Koji će uticaj na poletanje imati povećanje maksimalne težine vazduhoplova? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 42
     },
     {
       "id": "2188",
       "question": "Šta je razlog povećanja brzine u produženom penjanju? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 128
     },
     {
       "id": "2189",
       "question": "Penjanje brzinom Vy se postiže: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 65
     },
     {
       "id": "2190",
@@ -3898,17 +3914,20 @@ const DATA = {
     {
       "id": "2191",
       "question": "Proračunaj brzinu uzdizanja za vazduhoplov koji leti na visini 5000f na temperaturi spoljnjeg vazduha od \n0°C. (Vidi sliku PPL FPP-8) \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 104
     },
     {
       "id": "2192",
       "question": "Povećanjem mase ( i radi toga težine ) vazduhoplova će: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 72
     },
     {
       "id": "2193",
       "question": "Najbolja brzina penjanja se postiže: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 60
     },
     {
       "id": "2194",
@@ -3918,7 +3937,8 @@ const DATA = {
     {
       "id": "2195",
       "question": "Uzgon nastao na krilima vazduhoplova koji penje i održava stalnu brzinu će biti: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 92
     },
     {
       "id": "2196",
@@ -3928,22 +3948,26 @@ const DATA = {
     {
       "id": "2197",
       "question": "Penjanjem brzinom Vx postižemo: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 66
     },
     {
       "id": "2198",
       "question": "Koji je uticaj pomeranja centra težišta nazad? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 45
     },
     {
       "id": "2199",
       "question": "Kojom brzinom maramo da letimo za maksimalni dolet? (Vidi sliku PPL FPP-10) \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 33
     },
     {
       "id": "2200",
       "question": "Koja je maksimalna brzina doleta za klipne avione? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 40
     },
     {
       "id": "2201",
@@ -3953,37 +3977,44 @@ const DATA = {
     {
       "id": "2202",
       "question": "Pilot želi da leti brzinom koja će mu obezbediti maksimalan dolet. On zna da leti sa leđnim vetrom. \nUporedi brzinu koju je izabrao pilot sa maksimalnom brzinom doleta u mirnom vazduhu. \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 67
     },
     {
       "id": "2203",
       "question": "Koji od sledećih slučajeva će rezultirati pogoršanjem performansi i mogućnost prekoračenja \nstrukturalnih ograničenja vazduhoplova? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 31
     },
     {
       "id": "2204",
       "question": "Koji je uticaj čeonog vetra na ugao planiranja i pređeni put u planiranju? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 44
     },
     {
       "id": "2205",
       "question": "Kojom brzinom moramo leteti da bi ostvarili maksimalnu autonomiju leta na nivou leta? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 34
     },
     {
       "id": "2206",
       "question": "Maksimalni dolet u planiranju( finesa ) se postiže kada: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 56
     },
     {
       "id": "2207",
       "question": "Sa povećanjem težine, dolet vazduhoplova se: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 125
     },
     {
       "id": "2208",
       "question": "Krilo prekriveno malom količinom leda će usloviti: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 49
     },
     {
       "id": "2209",
@@ -3993,57 +4024,68 @@ const DATA = {
     {
       "id": "2210",
       "question": "Kojom brzinom moramo leteti da bismo dostigli maksimalni dolet na nivou leta? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 35
     },
     {
       "id": "2211",
       "question": "Kako bi uticalo povećanje temperature vazduha na gustinu vazduha i performanse vazduhoplova? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 22
     },
     {
       "id": "2212",
       "question": "Planiranja sa leđnim vetrom u odnosu na planiranje u mirnom vazduhu \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 68
     },
     {
       "id": "2213",
       "question": "Kojom brzinom označenom sa A, B, C ili D treba leteti za maksimalnu autonomiju leta? (Vidi sliku PPL \nFPP-10) \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 32
     },
     {
       "id": "2214",
       "question": "U horizontalnom letu promena u uzgonu prouzrokuje debalans u ravnoteži sila i kompenzuje se: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 87
     },
     {
       "id": "2215",
       "question": "Kakav je uticaj povećanja mase na brzinu prevlačenja i potrebnu dužinu sletanja? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 30
     },
     {
       "id": "2216",
       "question": "Ako je na sletanju stvarna brzina vazduhoplova značajno manja u odnosu na brzinu u odnosu na zemlju, \nonda taj vazduhoplov: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 3
     },
     {
       "id": "2217",
       "question": "Kakav će imati uticaj, ako su u priručniku vazduhoplova preporučene veće brzine prilaženja i sletanja? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 4
     },
     {
       "id": "2218",
-      "question": "Kako utiče na dužinu sletanja nagnutost putanje piste za 2% nizbrdo ? \n",
-      "topicId": "perfom"
+      "question": "Kako utiče na dužinu sletanja nagnutost putanje piste za 2% nizbrdo? \n",
+      "topicId": "perfom",
+      "sortNo": 18
     },
     {
       "id": "2219",
       "question": "Upoređujući sletanje na ravnu pistu, šta će se dogoditi kada slećemo na pistu sa nagnutosti nizbrdo? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 91
     },
     {
       "id": "2220",
       "question": "Ako je brzina prevlačenja pri sletnoj konfiguraciji 55 knots VREF će biti približno: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 11
     },
     {
       "id": "2221",
@@ -4053,22 +4095,26 @@ const DATA = {
     {
       "id": "2222",
       "question": "Ako se masa vazduhoplova poveća za 15%, potrebna dužina sletanja će se povećati približno: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 7
     },
     {
       "id": "2223",
       "question": "Sletanje se vrši u vetar zato što: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 127
     },
     {
       "id": "2224",
       "question": "Odredi da li je masa vazduhoplova u granicama limita (normalne kategorije) (Vidi sliku PPL FPP-17) \n                                                         Masa (lb)           moment (lbxin) \nMasa praznog vazduhoplova 1,350 lb           51.5 lbxin\nPilot I putnici napred                360 lb\nPutnici pozadi                              280 lb\nGorivo                                             30 US gal \nUlje                                                  8 qt                              -0.2",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 122
     },
     {
       "id": "2225",
       "question": "Koliko se maksimalno može sipati goriva u vazduhoplov koji je natovaren na sledeći način? (Vidi sliku PPL FPP-17)\n Masa (lb)           moment (lbxin) \nMasa praznog vazduhoplova 1,350 lb         51.5 lbxin\nPilot i putnici napred                340 lb\nPutnici pozadi                              310 lb\nPrtljag                                              45lb\nUlje                                                  8 qt                              -0.2",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 102
     },
     {
       "id": "2226",
@@ -4078,62 +4124,74 @@ const DATA = {
     {
       "id": "2227",
       "question": "Odredi moment sa sledećim podacima: (Vidi sliku PPL FPP-17) \nMasa (lb) moment (lbxin) \nMasa praznog vazduhoplova 1,350 51.5 \nPilot i putnici napred 340 \nGorivo ( pun standardni rezervoar ) \nUlje , 8 qt -0.2 \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 103
     },
     {
       "id": "2228",
       "question": "Koja je maksimalna količina prtljaga koja može biti natovarena na avion normalne kategorije, da bi centar težišta ostao u okviru odgovarajućeg limita? (Vidi sliku PPL FPP-17)\n  Masa (lb)           moment (lbxin) \nMasa praznog vazduhoplova 1,350 lb           51.5 lbxin\nPilot I putnici napred                250 lb\nPutnici pozadi                              400 lb\nGorivo                                             30 US gal \nUlje                                                  8 qt                              -0.2",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 101
     },
     {
       "id": "2229",
       "question": "Najlakši put određivanja visine po pritisku je podešavanjem visinomera na: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 61
     },
     {
       "id": "2230",
       "question": "Osnovni razlog proračunavanja visine po gustini je određivanje \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 64
     },
     {
       "id": "2231",
       "question": "Šta je visina po pritisku? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 130
     },
     {
       "id": "2232",
       "question": "Pod kojim uslovima će visina po pritisku biti jednaka stvarnoj visini? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 70
     },
     {
       "id": "2233",
       "question": "Koji od donjih faktora povećava visinu aerodroma po gustini? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 46
     },
     {
       "id": "2234",
       "question": "Pod kojim uslovom je instrumentalna visina jednaka stvarnoj visini? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 71
     },
     {
       "id": "2235",
       "question": "Ako je spoljna temperatura vazduha (OAT) na datoj visini manja od standardne, visina po gustini je: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 2
     },
     {
       "id": "2236",
       "question": "Šta je visina po gustini? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 129
     },
     {
       "id": "2237",
       "question": "Odredi približno visinu aerodroma po gustini, kada je temperatura standardna i visinomer podešen na \n1011hPa pokazuje 1,300 ft. \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 109
     },
     {
       "id": "2238",
       "question": "Koliko je povećanje visine po gustini ako se temperatura poveća sa 0 na 10°C i ako visina aerodroma po \npritisku ostane 3,000 ft? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 108
     },
     {
       "id": "2319",
@@ -4356,57 +4414,68 @@ const DATA = {
     {
       "id": "2151",
       "question": "Maksimalna masa na sletanju je definisana kao \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 53
     },
     {
       "id": "2152",
       "question": "Koja brzina se ne sme prekoračiti, ako je planirano naglo komandovanje oko poprečne ose i zašto? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 27
     },
     {
       "id": "2153",
       "question": "Koja je boja opsega brzine upozorenja na brzinomeru i o čemu pilot mora da vodi računa kada leti tom \nbrzinom? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 38
     },
     {
       "id": "2154",
       "question": "Kako se zove opterećenje pri kome će doći do loma strukture vazduhoplova? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 19
     },
     {
       "id": "2155",
       "question": "Vazduhoplov koji je mnogo preopterećen će:\n1 Zahtevati povećane dužine poletanja i sletanja\n2 Imati veće brzine prevlačenja\n3 Imati umanjenu maksimalnu brzinu na nivou leta\n4 Imati povećan dolet i autonomiju leta\n5 Imati umanjenu brzinu penjanja i operativni nivo leta. Šta je od navedenog gore tačno?",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 95
     },
     {
       "id": "2156",
       "question": "Maksimalna masa bez goriva je definisana kao: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 51
     },
     {
       "id": "2157",
       "question": "Maksimalna masa na poletanju je definisana kao: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 52
     },
     {
       "id": "2158",
       "question": "Koji od sledećih situacija može pod određenim uslovima rezultirati strukturalna oštećenja? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 48
     },
     {
       "id": "2159",
       "question": "Brzina koja se nikada ne sme prekoračiti (VNE) i na brzinomeru je označena crvenom kružnom linijom je \nbrzina pri kojoj: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 12
     },
     {
       "id": "2160",
       "question": "Kada letiš u veoma turbulentnom vazduhu, koja je prihvatljiva maksimalna brzina, da bi izbegao \npreopterećenje strukture? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 6
     },
     {
       "id": "2161",
       "question": "Vaš vazduhoplov ima uljni rezervoar kapaciteta 3 imp/gal, koji je postavljen 20 inches iza referentne \nlinije. Data je težina ulja 9.1 lbs/gal. Moment rezervoara je: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 93
     },
     {
       "id": "2162",
@@ -4421,42 +4490,50 @@ const DATA = {
     {
       "id": "2164",
       "question": "Sertifikacioni zahtevi upućuju da kada tovarimo laki avion: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 126
     },
     {
       "id": "2165",
       "question": "Maksimalna masa vazduhoplova na poletanju može biti ograničena sa: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 54
     },
     {
       "id": "2166",
       "question": "Suva operativna težina je definisana kao: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 86
     },
     {
       "id": "2167",
       "question": "Vazduhoplovu koji je natovaren na opasan način, tako da mu je centar težišta van njegove prednje \ngranice će se: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 97
     },
     {
       "id": "2168",
       "question": "Letačke karakteristike vazduhoplova čiji je centar težišta na prednjoj granici će biti: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 50
     },
     {
       "id": "2169",
       "question": "Vazduhoplov težine 2000 lbs sa ukupnim momentom centra težišta od + 169400 lb napunjen je sa 440 lbs goriva. Ako je efektivni krak goriva 88.5 inches, nazad u odnosu na referentnu liniju, kolika će biti nova masa vazduhoplova i momenat centra težišta?",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 96
     },
     {
       "id": "2170",
       "question": "Planirate da opteretite vazduhoplov sa maksimalno dozvoljenim teretom. Vaše glavno razmatranje za \nvreme planiranja leta biće: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 69
     },
     {
       "id": "2171",
       "question": "Ukupna masa tereta ( ukupno opterećenje ) \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 90
     },
     {
       "id": "2172",
@@ -4466,132 +4543,170 @@ const DATA = {
     {
       "id": "2173",
       "question": "Pretpostavljajući da je vazduhoplov na zemlji „na odmoru“, koji izraz najbolje opisuje prikaz A? (Vidi \nsliku PPL FPP-2) \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 73
     },
     {
       "id": "2174",
       "question": "U kojoj kategoriji, opštoj ili normalnoj, očekuješ da letiš vazduhoplov prikazan na dodatoj envelopi \ncentra težišta/moment, ako je njegova masa 2100 lbs i moment centra težišta 90,000 lb inches? (Vidi \nsliku PPL FPP-7) \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 88
     },
     {
       "id": "2175",
       "question": "Šta se koristi kao osnova za određivanje granica centra težišta i na kojim osama se on nalazi? \nOsa / Reference \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 132
     },
     {
       "id": "2176",
       "question": "Proizvođač određuje granice centra težišta i: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 74
     },
     {
       "id": "2239",
       "question": "Odredi visinu po pritisku ako je instrumentalna visina 1,380 ft sa visinomerom podešenim na 1013.2 \nhPa i standardnom temperaturom. \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 112
     },
     {
       "id": "2240",
       "question": "Kakav uticaj na visinu po gustini ima povećanje temperature za 12°C? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 106
     },
     {
       "id": "2241",
       "question": "Odredi visinu aerodroma po gustini za sledeće uslove: \nQNH . 1025 hPa \ntemperatura -4°C \nnadmorska visina 3,850 ft \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 110
     },
     {
       "id": "2242",
       "question": "Kolika je približno visina po pritisku , ako je visinomer podešen na 1010 hPa i pokazuje visinu 1,380 ft? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 107
     },
     {
       "id": "2243",
       "question": "Odredi visinu aerodroma po gustini za uslove: \nQNH 1010 hPa \ntemperatura 27°C \nnadmorska visina 5,250 ft \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 111
     },
     {
       "id": "2244",
       "question": "Visina po gustini može biti približno proračunata od visine po pritisku bez upotrebe navigacijskog \nračunara: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 98
     },
     {
       "id": "2245",
       "question": "Koji od donjih navoda je tačan u vezi performansi na poletanju vazduhoplova pokretanog motorom u \nodnosu na visinu po gustini? Pri većoj visini po gustini: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 47
     },
     {
       "id": "2246",
       "question": "Kako veća vlažnost vazduha utiče na performanse na poletanju? Dužina poletanja je: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 17
     },
     {
       "id": "2247",
       "question": "Koja kombinacija od atmosferskih uslova će umanjiti performanse vazduhoplova na poletanju i u \npenjanju? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 41
     },
     {
       "id": "2248",
       "question": "Kakav uticaj ima povećanje mase vazduhoplova pokretanog motorom na performanse na poletanju? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 25
     },
     {
       "id": "2249",
       "question": "Kako nagib piste uzbrdo utiče na perfomanse na poletanju? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 20
     },
     {
       "id": "2250",
       "question": "Kakav uticaj ima velika visina po gustini na performanse vazduhoplova? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 24
     },
     {
       "id": "2251",
       "question": "Avioni koriste brzinu najboljeg ugla penjanja : \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 13
+    },
+    {
+      "id": "10111",
+      "question": "U normalnim okolnostima, kada treba da se ispuni plan leta za službu kontrole letenja (ATS flight plan)?",
+      "topicId": "perfom",
+      "sortNo": 14
+    },
+    {
+      "id": "10115",
+      "question": "Vref koja treba biti dostignuta na visini 50ft u prilazu na sletanje mora biti:",
+      "topicId": "perfom",
+      "sortNo": 99
     },
     {
       "id": "2252",
       "question": "Koja brzina će nam omogućiti najveći dobitak visine za najkraći pređeni put u penjanju posle \npoletanja? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 15
     },
     {
       "id": "2253",
       "question": "Brzina penjanja vazduhoplova za vreme stalnog penjanja zavisi od: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 8
     },
     {
       "id": "2254",
-      "question": "Koja brzina će nam omogućiti najveći dobitak visine za dato vreme , u penjanju posle poletanja? \n",
-      "topicId": "perfom"
+      "question": "Koja brzina će nam omogućiti najveći dobitak visine za dato vreme, u penjanju posle poletanja? \n",
+      "topicId": "perfom",
+      "sortNo": 16
     },
     {
       "id": "2255",
       "question": "Kako i kada se pravilno koristi brzina najboljeg penjanja? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 21
     },
     {
       "id": "2256",
       "question": "Kakav je uticaj vetra na brzinu penjanja vazduhoplova? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 26
     },
     {
       "id": "2257",
       "question": "Kakav uticaj ima vetar na ugao penjanja vazduhoplova? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 23
     },
     {
       "id": "2258",
       "question": "Ugao penjanja vazduhoplova za vreme stalnog penjanja zavisi od: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 89
     },
     {
       "id": "2259",
       "question": "Na poletanju sa kratke piste avionom ili motornim zmajem, kojom brzinom moraš leteti dok ne \nnadvisiš prepreke? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 58
     },
     {
       "id": "2260",
       "question": "Na sletanju na aerodrom na velikoj nadmorskoj visini stvarna brzina vazduhoplova je veća od \nnormalne. \nKoju instrumentalnu brzinu moramo održavati u takvim slučajevima? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 59
     },
     {
       "id": "2261",
@@ -4601,57 +4716,68 @@ const DATA = {
     {
       "id": "2262",
       "question": "Maksimalna strukturalna brzina krstarenja je maksimalna brzina kojom vazduhoplov može leteti: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 55
     },
     {
       "id": "2263",
       "question": "Zašto moramo izbegavati letenje brzinom većom od VNE? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 100
     },
     {
       "id": "2264",
       "question": "Koji faktor maksimalnog doleta se smanjuje sa smanjenjem težine? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 43
     },
     {
       "id": "2265",
       "question": "Koja je brzina manevrisanja? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 39
     },
     {
       "id": "2266",
       "question": "Brzina manevrisanja (VA) je najveća brzina pri kojoj čak pri punom naglom otklonu palicom po \ndubini ( visini ) se neće preći: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 9
     },
     {
       "id": "2267",
       "question": "Kakav je uticaj leta na većim visinama na instrumentalnu brzinu krstarenja pri nepromenjenom \npoložaju komandi potiska? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 29
     },
     {
       "id": "2268",
       "question": "Šta znači brzina najveće autonomije leta za elisne avione? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 133
     },
     {
       "id": "2269",
       "question": "Odredi dužinu poletanja sa nadvišavanjem prepreka 50-foot pod sledećim uslovima. (Vidi sliku PPL \nFPP-15) \nVisina po pritisku 0 ft \nTemperatura standardna \nMasa 1900 lb \nVetar bez vetra \nPodloga trava, suva \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 114
     },
     {
       "id": "2270",
       "question": "Odredi potrebnu dužinu zaleta u poletanju. (Vidi sliku PPL FPP-15) \nVisina 2,000 ft \ntemperatura 40°C \nmasa. 2100 lb \nvetar . leđni 4 kt \npodloga . šljunak sa katranom (tarmac ) \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 120
     },
     {
       "id": "2271",
       "question": "Odredi dužinu poletanja sa nadvišavanjem prepreka 50-foot za sledeće uslove: (Vidi sliku PPL FPP- \n15) \nVisina po pritisku 4,000 ft \ntemperatura 15°C \nmasa 2300 lb \nvetar bez vetra \npodloga asvalt \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 116
     },
     {
       "id": "2272",
       "question": "Odredi dužinu poletanja sa nadvišavanjem prepreka 50-foot pod sledećim uslovima:. (Vidi sliku PPL \nFPP-15) \nVisina po pritisku 2,000 ft \ntemperatura 30°C \nmasa 2100 lb \nvetar čeoni 18 kt \npodloga trava, suva \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 115
     },
     {
       "id": "2273",
@@ -4661,77 +4787,92 @@ const DATA = {
     {
       "id": "2274",
       "question": "Odredi dužinu protrčavanja po pisti posle sletanja. (Vidi sliku PPL FPP-16) \nVisina po gustini 0 ft \ntemperatura 10°C \nmasa 2300 lb \nvetar čeoni 9 kt \npodloga trava, suva \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 117
     },
     {
       "id": "2275",
       "question": "Odredi dužinu protrčavanja posle sletanja. (Vidi sliku PPL FPP-16) \nVisina po pritisku 0 ft \ntemperatura 15°C \nmasa 2300 lb \nvetar bez vetra \npodloga šljunak sa katranom (tarmac ) \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 118
     },
     {
       "id": "2276",
       "question": "Odredi dužinu protrčavanja posle sletanja. (Vidi sliku PPL FPP-16) \nvisina po pritisku 3,000 ft \ntemperatura 20°C \nmasa 2200 lb \nvetar bez vetra \npodloga trava, suva \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 119
     },
     {
       "id": "2277",
       "question": "Odredi ukupnu dužinu sletanja sa nadvišavanjem prepreka 50-foot. (Vidi sliku PPL FPP-16) \nVisina po pritisku 1,000 ft \ntemperatura 10°C \nmasa 2300 lb \nvetar leđni10 kt \npodloga šljunak sa katranom (tarmac ) \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 121
     },
     {
       "id": "2278",
       "question": "Odredi ukupnu potrebu dužinu sletanja sa nadvišavanjem prepreka 50-foot. (Vidi sliku PPL FPP-16) \nVisina po pritisku 1,500 ft \ntemperatura 30°C \nmasa 2300 lb \nvetar bez vetra \npodloga šljunak sa katranom (tarmac ) \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 124
     },
     {
       "id": "2279",
       "question": "Odredi ukupnu potrebu dužinu sletanja sa nadvišavanjem prepreka 50-foot. (Vidi sliku PPL FPP-16) \nVisina po pritisku 0 ft \ntemperatura 0°C \nmasa 2300 lb \nvetar čeoni 18 kt \npodloga trava, suva \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 123
     },
     {
       "id": "2280",
       "question": "Kolika će biti vazdušna brzina aviona u horizontalnom letu pri sledećim uslovima: (Vidi sliku PPL \nFPP-14) \nVisina po pritisku 8,000 ft \ntemperatura 20°C ispod standardne \npodešena snaga 55% \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 113
     },
     {
       "id": "2281",
       "question": "Kolika će biti očekivana potrošnja goriva za let od 250 nm pod sledećim uslovima: (Vidi sliku PPL \nFPP-14) \nVisina po pritisku 6,000 ft \ntemperatura 20°C iznad standardne \npodešena snaga 60% \nvetar bez vetra \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 137
     },
     {
       "id": "2282",
       "question": "Kolika će biti očekivana potrošnja goriva za let od 350 nm pod sledećim uslovima: (Vidi sliku PPL \nFPP-14) \nVisina po pritisku 4,000 ft \ntemperatura 20°C ispod standarda \npodešena snaga 60% \nvetar bez vetra \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 134
     },
     {
       "id": "2283",
       "question": "Koliki obrtaji motora moraju biti približno podešeni za vreme krstarenja na 2,000 ft i na standardnoj \ntemperaturi kako bi ostvarili 60% snage? (Vidi sliku PPL FPP-14) \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 136
     },
     {
       "id": "2284",
       "question": "Kolika je očekivana potrošnja goriva pod sledećim uslovima: (Vidi sliku PPL FPP-14) \nVisina po pritisku 8,000 ft \ntemperatura 20°C ispod standardna \npodešena snaga 55% \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 135
     },
     {
       "id": "2285",
       "question": "Koju brzinu održavamo u letu sa otkazanim motorom kod lakih aviona? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 36
     },
     {
       "id": "2286",
       "question": "Minimalna brzina poniranja u poređenju sa najboljom brzinom planiranja je: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 57
     },
     {
       "id": "2287",
       "question": "Šta moramo prvo uraditi u slučaju otkaza motora u letu? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 131
     },
     {
       "id": "2288",
       "question": "Vazduhoplov bez motora će preleteti najduži put sa date visine na napadnom uglu pri kome je: \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 94
     },
     {
       "id": "2289",
@@ -4741,57 +4882,68 @@ const DATA = {
     {
       "id": "2290",
       "question": "Koja glavna opasnost proizlazi ako na komandnim površinama vazduhoplova postoji mala količina \ninja ili snega ? \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 37
     },
     {
       "id": "2291",
       "question": "Kolika je komponenta čeonog vetra pri sletanju na pistu 18 ako je vetar na sletanju 220°/30 kts? \n(Vidi sliku PPL FPP-13) \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 80
     },
     {
       "id": "2292",
       "question": "Kolika je komponenta bočnog vetra pri sletanju na pistu 18 ako je vetar na sletanju 220°/30 kts? \n(Vidi sliku PPL FPP-13) \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 77
     },
     {
       "id": "2293",
       "question": "Koju pistu ćete izabrati za sletanje (06, 14, 24, 32), ako je vetar na sletanju južni 20 Kts i ako je \nmaksimalna dozvoljena brzina bočnog vetra za vaš vazduhoplov 13 kts? (Vidi sliku PPL FPP-13) \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 76
     },
     {
       "id": "2294",
       "question": "Sa javljenim vetrom 360°/20 kts vi prilazite aerodromu. Koju pistu (06,14 or 24) ćete izabrati za \nsletanje ako vaš avion ima maksimalno dozvoljenu brzinu bočnog vetra na sletanju 13-knots? (Vidi sliku \nPPL FPP-13) \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 85
     },
     {
       "id": "2295",
       "question": "Kolike su komponente čeonog i bočnog vetra ako je vetar 280°/15 kts za pistu sa magnetnim \npravcem protezanja 220°? (Vidi sliku PPL FPP-13) \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 81
     },
     {
       "id": "2296",
       "question": "Odredi maksimalnu brzinu bočnog vetra pod 45° ako je maksimalno dozvoljeni bočni vetar za avion \n25 kts? (Vidi sliku PPL FPP-13) \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 84
     },
     {
       "id": "2297",
       "question": "Odredi maksimalnu brzinu bočnog vetra pod 40° ako je maksimalno dozvoljeni bočni vetar za avion \n10 kts? (Vidi sliku PPL FPP-13) \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 83
     },
     {
       "id": "2298",
       "question": "Odredi maksimalnu brzinu bočnog vetra pod 30° ako je maksimalno dozvoljeni bočni vetar za avion \n10 kts? (Vidi sliku PPL FPP-13) \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 82
     },
     {
       "id": "2299",
       "question": "Kolika je komponenta čeonog i bočnog vetra pri javljenom vetru 030°/10 kts za pistu magnetnog \npravca 330°? (Vidi sliku PPL FPP-13) \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 78
     },
     {
       "id": "2300",
       "question": "Kolika je komponenta čeonog i bočnog vetra pri javljenom vetru 130°/20 kts za pistu magnetnog \npravca 040°? (Vidi sliku PPL FPP-13) \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "sortNo": 79
     },
     {
       "id": "2301",
@@ -38001,6 +38153,72 @@ const DATA = {
       "id": "10105",
       "questionId": "10101",
       "answer": "Prilikom podnošenja prijave za ispit.",
+      "correct": "0"
+    },
+    {
+      "id": "10107",
+      "questionId": "10106",
+      "answer": "1,25 kg",
+      "correct": "1"
+    },
+    {
+      "id": "10108",
+      "questionId": "10106",
+      "answer": "0,25 kg",
+      "correct": "0"
+    },
+    {
+      "id": "10109",
+      "questionId": "10106",
+      "answer": "2,25 kg",
+      "correct": "0"
+    },
+    {
+      "id": "10110",
+      "questionId": "10106",
+      "answer": "Pijaca voda i hemikalije u toaletu.",
+      "correct": "0"
+    },
+    {
+      "id": "10112",
+      "questionId": "10111",
+      "answer": "60 minuta pre predviđenog poletanja",
+      "correct": "1"
+    },
+    {
+      "id": "10113",
+      "questionId": "10111",
+      "answer": "60 minuta pre traženja odobrenja za let od kontrole letenja",
+      "correct": "0"
+    },
+    {
+      "id": "10114",
+      "questionId": "10111",
+      "answer": "60 minuta pre polaska na let",
+      "correct": "0"
+    },
+    {
+      "id": "10116",
+      "questionId": "10115",
+      "answer": "1.3 brzine prevlacenja u sletnoj konfiguraciji.",
+      "correct": "1"
+    },
+    {
+      "id": "10117",
+      "questionId": "10115",
+      "answer": "1.15 brzine prevlacenja u poletnoj konfiguraciji",
+      "correct": "0"
+    },
+    {
+      "id": "10118",
+      "questionId": "10115",
+      "answer": "1.43 brzine prevlacenja u sletnoj konfiguraciji.",
+      "correct": "0"
+    },
+    {
+      "id": "10119",
+      "questionId": "10115",
+      "answer": "33% brzine prevlacenja.",
       "correct": "0"
     },
   ],
