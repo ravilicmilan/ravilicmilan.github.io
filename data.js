@@ -4143,22 +4143,26 @@ const DATA = {
     {
       "id": "2320",
       "question": "Za vreme jednog ciklusa Oto-motora, klip: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 20
     },
     {
       "id": "2321",
       "question": "Šta od navedenog nije deo suvog vakuum sistema? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 56
     },
     {
       "id": "2322",
       "question": "Za vreme taksiranja aviona opremljenog sa elisom stalnog koraka, sumnjate da je došlo do \nzaleđivanja karburatora. Ispravan postupak bi bio: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 42
     },
     {
       "id": "2323",
       "question": "Mehanički brzinomer: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 41
     },
     {
       "id": "2324",
@@ -4168,53 +4172,63 @@ const DATA = {
     {
       "id": "2325",
       "question": "Samopaljenje u četverotaktnom klipnom motoru je: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 40
     },
     {
       "id": "2326",
       "question": "Ukoliko motor postane suviše zagrejan, smeša se može zapaliti pre nego što svećice započnu \npaljenje. \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 39
     },
     {
       "id": "2327",
       "question": "Instrumenti koji se za svoj rad snabdevaju energijom iz elektro-sistema uključuju: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 38
     },
     {
       "id": "2328",
       "question": "Neki karburatori imaju difuzore koji \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 29
     },
     {
       "id": "2329",
       "question": "Gde se u motoru očitava temperature ulja od strane davača koji je povezan sa pokazivačem \ntemperature. \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 37
     },
     {
       "id": "2330",
       "question": "Da bi se pomoglo u smanjenju temperature motora. \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 57
     },
     {
       "id": "2331",
       "question": "Delovi krila prikazani na crtežu su: (Pogledajte sliku PPL AKG-2) \nA / B / C \n",
       "topicId": "aircraft",
-      "image": "Slika-PPL-AKG-2.jpg"
+      "image": "Slika-PPL-AKG-2.jpg",
+      "sortNo": 35
     },
     {
       "id": "2332",
       "question": "Polu-monokok struktura se može definisati kao: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 34
     },
     {
       "id": "2333",
       "question": "Na lakim avionima opremljenim sa mehanički upravljanim nosnim točkom, upravljanje na zemlji se \nvrši pomoću: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 33
     },
     {
       "id": "2334",
       "question": "Stepen kompresije je odnos. \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 32
     },
     {
       "id": "2335",
@@ -4224,12 +4238,14 @@ const DATA = {
     {
       "id": "2336",
       "question": "U slučaju da dođe do prekida rada alternatora ili generator za vreme leta: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 31
     },
     {
       "id": "2337",
-      "question": "Ako za vreme spuštanja, izvor statičkog pritiska za brzinomer I visinomer postanu blokirani letom: \n",
-      "topicId": "aircraft"
+      "question": "Ako za vreme spuštanja izvor statičkog pritiska za brzinomer I visinomer postanu blokirani letom: \n",
+      "topicId": "aircraft",
+      "sortNo": 64
     },
     {
       "id": "2338",
@@ -4239,17 +4255,20 @@ const DATA = {
     {
       "id": "2339",
       "question": "Svrha liste devijacije kompasa postavljene u blizini magnetnog kompasa je da: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 49
     },
     {
       "id": "2340",
       "question": "Uobičajeni način za gašenje motora je: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 16
     },
     {
       "id": "2341",
       "question": "Zbog čega avionski system za paljenje ima mehanizam za pojačavanje varnice na svećici? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 15
     },
     {
       "id": "2342",
@@ -4259,22 +4278,26 @@ const DATA = {
     {
       "id": "2343",
       "question": "Gas karbon-monoksid, koji je vrlo otrovan, može prodreti u kabinu tokom leta ukoliko je izduvni \nsistem pokvaren. Karbon-monoksid je: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 14
     },
     {
       "id": "2344",
       "question": "Zakrivljenost lopatice elise__________ od korena ka vrhu, kako bi se održao optimalan _________ \nod korena ka vrhu. \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 13
     },
     {
       "id": "2345",
       "question": "Žiro-direkcional: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 12
     },
     {
       "id": "2346",
       "question": "U toku penjanja, visina __________ a gustina_______, stoga će smeša biti_________ \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 8
     },
     {
       "id": "2347",
@@ -4284,43 +4307,51 @@ const DATA = {
     {
       "id": "2348",
       "question": "Dok avion sa elisom promenljivog koraka i konstantnog broja obrtaja, ubrzava po pisti: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 1
     },
     {
       "id": "2349",
       "question": "Dijagram pokazuje električnu instalaciju lakog aviona, koji ima ampermetar sa nulom u \ncentru.(Pogledajte sliku PPL AKG-3) \nTokom leta, a sa baterijom koja je puna, i prekidačem akumulatora na ON, za očekivati je da \nampermetar: \n",
       "topicId": "aircraft",
-      "image": "Slika-PPL-AKG-3.jpg"
+      "image": "Slika-PPL-AKG-3.jpg",
+      "sortNo": 17
     },
     {
       "id": "2350",
       "question": "Pin za zabravljivanje komandi: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 6
     },
     {
       "id": "2351",
       "question": "Tip gasa koji se nalazi u cilindru za punjenje prsluka za spasavanje je: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 5
     },
     {
       "id": "2352",
       "question": "Ako se vatra dogodi u predelu stajnog trapa i točkova, momentalna akcija je potrebna da bi se vatra \nugasila, najsigurnije je koristiti: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 4
     },
     {
       "id": "2353",
       "question": "Spregnuti žiro: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 3
     },
     {
       "id": "2354",
       "question": "Kada radi sa magnetnim kompasom pilot moraju imati na umu da. \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 2
     },
     {
       "id": "2355",
       "question": "Posle startovanja hladnog motora , ako se pritisak ulja ne pokaže u roku od 30 sekundi : \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 18
     },
     {
       "id": "2151",
@@ -4770,53 +4801,63 @@ const DATA = {
     {
       "id": "2302",
       "question": "BCF aparat za gašenje požara: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 27
     },
     {
       "id": "2303",
       "question": "Ukoliko sumnjate da je došlo do zaleđivanja karburatora na avionu na kome nema pokazivača \ntemperature karburatora ispravan postupak bi bio: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 26
     },
     {
       "id": "2304",
       "question": "Brzina akvaplaninga: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 25
     },
     {
       "id": "2305",
       "question": "Serijski povezujući dva 12 voltna 40 amper-časovna akumulatora obezbediće se akumulator od: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 24
     },
     {
       "id": "2306",
       "question": "Ukoliko za vreme leta dođe do blokade u hladnjaku ulja avionskog motora, prelazni ventil \ndozvoljava da ulje prođe kroz hladnjak. Rad ventila zasniva se na principu: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 23
     },
     {
       "id": "2307",
       "question": "Krak elise je uvijen po dužini sa ciljem da: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 22
     },
     {
       "id": "2308",
       "question": "Magneti su: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 21
     },
     {
       "id": "2309",
       "question": "Šta je od sledećeg odgovarajući postupak ukoliko dođe do požara u karburatoru za vreme starta \nmotora? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 19
     },
     {
       "id": "2310",
       "question": "Smicanje gume: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 55
     },
     {
       "id": "2311",
       "question": "Šema pokazuje šemu elektro-sistema na lakom avionu. (Pogledajte sliku PPL AKG-1) \nU letu pokazivač punjenja akumulatora pada na nulu, najverovatniji razlog je: \n",
       "topicId": "aircraft",
-      "image": "Slika-PPL-AKG-1.jpg"
+      "image": "Slika-PPL-AKG-1.jpg",
+      "sortNo": 28
     },
     {
       "id": "2312",
@@ -4826,47 +4867,56 @@ const DATA = {
     {
       "id": "2313",
       "question": "Za vreme zaokreta u severnim kursevima u severnoj hemisferi: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 54
     },
     {
       "id": "2314",
       "question": "Prilikom poniranja, sa nepromenjenim položajem ručice gasa, broj obrtaja motora aviona \nopremljenim sa fiksnim korakom elise će: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 53
     },
     {
       "id": "2315",
       "question": "Neposredno nakon pokretanja avionskog motora, morate proveriti svetlo za upozorenje rada \nstartera. Ukoliko je I dalje upaljeno morate: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 52
     },
     {
       "id": "2316",
       "question": "Značaj upotrebe hemijski korektne smeše vazduha i goriva je da: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 51
     },
     {
       "id": "2317",
       "question": "Zanemarujući grešku instrumenta ili pozicionu grešku, u kojim uslovima će pokazivač brzine \npokazivati stvarnu brzinu aviona? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 50
     },
     {
       "id": "2318",
       "question": "Za vreme probe rada magneta, sa selektovanim desnim magnetom, primećujete da motor \npodrhtava I sumnjate da će prestati sa radom. Šta treba da radite? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 36
     },
     {
       "id": "2356",
       "question": "Proklizavanje gume može biti ustanovljeno sa. \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 46
     },
     {
       "id": "2357",
       "question": "Pokazivač temperature izduvnih gasova: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 48
     },
     {
       "id": "2358",
       "question": "Pravilan radni ciklus četvorotaktnog motora je: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 9
     },
     {
       "id": "2359",
@@ -4876,22 +4926,26 @@ const DATA = {
     {
       "id": "2360",
       "question": "Važno je osigurati prekidač prajmera nakon upotrebe zbog toga što: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 63
     },
     {
       "id": "2361",
       "question": "Šta će biti posledica za validnost sertifikata o plovidbenosti ukoliko avion nije održavan u skladu sa \nodobrenim rasporedom održavanja naznačenom u sertifikatu o plovidbenosti: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 62
     },
     {
       "id": "2362",
       "question": "Temperatura gasova u cilindru četvorotaktnih motora za vreme ekspanzije će: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 61
     },
     {
       "id": "2363",
       "question": "Radilica u klipnom motoru: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 60
     },
     {
       "id": "2364",
@@ -4906,37 +4960,44 @@ const DATA = {
     {
       "id": "2366",
       "question": "Prilikom rada motora najbolje je koristiti smešu: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 47
     },
     {
       "id": "2367",
       "question": "Stepen kompresije klipnog motora je odnos: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 65
     },
     {
       "id": "2368",
       "question": "Detonacija je: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 45
     },
     {
       "id": "2369",
-      "question": "Ukolikodođedoprekidagrejanjapitocevizavremeletauuslovimazaleđivanjaiavionkreneu postepeno snižavanje, očitavanje visinomera, variometra i brzinomera će, ukoliko je let blokirao pito cev (cev ukupnog pritiska)",
-      "topicId": "aircraft"
+      "question": "Ukoliko dođe do prekida grejanja pito cevi za vreme leta u uslovima zaleđivanja i avion krene u postepeno snižavanje, očitavanje visinomera, variometra i brzinomera će, ukoliko je let blokirao pito cev (cev ukupnog pritiska)",
+      "topicId": "aircraft",
+      "sortNo": 44
     },
     {
       "id": "2370",
       "question": "Pokazivač temperature glave cilindra: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 43
     },
     {
       "id": "2371",
       "question": "U uslovima zaleđivanja, ako otvori statičkog pritiska postanu blokirani za vreme horizontalnog leta i \navion postepeno penje, pokazivanje visinomera, variometra i brzinomera će: \nVisinomer / Variometar / Brzinomer \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 11
     },
     {
       "id": "2372",
       "question": "Najverovatniji uzrok osciliranja pokazivanja pritiska ulja za vreme horizontalnog leta kada motor \nradi na obrtajima krstarećeg leta je: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 10
     },
     {
       "id": "2373",
@@ -4946,92 +5007,110 @@ const DATA = {
     {
       "id": "2374",
       "question": "U rezervoarima aviona će najverovatnije doći do pojave vode u gorivu zbog: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 71
     },
     {
       "id": "2375",
       "question": "Pokazivač temperature ulja u kabini je povezan sa davačem temperature koji pokazuje temperaturu \nulja: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 7
     },
     {
       "id": "2376",
       "question": "Visinomer: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 30
     },
     {
       "id": "2377",
       "question": "Pumpa za prihvatanje (pumpa za ubrzavanje) služi da bi sprečila “ \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 124
     },
     {
       "id": "2378",
       "question": "Moguće je da dođe do zaleđivanja karburatora kada je relativna vlažnost veća od 50% u rasponu \ntemperature od: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 120
     },
     {
       "id": "2379",
       "question": "Ukoliko dođe do pregorevanja osigurača za vreme leta: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 121
     },
     {
       "id": "2380",
       "question": "Većina nosnih točkova lakih aviona ima: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 122
     },
     {
       "id": "2381",
       "question": "Ukoliko, za vreme snižavanja visine, vod statičkog pritiska do variometra postane blokiran, \npokazivač variometra će: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 113
     },
     {
       "id": "2382",
       "question": "Kada je avion u letu, pritisak na prednjem otvoru pito cevi je: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 112
     },
     {
       "id": "2383",
       "question": "Šta će od navedenog povećati napadni ugao elise fiksnog koraka? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 114
     },
     {
       "id": "2384",
       "question": "Žiroskop u veštačkom horizontu je: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 101
     },
     {
       "id": "2385",
       "question": "Na avionima opremljenim elisama stalnog koraka sa karburatorskim sistemom, naznaka zaleđivanja \nse iskazuje: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 110
     },
     {
       "id": "2386",
       "question": "Glavna prednost alternatora nad generatorom jeste: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 118
     },
     {
       "id": "2387",
       "question": "Kako vazduh ulazi u suženje venture trube, brzina _______, statički ili ambijentni pritisak _______ i \ntemperature._________. \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 108
     },
     {
       "id": "2388",
       "question": "Koji instrumenti se uobičajeno pokreću pomoću sistema vakuum pumpe? (1)Indikator pravca, \n(2)Kontrolnik leta, \n(3)Indikator položaja komandi, \n(4)Visinomer, \n(5)Magnempastni ko",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 107
     },
     {
       "id": "2390",
       "question": "Razvodna ruka rotira na: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 105
     },
     {
       "id": "2391",
       "question": "Pokazivač kursa može biti usklađen sa magnetnim kompasom: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 104
     },
     {
       "id": "2392",
       "question": "Gde je na gorivnom sistemu aviona uobičajeno postavljena buster pumpa \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 103
     },
     {
       "id": "2393",
@@ -5041,17 +5120,20 @@ const DATA = {
     {
       "id": "2394",
       "question": "Zaštita od prevelikog pritiska ulja u motoru aviona je obezbeđena pomoću: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 109
     },
     {
       "id": "2395",
       "question": "Nakon koliko vremena, nakon starta hladnog motora, pokazivač pritiska ulja u motoru mora da \nindikaciju pritiska? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 111
     },
     {
       "id": "2396",
       "question": "Ako se žiroskop indikatora skretanja okreće od optimalnog broja okretaja, kako će se brzina \nskretanja aviona porediti sa brzinom na pokazivaču skretanja? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 126
     },
     {
       "id": "2397",
@@ -5061,267 +5143,320 @@ const DATA = {
     {
       "id": "2398",
       "question": "Na instrument tabli, pokazivač podpritiska pokazuje kvar. Međutim, žiroskopski instrumenti izgleda \nda rade normalno, i signalna lampa upozorenja stepena podpritiska nije upaljena. Gde leži \nproblem? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 127
     },
     {
       "id": "2399",
       "question": "Kada se vrši kalibracija kompasa: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 128
     },
     {
       "id": "2400",
       "question": "Koji deo – delovi motora sa unutrašnjim sagorevanjem zaptivaju komoru za sagorevanje? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 129
     },
     {
       "id": "2401",
       "question": "Klipnjača ostvaruje vezu između: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 130
     },
     {
       "id": "2402",
       "question": "Koji deo četvorotaktnog motora upravlja ventilima? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 131
     },
     {
       "id": "2403",
       "question": "Svrha rebara oko cilindra na motoru vazdušno hlađenog motora jeste da \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 117
     },
     {
       "id": "2404",
       "question": "Snaga avionskog motora bez superpunjača opada sa visinom zbog \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 133
     },
     {
       "id": "2405",
       "question": "Motor sa unutrašnjim sagorevanjem razvija najveću snagu \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 125
     },
     {
       "id": "2406",
       "question": "Ulje u četvorotaktnom motoru služi za \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 134
     },
     {
       "id": "2407",
       "question": "Šta je najverovatniji uzrok fluktuacije pritiska ulja u motoru aviona? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 136
     },
     {
       "id": "2408",
       "question": "Kada motor ne radi, glavni izvor električne energije je \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 135
     },
     {
       "id": "2409",
       "question": "Za pobuđivanje alternatora inicijalna električna energija se dobija od \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 123
     },
     {
       "id": "2410",
       "question": "Može li alternator avionskog motora funkcionisati bez akumulatora? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 119
     },
     {
       "id": "2411",
       "question": "Na koji izvor električne energije je povezan starter motora? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 115
     },
     {
       "id": "2412",
       "question": "Nakon što je zaustavljen motor, prekidač akumulatora treba postaviti na „isključeno“ kako bi se \nizbeglo pražnjenje akumulatora preko: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 99
     },
     {
       "id": "2413",
       "question": "Jedan od razloga za dvostruki sistem paljenja na avionskom motoru jeste da omogući: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 132
     },
     {
       "id": "2414",
       "question": "Koja bi bila posledica otkaza jednog magneta na motoru tokom leta na režimu krstarenja? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 102
     },
     {
       "id": "2415",
       "question": "Dali može da dođe do paljenja avionskog klipnog motora ukoliko neko okrene elisu aviona rukom? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 80
     },
     {
       "id": "2416",
       "question": "Princip rada karburatora sa plovkom se zasniva na: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 79
     },
     {
       "id": "2417",
       "question": "Karburator se koristi da snabdeva \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 78
     },
     {
       "id": "2418",
       "question": "Za motor koji nema karburator već gorivo prima pod pritiskom u usisni kanal kaže se da ima \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 77
     },
     {
       "id": "2419",
       "question": "Osnovni razlog podešavanja smeše gorivo-vazduh na visini je \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 76
     },
     {
       "id": "2420",
       "question": "Koja se promena dešava u smeši kada se uključi grejanje karburatora? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 75
     },
     {
       "id": "2421",
       "question": "Tokom krstarenja na 9500fita MSL, smeša gorivo-vazduh je odgovarajuće podešena. Šta će se desiti \nukoliko dođe do snižavanja visine na 4500fita MSL bez promene podešavanja smeše? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 74
     },
     {
       "id": "2422",
       "question": "Ukoliko je vazduhoplov opremljen sa elisom fiksnog koraka i karburatorom sa plovkom, prvi znak \nzaleđivanja karburatora će najverovatnije biti: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 58
     },
     {
       "id": "2423",
       "question": "Led se uhvatio u venturi trubi karburatora i avion počinje da gubi snagu. Da li će uključivanje \ngrejanja karburatora imati za posledicu momentalni porast broja obrtaja. \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 72
     },
     {
       "id": "2424",
       "question": "Kakva je svrha pomoćne, buster, pumpe, instalirane u neke lake vazduhoplove? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 81
     },
     {
       "id": "2425",
       "question": "Odgovarajuće funkcionisanje pomoćne gorivne pumpe može se proveriti sa: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 70
     },
     {
       "id": "2426",
       "question": "Zbog čega motori sa visokom kompresijom zahtevaju gorivo sa većom oktanskom vrednošću? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 69
     },
     {
       "id": "2427",
       "question": "Kod avionskih motora sa unutrašnjim sagorevanjem, šta se kontroliše pomoću davača temperature \nizduvnih gasova (EGT)? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 68
     },
     {
       "id": "2428",
       "question": "Kada pokazivač temperature ulja pokazuje visoku temperaturu ulja kod četvorotaktnih motora, to \nmože biti posledica \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 67
     },
     {
       "id": "2429",
       "question": "Unutrašnje hlađenje motora sa unutrašnjim sagorevanjem posebno zavisi od: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 66
     },
     {
       "id": "2430",
       "question": "Ako se poveća snaga motora, šta se događa sa sa elisom stalnog broja obrtaja: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 59
     },
     {
       "id": "2431",
       "question": "U kojim letnim uslovima je najveći efekat obrtnog momenta kod jedednomotornih aviona? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 98
     },
     {
       "id": "2432",
       "question": "Koji nepovoljan efekat, uzrokovan žiroskopskim momentom, će pilot iskusiti za vreme poletanja \nprilikom podizanja repa sa tla? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 91
     },
     {
       "id": "2433",
       "question": "Kakva je funkcija ublaživača oscilacija prednjeg točka? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 73
     },
     {
       "id": "2434",
-      "question": "Koji instrument(i) je (su) povezani a ukupnim pritiskom? \n",
-      "topicId": "aircraft"
+      "question": "Koji instrument(i) je (su) povezani sa ukupnim pritiskom? \n",
+      "topicId": "aircraft",
+      "sortNo": 97
     },
     {
       "id": "2435",
       "question": "Pored visinomera, koji instrumenti su povezani sa dovodom statičkog pritiska? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 96
     },
     {
       "id": "2436",
       "question": "Šta uzrokuje da se stvarna brzina aviona razlikuje od indicirane brzine? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 95
     },
     {
       "id": "2437",
       "question": "Koje je važno ograničenje brzine koje nije bojom označeno na brzinomeru aviona ili jedrilice? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 94
     },
     {
       "id": "2438",
       "question": "Maksimalna brzina za izvlačenje zakrilaca je: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 93
     },
     {
       "id": "2439",
       "question": "Šta je označeno zelenom bojom na brzinomeru aviona? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 92
     },
     {
       "id": "2440",
       "question": "Šta označava crvena linija na avionskim instrumentima? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 82
     },
     {
       "id": "2441",
       "question": "Crvena linija na brzinomeru lakih aviona predstavlja: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 90
     },
     {
       "id": "2442",
       "question": "Skala barometarskog pritiska na avionskom visinomeru služi: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 100
     },
     {
       "id": "2443",
       "question": "Ako je visinomer podešen na QNH pritisak, koju će visinu pokazivati visinomer nakon sletanja? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 89
     },
     {
       "id": "2444",
       "question": "Koju visinu pokazuje visinomer ako je postavljen na lokalni QNH pritisak? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 88
     },
     {
       "id": "2445",
       "question": "Koju visinu pokazuje avionski visinomer ukoliko je podešen na standardni atmosferski pritisak? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 86
     },
     {
       "id": "2446",
       "question": "Šta bi pokazivao avionski visinomer ukoliko bi pilot propustio da podesi QNH pritisak na visinomeru \nza vreme spuštanja i ostavion visinomer podešen na standardni pritisak? \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 87
     },
     {
       "id": "2447",
       "question": "Ukoliko pilot menja podešenost pritiska visinomera na nižu vrednost, indikator visine će pokazati: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 85
     },
     {
       "id": "2448",
       "question": "Kada je podešen na QFE pritisak, visinomer pokazuje: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 84
     },
     {
       "id": "2449",
       "question": "Ako je visinomer podešen na QFE pritisak, nakon sletanja će pokazivati: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 83
     },
     {
       "id": "2450",
       "question": "Ukoliko se leti iz prostora visokog pritiska prema prostoru nižeg pritiska bez podešavanja pritiska, \nstvarna visina aviona: \n",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 116
     },
     {
       "id": "2451",
@@ -6104,7 +6239,8 @@ const DATA = {
     {
       "id": "2605",
       "question": "Vazduhoplov koji je registrovan u jednoj državi a ulazi u vazdušni prostor i vrši prelet druge \ndržave mora da se pridržava vazduhoplovnih propisa: \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 32
     },
     {
       "id": "2606",
@@ -6112,9 +6248,16 @@ const DATA = {
       "topicId": "rules"
     },
     {
+      "id": "10077",
+      "question": "Položen teorijski ispit za izdavanje PPL(A),PPL(H),SPL,BPL i LAPL dozvole važi:",
+      "topicId": "rules",
+      "sortNo": 6
+    },
+    {
       "id": "2607",
       "question": "Koji organ je odgovoran da se obezbedi funkcionisanje vazduhoplova u vazdušnom prostoru \nsuverene države u skladu sa pravilima i propisima koji prevladavaju u tom vazdušnom prostoru? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 34
     },
     {
       "id": "2608",
@@ -6128,13 +6271,15 @@ const DATA = {
     },
     {
       "id": "2610",
-      "question": "Popunite sledeću formulaciju sa jednom od opcija pod a), b), c) ili d) koja daje najispravniju \nizjavu. Pilot koji je u ulozi PIC u letu u toku kojeg vazduhoplov ulazi u suvereni vazdušni prostor \nstrane države sa namerom da sleti: \n",
-      "topicId": "rules"
+      "question": "Pilot koji je u ulozi PIC u letu u toku kojeg vazduhoplov ulazi u suvereni vazdušni prostor \nstrane države sa namerom da sleti: \n",
+      "topicId": "rules",
+      "sortNo": 35
     },
     {
       "id": "2611",
       "question": "Pilot u ulozi PIC vazduhoplova koji ulazi u suvereni vazdušni prostor druge države potpisnice u \nnameri da sleti mora da ima: \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 41
     },
     {
       "id": "2612",
@@ -6149,7 +6294,8 @@ const DATA = {
     {
       "id": "2614",
       "question": "Kada vazduhoplov leti, po kojim pravilima let mora da se izvršava? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 15
     },
     {
       "id": "2615",
@@ -6194,67 +6340,80 @@ const DATA = {
     {
       "id": "2623",
       "question": "Koja je međunarodna vazduhoplovna VHF frekvencija u nevolji? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 47
     },
     {
       "id": "2624",
       "question": "Koliko često se objavljuju vazduhoplovne informacije (AIC)? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 49
     },
     {
       "id": "2625",
       "question": "Pilot imalac PPL dozvole dobivši specijalno VFR odobrenje za ulazak u kontrolnu zonu (CTR), pre \nulaska zaključuje da ne može da šalje niti da prima RT poruke, mora da: \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 48
     },
     {
       "id": "2626",
       "question": "Koji SSR squawk bi trebalo postaviti u hitnim slučajevima? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 56
     },
     {
       "id": "2627",
       "question": "Ako „marshaller” drži desnu ruku na dole a levu uvek iznova pomera gore i unazad, to znači: \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 30
     },
     {
       "id": "2628",
       "question": "Šta za vazduhoplov u vazduhu znači stalno zeleno svetlo usmereno sa ATC? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 54
     },
     {
       "id": "2629",
       "question": "Kojom bojom su označene staze za voženje? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 39
     },
     {
       "id": "2630",
       "question": "Kojom bojom se označava poletno – sletna staza? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 46
     },
     {
       "id": "2631",
       "question": "Vi ste u finalnom prilazu i vidite stalno crveno svetlo usmereno sa ATC. To znači: \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 38
     },
     {
       "id": "2632",
       "question": "Koja reč se koristi za izražavanje vertikalne pozicije nekog vazduhoplova, mereno iznad srednjeg \nnivoa mora, kada se na skali visinomera postavi QNH pritisak? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 40
     },
     {
       "id": "2633",
       "question": "Koje postupke treba da preduzme pilot ukoliko u toku VFR leta u VMC dođe do otkaza radio \nveze? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 36
     },
     {
       "id": "2634",
-      "question": "Koji od sledećih nivoa leta bi bio pogodan za letenje nekog vazduhoplova u MK=1460 u skladu sa \n„kvadrantnim pravilom”? \n",
-      "topicId": "rules"
+      "question": "Koji od sledećih nivoa leta bi bio pogodan za letenje nekog vazduhoplova u MK=146 u skladu sa \n„kvadrantnim pravilom”? \n",
+      "topicId": "rules",
+      "sortNo": 43
     },
     {
       "id": "2635",
       "question": "Pilot koji namerava da sleti na civilni aerodrom bi trebao da započne spuštanje ispod prelaznog \nnivoa sa visinomerom podešenim na: \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 52
     },
     {
       "id": "2636",
@@ -6264,7 +6423,8 @@ const DATA = {
     {
       "id": "2637",
       "question": "Koja je definicija za „Prelazni nivo”? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 57
     },
     {
       "id": "2638",
@@ -6273,8 +6433,9 @@ const DATA = {
     },
     {
       "id": "2639",
-      "question": "Koja reč se koristi za izražavanje vertikalne pozicije nekog vazduhoplova mereno iznad osnovnog \nnivoa aerodrome, kada je visinomer podešen na QFE? \n",
-      "topicId": "rules"
+      "question": "Koja reč se koristi za izražavanje vertikalne pozicije nekog vazduhoplova mereno iznad osnovnog \nnivoa aerodroma, kada je visinomer podešen na QFE? \n",
+      "topicId": "rules",
+      "sortNo": 14
     },
     {
       "id": "2640",
@@ -6284,12 +6445,14 @@ const DATA = {
     {
       "id": "2641",
       "question": "Ko je odgovoran za izdavanje Uverenja o plovidbenosti? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 2
     },
     {
       "id": "2642",
       "question": "Koja od sledećih definicija se obično koristi za „pista u upotrebi” na nekontrolisanom aerodromu? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 1
     },
     {
       "id": "2643",
@@ -6304,7 +6467,8 @@ const DATA = {
     {
       "id": "2645",
       "question": "Nalet koji se priznaje za dozvolu ili ovlašćenje mora da bude ostvaren na: \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 8
     },
     {
       "id": "2646",
@@ -6314,7 +6478,8 @@ const DATA = {
     {
       "id": "2647",
       "question": "Kada imalac pilotske dozvole sazna da mora da se podvrgne operaciji, koje su mu obaveze u \npogledu informisanja medicinskih vazduhoplovnih vlasti? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 50
     },
     {
       "id": "2648",
@@ -6323,8 +6488,9 @@ const DATA = {
     },
     {
       "id": "2649",
-      "question": "Praktični ispit za JAA PPL(A) dozvolu mora da se izvrši u roku od ________ od završetka obuke:",
-      "topicId": "rules"
+      "question": "Praktični ispit za PPL(A), PPL(H), SPL i BPL dozvolu mora da se izvrši u roku od ________ od završetka obuke:",
+      "topicId": "rules",
+      "sortNo": 3
     },
     {
       "id": "2650",
@@ -6344,7 +6510,8 @@ const DATA = {
     {
       "id": "2653",
       "question": "Ko je odgovoran da obezbedi da se sva odgovarajuća dokumentacija nalazi u vazduhoplovu na \nmeđunarodnim letovima? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 5
     },
     {
       "id": "2654",
@@ -6358,8 +6525,9 @@ const DATA = {
     },
     {
       "id": "2656",
-      "question": "Ukoliko pilot koji ima lekarsko uverenje izdato u skladu sa JAR-FCL doživi povredu ili bolest koji \nutiču na njegovu sposobnost da deluje kao član posade vazduhoplova: \n",
-      "topicId": "rules"
+      "question": "Ukoliko pilot koji ima lekarsko uverenje, doživi povredu ili bolest koji \nutiču na njegovu sposobnost da deluje kao član posade vazduhoplova: \n",
+      "topicId": "rules",
+      "sortNo": 9
     },
     {
       "id": "2657",
@@ -6389,7 +6557,14 @@ const DATA = {
     {
       "id": "2662",
       "question": "Koje medicinsko uverenje se zahteva za studenta pilota? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 12
+    },
+    {
+      "id": "10082",
+      "question": "Šta predstavlja izraz \"samostalno vreme letenja?\"",
+      "topicId": "rules",
+      "sortNo": 13
     },
     {
       "id": "2663",
@@ -6399,7 +6574,8 @@ const DATA = {
     {
       "id": "2664",
       "question": "Koliko časova naleta, od ukupno zahtevanih za praktični ispit za izdavanje PPL(A), može da se \nizvrši na FNPT(Flight &amp; Navigation Procedures Trainer) ili simulatoru leta? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 10
     },
     {
       "id": "2665",
@@ -6429,12 +6605,14 @@ const DATA = {
     {
       "id": "2670",
       "question": "Vreme leta je ukupno vreme leta od momenta: \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 4
     },
     {
       "id": "2671",
       "question": "Vreme leta u toku kojeg će instruktor samo nadgledati rad studenta pilota u ulozi PIC i neće \nuticati ili vršiti upravljanje vazduhoplovom je: \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 7
     },
     {
       "id": "2672",
@@ -6449,7 +6627,8 @@ const DATA = {
     {
       "id": "2674",
       "question": "U kojem vremenskom periodu, pre datuma isticanja važenja, može da se sprovede provera \nstručnosti za produženje važenja ovlašćenja za letenje na jednomotornim avionima? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 55
     },
     {
       "id": "2675",
@@ -6459,17 +6638,20 @@ const DATA = {
     {
       "id": "2676",
       "question": "Šta od navedenog, u odnosu na letačka ovlašćenja, spada u klasu vazduhoplova? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 42
     },
     {
       "id": "2677",
-      "question": "Šta od navedenog, u odnosu na letačka ovlašćenja, spada u kategoriju vazduhoplova? \n",
-      "topicId": "rules"
+      "question": "Šta od navedenog spada u kategoriju vazduhoplova? \n",
+      "topicId": "rules",
+      "sortNo": 17
     },
     {
       "id": "2678",
       "question": "Pilot ili student pilot, kada postane svestan bolničkog prijema više od 12 sati, hirurške operacije ili \ninvazivne procedure, redovne upotrebe lekova, regularne upotrebe korektivnih sočiva: \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 18
     },
     {
       "id": "2679",
@@ -6489,12 +6671,14 @@ const DATA = {
     {
       "id": "2682",
       "question": "Važnost pilotske dozvole se određuje važnošću: \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 19
     },
     {
       "id": "2683",
       "question": "Koji od navedenih postupaka je pilot vazduhoplova posebno dužan da izvrši pre svakog leta? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 20
     },
     {
       "id": "2684",
@@ -6504,22 +6688,44 @@ const DATA = {
     {
       "id": "2685",
       "question": "Pored ostalih aktivnost, u pripremi VFR leta izvan područja aerodroma, propisi izričito nalažu da \nPIC: \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 21
     },
     {
       "id": "2686",
       "question": "Pilot je obavezan da ima vezane sedišne pojaseve i ramene veze: \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 45
     },
     {
       "id": "2687",
       "question": "Šta najpreciznije opisuje uslove leta u kojima je pilot obavezan da drži sigurnosne pojaseve \nvezanim? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 23
     },
     {
       "id": "2688",
       "question": "Koju obavezu, u odnosu na putnike, ima PIC vazduhoplova u vezi upotrebe sigurnosnih pojaseva? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 25
+    },
+    {
+      "id": "10091",
+      "question": "Koju klasu lekarskog uverenja moraju da poseduju imaoci PPL(A),PPL(H),SPL I BPL dozvole?",
+      "topicId": "rules",
+      "sortNo": 33
+    },
+    {
+      "id": "10096",
+      "question": "Koji se propisi primenjuju na vazduhoplov registrovan u Republici Srbiji kada leti u stranom vazdušnom prostoru?",
+      "topicId": "rules",
+      "sortNo": 37
+    },
+    {
+      "id": "10101",
+      "question": " Kada pilot učenik treba da pribavi lekarsko uverenje?",
+      "topicId": "rules",
+      "sortNo": 51
     },
     {
       "id": "2689",
@@ -6529,7 +6735,8 @@ const DATA = {
     {
       "id": "2690",
       "question": "Koja osoba je neposredno odgovorna za pripremu putnika za let? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 24
     },
     {
       "id": "2691",
@@ -6549,7 +6756,8 @@ const DATA = {
     {
       "id": "2694",
       "question": "Šta znači skraćenica „WIP”? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 22
     },
     {
       "id": "2695",
@@ -6609,7 +6817,8 @@ const DATA = {
     {
       "id": "2706",
       "question": "Koliko je širok pojas unutar državne granice u kojem je dozvoljeno letenje samo uz \nposebno odobrenje? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 44
     },
     {
       "id": "2707",
@@ -6652,6 +6861,12 @@ const DATA = {
       "topicId": "rules"
     },
     {
+      "id": "10086",
+      "question": "VFR let se izvodi ?",
+      "topicId": "rules",
+      "sortNo": 16
+    },
+    {
       "id": "2715",
       "question": "Koji je meteorološki minimum, koji dozvoljava kontroloru na tornju da odobri SVFR let u \nkontrolnoj zoni u vidljivom delu dana? Vidljivost u letu mora da bude najmanje: \n",
       "topicId": "rules"
@@ -6674,7 +6889,8 @@ const DATA = {
     {
       "id": "2719",
       "question": "Koji bi od navedenih nivoa krstarenja odgovarao VFR letu iznad 3000 fita MSL, ako se \nodržava pravi putni kurs 1700 i ako lokalna deklinacija iznosi 200 W? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 31
     },
     {
       "id": "2720",
@@ -6784,7 +7000,8 @@ const DATA = {
     {
       "id": "2741",
       "question": "Ko je odgovoran da osoblje koje održava vazduhoplov na odgovarajući način unosi \nevidenciju u dokumenta održavanja na osnovu kojih se avionu dopušta dalja upotreba? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 26
     },
     {
       "id": "2742",
@@ -6794,7 +7011,8 @@ const DATA = {
     {
       "id": "2743",
       "question": "Propisana oznaka nacionalne pripadnosti vazduhoplova registrovanog u Republici Srbiji \nje: \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 27
     },
     {
       "id": "2744",
@@ -6804,12 +7022,14 @@ const DATA = {
     {
       "id": "2745",
       "question": "Šta treba da uradi pilot vazduhoplova ukoliko od kontrole letenja dobije odobrenje koje \nće prouzrokovati odstupanje od pravila? \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 28
     },
     {
       "id": "2746",
       "question": "U slučaju da usled nepredviđenih okolnosti mora da odstupi od odobrenja kontrole \nletenja, pilot je dužan da: \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 29
     },
     {
       "id": "2747",
@@ -6824,17 +7044,20 @@ const DATA = {
     {
       "id": "2749",
       "question": "Na preletu vam se sa leve strane približava vojni avion-presretač, leti neko vreme \nuporedo sa vama, zatim mahne krilima i započne blagi zaokret u desno. To znači: \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 11
     },
     {
       "id": "2750",
       "question": "U toku preleta ustanovljavate da se nalazite u blizini nepoznatog aerodroma. Približava \nvam se vojni avion, kruži oko vašeg vazduhoplova, maše krilima i na kraju izvlači stajni trap. Ovo \nznači: \n",
-      "topicId": "rules"
+      "topicId": "rules",
+      "sortNo": 53
     },
     {
       "id": "2751",
       "question": "Detonacija je:",
-      "topicId": "aircraft"
+      "topicId": "aircraft",
+      "sortNo": 106
     }
   ],
   "answers": [
@@ -37641,7 +37864,145 @@ const DATA = {
       "questionId": "2751",
       "answer": "ne moze se ustanoviti spolja",
       "correct": "0"
-    }
+    },
+    {
+      "id": "10078",
+      "questionId": "10077",
+      "answer": "24 meseca",
+      "correct": "1"
+    },
+    {
+      "id": "10079",
+      "questionId": "10077",
+      "answer": "12 meseci",
+      "correct": "0"
+    },
+    {
+      "id": "10080",
+      "questionId": "10077",
+      "answer": "36 meseci",
+      "correct": "0"
+    },
+    {
+      "id": "10081",
+      "questionId": "10077",
+      "answer": "18 meseci.",
+      "correct": "0"
+    },
+    {
+      "id": "10083",
+      "questionId": "10082",
+      "answer": "Ukupno vreme leta u toku kojeg je pilot učenik jedini član posade vazduhoplova.",
+      "correct": "1"
+    },
+    {
+      "id": "10084",
+      "questionId": "10082",
+      "answer": "Vreme letenja u ulozi SPIC",
+      "correct": "0"
+    },
+    {
+      "id": "10085",
+      "questionId": "10082",
+      "answer": "Ukupno vreme leta, u toku kojeg je pilot sam u vazduhoplovu, i 50% od letenja u ulozi kopilota.",
+      "correct": "0"
+    },
+    {
+      "id": "10087",
+      "questionId": "10086",
+      "answer": "U skladu sa vizuelnim meteorološkim uslovima (VMC).",
+      "correct": "1"
+    },
+    {
+      "id": "10088",
+      "questionId": "10086",
+      "answer": "U skladu sa instrumentalnim meteorološkim uslovima (IMC).",
+      "correct": "0"
+    },
+    {
+      "id": "10089",
+      "questionId": "10086",
+      "answer": "Samo u vazdušnom prostoru klase G.",
+      "correct": "0"
+    },
+    {
+      "id": "10090",
+      "questionId": "10086",
+      "answer": "Samo u vazdušnom prostoru klase D.",
+      "correct": "0"
+    },
+    {
+      "id": "10092",
+      "questionId": "10091",
+      "answer": "Klasu 1 ili 2.",
+      "correct": "1"
+    },
+    {
+      "id": "10093",
+      "questionId": "10091",
+      "answer": " Klasu A ili B.",
+      "correct": "0"
+    },
+    {
+      "id": "10094",
+      "questionId": "10091",
+      "answer": "Klasu 2 ili 3.",
+      "correct": "0"
+    },
+    {
+      "id": "10095",
+      "questionId": "10091",
+      "answer": "Klasu B ili C.",
+      "correct": "0"
+    },
+    {
+      "id": "10097",
+      "questionId": "10096",
+      "answer": "Vazduhoplovne propise države iznad koje vrši prelet.",
+      "correct": "1"
+    },
+    {
+      "id": "10098",
+      "questionId": "10096",
+      "answer": "Vazduhoplovne propise Republike Srbije.",
+      "correct": "0"
+    },
+    {
+      "id": "10099",
+      "questionId": "10096",
+      "answer": "Vazduhoplovne propise države koja je proizvela vazduhoplov.",
+      "correct": "0"
+    },
+    {
+      "id": "10100",
+      "questionId": "10096",
+      "answer": "Medunarodne ICAO propise.",
+      "correct": "0"
+    },
+    {
+      "id": "10102",
+      "questionId": "10101",
+      "answer": "Pre svog prvog samostalnog leta.",
+      "correct": "1"
+    },
+    {
+      "id": "10103",
+      "questionId": "10101",
+      "answer": "Pre otpocinjanja teorijske obuke.",
+      "correct": "0"
+    },
+    {
+      "id": "10104",
+      "questionId": "10101",
+      "answer": "Pre otpocinjanja letacke obuke u vazduhu.",
+      "correct": "0"
+    },
+    {
+      "id": "10105",
+      "questionId": "10101",
+      "answer": "Prilikom podnošenja prijave za ispit.",
+      "correct": "0"
+    },
   ],
   "topics": [
     {
