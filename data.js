@@ -1044,567 +1044,680 @@ const DATA = {
     {
       "id": "1415",
       "question": "U okviru ISA ( International Standard Atmosphere) povećanjem visine u troposferi, gustina vazduha \nse: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 124
     },
     {
       "id": "1416",
       "question": "U okviru ISA atmosferski pritisak iznosi: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 14
     },
     {
       "id": "1417",
       "question": "Vazduh u atmosferi čine: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 135
     },
     {
       "id": "1418",
       "question": "U okviru ISA,sa povećanjem visine u Troposferi temperatura se: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 12
     },
     {
       "id": "1419",
       "question": "ako se atmosferski pritisak smanjuje, parcijalni pritisak kiseonika u atmosferi se: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 17
     },
     {
       "id": "1420",
       "question": "U okviru ISA, sa povećanjem visine u Troposferi, pritisak se: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 13
     },
     {
       "id": "1421",
       "question": "Na nadmorskoj visini, zapreminska proporcija kiseonika u atmosferi je: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 77
     },
     {
       "id": "1422",
       "question": "U ISA, povećanjem visine u Stratosferi, temperatura: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 15
     },
     {
       "id": "1423",
       "question": "Koji gas, ( telo ga apsorbuje tokom normalnog disanja), igra važnu ulogu u dekompresionoj bolesti? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 19
     },
     {
       "id": "1424",
       "question": "Nakon davanja krvi, koliko najmanje vremena pilot ne bi trebalo da leti? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 20
     },
     {
       "id": "1425",
       "question": "Visok krvni pritisak može da se javi zbog? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 11
     },
     {
       "id": "1426",
       "question": "Koji system organa distribuira kiseonik u telu? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 2
     },
     {
       "id": "1427",
       "question": "Krv prenosi__________po celom telu i uklanja ___________iz tela uz razmenu koja se obavlja u \n___________. \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 4
     },
     {
       "id": "1428",
       "question": "Koji deo nervnog sistema obično kontroliše disanje? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 58
     },
     {
       "id": "1429",
-      "question": "U sledeću rečenicu upišite najtačniji par vrednosti iz ponuđenih odgovora: \nMaksimalni preporučeni nivoi konzumiranja alkohola sedmično su _________ za muškarce i \n________za žene. (1 jedinica = 10 ml alkoholnog pića ) \n",
-      "topicId": "limits"
+      "question": "Maksimalni preporučeni nivoi konzumiranja alkohola sedmično su _________ za muškarce i \n________za žene. (1 jedinica = 10 ml alkoholnog pića ) \n",
+      "topicId": "limits",
+      "sortNo": 72
     },
     {
       "id": "1430",
       "question": "Moždane ćelije, usled nedostatka kiseonika, počinju da odumiru za: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 76
     },
     {
       "id": "1431",
       "question": "Koji od sledećih gasova, u zavisnosti od nivoa u krvi, reguliše brzinu i dubinu disanja ? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 62
     },
     {
       "id": "1432",
       "question": "Kada je osoba pod stresom ili uplašena, adrenalin koji se oslobađa u krvotoku automatski dovodi \ndo: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 47
     },
     {
       "id": "1433",
       "question": "Koliko vremena je otprilike potrebno da iz krvotoka iščezne jedna jedinica alkohola? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 70
     },
     {
       "id": "1434",
-      "question": "U sledeću rečenicu upišite najtačniji par odgovora od ponuđenih opcija. \nHemoglobin u eritrocitima se brže vezuje za _________nego za __________. \n",
-      "topicId": "limits"
+      "question": "Hemoglobin u eritrocitima se brže vezuje za _________nego za __________. \n",
+      "topicId": "limits",
+      "sortNo": 27
     },
     {
       "id": "1435",
       "question": "Koji organ kontroliše sve ostale telesne funkcije? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 66
     },
     {
       "id": "1436",
       "question": "Stanje u kojem telo nema dovoljno kiseonika da bi normalno funkcionisalo zove se: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 118
     },
     {
       "id": "1437",
       "question": "Najčešći simptom ili simptomi hipoksije mogu biti: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 84
     },
     {
       "id": "1438",
       "question": "Nakon koje visine je potrebno da piloti udišu dodatni kiseonik? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 147
     },
     {
       "id": "1439",
       "question": "U poređenju sa nepušačima, pušači mogu da osete uticaj hipoksije na: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 125
     },
     {
       "id": "1440",
       "question": "Efekti hipoksije se povećavaju: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 18
     },
     {
       "id": "1441",
       "question": "Poveli ste prijatelja na let i nalazite se na visini od 6000ft. Vaš putnik počinje da oseća vrtoglavicu, \nosećaj bockanja u koži, ima poremećaj vida i na kraju gubi svest. Vaš putnik verovatno ima: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 95
     },
     {
       "id": "1442",
       "question": "Najčešći simptom ili simptomi hipoksije mogu da budu: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 144
     },
     {
       "id": "1443",
       "question": "Za pilota aviona, koji je na kursu sudara sa brzim avionom iz suprotnog pravca, slika aviona koji se \npribližava će početi da se uvećava na sledeći način: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 141
     },
     {
       "id": "1444",
       "question": "Slepilo za boje ili preciznije rečeno poremećaj kolornog vida je prouzrokovan: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 101
     },
     {
       "id": "1445",
       "question": "Dalekovidost i kratkovidost su obično prouzrokovane: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 34
     },
     {
       "id": "1446",
       "question": "Dalekovidost je prouzrokovana _______očnom jabučicom i tretira se ______, \nDok je kratkovidost prouzrokovana ________ očnom jabučicom i tretira se ________ \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 33
     },
     {
       "id": "1447",
       "question": "Koji od sledećih organa učestvuje u snabdevanju najpouzdanijeg izvora senzornih informacija? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 64
     },
     {
       "id": "1448",
       "question": "Koji deo oka je zadužen za periferni vid I osetljiv na niske nivoe svetlosti ? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 59
     },
     {
       "id": "1449",
       "question": "Miopija praznog prostora je stanje u kojem se oko prirodno fokusira na distanci od otprilike: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 75
     },
     {
       "id": "1450",
       "question": "Noću je lakše da se fokusirate na objekat ukoliko: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 149
     },
     {
       "id": "1451",
       "question": "Da bi se smanjila opasnost od sudara sa drugim avionom, koji može da bude na slepoj mrlji pilota i \nprilazi pod konstantnim relativnim uglom, pilot bi trebalo da: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 21
     },
     {
       "id": "1452",
       "question": "Gde se nalazi slepa mrlja? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 28
     },
     {
       "id": "1453",
       "question": "Akomodacija je sposobnost sočiva da fokusira svetlosne zrake sa bliskog objekta na foveu: \nAkomodaciju kontrolišu: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 1
     },
     {
       "id": "1454",
       "question": "Za adaptaciju na mrak potrebno je _____ za štapiće i ______ za čepiće. \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 140
     },
     {
       "id": "1455",
       "question": "Sposobnost akomodacije oka: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 103
     },
     {
       "id": "1456",
       "question": "Kada leti sam, pilot koji sumnja da ima simptome prostorne dezorijentacije bi trebalo da: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 48
     },
     {
       "id": "1457",
       "question": "Šta podrazumeva gubitak sluha prouzrokovan bukom? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 109
     },
     {
       "id": "1458",
       "question": "U koji situacijama se kod pilota javljaju “ leans” ( oblik prostorne dezorijentacije pri uglovnom \nskretanju)? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 123
     },
     {
       "id": "1459",
       "question": "Koje je najvažnije čulo za prostornu orjentaciju ? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 55
     },
     {
       "id": "1460",
       "question": "Na šta bi pilot prvo trebalo da se osloni ukoliko postane dezorijentisan u Vizuelnim meteorološkim \nuslovima? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 80
     },
     {
       "id": "1461",
       "question": "Od čega će zavisiti uzrok gubitka sluha zbog buke ? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 150
     },
     {
       "id": "1462",
       "question": "Frekvenca zvuka koju mlada osoba može da čuje iznosi: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 29
     },
     {
       "id": "1463",
       "question": "Koja je svrha Eustahijeve tube? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 51
     },
     {
       "id": "1464",
       "question": "Najznačajniji faktor koji doprinosi početku bolesti kretanja je: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 146
     },
     {
       "id": "1465",
       "question": "Za vreme mirnog pravolinijskog leta bilo koje linearno ubrzanje može stvoriti osećaj penjanja. U \ntakvim situacijama pilot bi trebalo da: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 143
     },
     {
       "id": "1466",
       "question": "Jačina zvuka se meri: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 45
     },
     {
       "id": "1467",
       "question": "Ukoliko pacijent postane dezorijentisan u instrumentalnim meteorološkim uslovima, na šta bi prvo \ntrebalo da se osloni? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 133
     },
     {
       "id": "1468",
       "question": "Vestibularni aparat detektuje _________ubrzanje: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 138
     },
     {
       "id": "1469",
       "question": "Ako avion ubrzava, šta otoliti indikuju mozgu? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 8
     },
     {
       "id": "1470",
       "question": "Ako vam je eustahijeva tuba blokirana i ne možete da očistite uši, trebalo bi da: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 24
     },
     {
       "id": "1471",
       "question": "Za vreme leta, promene spoljašnjeg vazdušnog pritiska mogu da dovedu do stanja da se vazduh koji \nje zarobljen u telesnim šupljinama širi i skuplja. Ovo se zove barotraumas uha i najčešće deluje na: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 142
     },
     {
       "id": "1472",
       "question": "najbolja prevencija u slučaju da neko ima simptome stroboskopskog efekta je: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 3
     },
     {
       "id": "1473",
       "question": "Da li se savetuje upravljanje avionom pilotima koji su na nekoj terapiji? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 35
     },
     {
       "id": "1474",
       "question": "Na sposobnost pilota da se odupre silama umerene jačine može da utiče: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 79
     },
     {
       "id": "1475",
       "question": "Koliko dugo ne bi trebalo da leti pilot nakon dobijenog lokalnog anestetika? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 69
     },
     {
       "id": "1476",
       "question": "Imate prehladu, nos i sinusi su zapušeni i na rasporedu ste za letenje. Trebalo bi: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 44
     },
     {
       "id": "1477",
       "question": "Nakon opšte anestezije, pilot ne bi trebalo da leti najmanje: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 148
     },
     {
       "id": "1478",
       "question": "Šta od navedenog dovodi do gubitka svesti? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 107
     },
     {
       "id": "1479",
       "question": "U poređenju sa vizuelnim stimulansima, slušni stimulansi ( zvukovi): \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 126
     },
     {
       "id": "1480",
       "question": "Ukoliko se pilot približava pisti koja je veća od njegove matične, kakva će biti njegova percepcije te \npiste ? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 134
     },
     {
       "id": "1481",
       "question": "Pogrešna percepcija koju karakteriše iskrivljenost realnog čulnog stimulusa poznata je kao: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 92
     },
     {
       "id": "1482",
       "question": "Ponavljanje informacije nekoliko puta prebacuje je u dugoročno pamćenje i to se naziva: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 94
     },
     {
       "id": "1483",
       "question": "Koliko jedinica sadržaja ima kratkoročna memorija i koliko dugo ih čuva? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 56
     },
     {
       "id": "1484",
       "question": "Ako je pilot navikao da leti u relativno zagađenom I zamagljenom vazduhu, onda će pri letenju na \nčistom nebu: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 7
     },
     {
       "id": "1485",
       "question": "Od ponuđenih opcija izaberite tačan redosled različitih faza procesa rezonovanja: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 85
     },
     {
       "id": "1486",
       "question": "Šta od sledećeg daje iluziju da je vazduhoplov niži u prilazu? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 108
     },
     {
       "id": "1487",
       "question": "Kao kapetan aviona, trebalo bi da pokažete dobre veštine u vođstvu. Koja od ponuđenih nije takva \nveština? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 50
     },
     {
       "id": "1488",
       "question": "Planirali ste da vodite nekoliko prijatelja na rekreativni let. Na dan letenja, meteorološki uslovi su \nprilično loši I duva jak vetar na pisti. Kao neko ko je kompetentan u proceni rizika, šta ćete odlučiti? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 91
     },
     {
       "id": "1489",
       "question": "Da li će prethodno iskustvo uticati na pilota u donošenju odluka ? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 36
     },
     {
       "id": "1490",
       "question": "Mentalna preopterećenost najčešće: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 74
     },
     {
       "id": "1491",
       "question": "Ako kao neiskusan pilot, letite sa nekim ko ima veliko iskustvo I uočite da radi nešto što smatrate \nopasnim, trebalo bi da: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 6
     },
     {
       "id": "1492",
       "question": "Dobri brifing sastanci su veoma važni. Šta može da bude rezultat lošeg brifinga ? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 31
     },
     {
       "id": "1530",
       "question": "Koji efekat ima zamagljenost na sposobnost uočavanja saobraćaja ili strukturu terena \ntokom noći? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 60
     },
     {
       "id": "1531",
       "question": "Stanje prolazne konfuzije koje nastaje kada različiti čulni organi šalju pogrešne informacije \nmozgu zove se: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 117
     },
     {
       "id": "1532",
       "question": "Šta se preporučuje u cilju sprečavanja ili prevazilaženja prostorne dezorijentacije: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 114
     },
     {
       "id": "1533",
       "question": "Piloti je skloniji prostornoj dezorijentaciji ukoliko se : \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 89
     },
     {
       "id": "1534",
       "question": "Opasnost od prostorne dezorijentacije tokom leta u pri slaboj vidljivosti može se \nredukovati: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 86
     },
     {
       "id": "1535",
       "question": "Ako pilot ima prostornu dezorijentaciju tokom leta gde su smanjeni vidni uslovi, najbolji \nnačin prevazilaženja ovog stanja je: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 5
     },
     {
       "id": "1536",
       "question": "Veliko ubrzanje može stvoriti iluziju \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 137
     },
     {
       "id": "1537",
       "question": "Ko je odgovoran da proceni da li je pilot zdravstveno sposoban za određeni let, čak iako on \nili ona imaju validno lekarsko uverenje: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 38
     },
     {
       "id": "1538",
       "question": "Najčešći faktor koji utiče na većinu nesreća koje je mogu sprečiti: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 83
     },
     {
       "id": "1539",
       "question": "Koja je to stvar koju pilot zapostavlja u situaciji kada se oslanja na kratkoročnu ili dugoročnu \nmemoriju? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 52
     },
     {
       "id": "1540",
       "question": "Konstantno pridržavanje odobrene liste provere je znak: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 71
     },
     {
       "id": "1541",
       "question": "Da bi se izbeglo propuštanje važnih koraka, uvek koristite: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 22
     },
     {
       "id": "1542",
       "question": "Pravilan proces od tri koraka u prenosu kontrole u letenju među pilotima uključuje sledeće \nreči: (a)Tvoje komande, (b) Moje komande, i (c)____________ \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 96
     },
     {
       "id": "1543",
       "question": "Menadžment rizika, ako deo proces donošenja odluka u vazduhoplovstvu, u cilju \nredukovanja rizika koji donosi svaki pojedinačni let oslanja se na: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 73
     },
     {
       "id": "1544",
       "question": "Pogubni stavovi se javljaju kod svih pilota u određenoj meri i u nekim momentima. \nKoji od sledećih navedenih su takvi stavovi: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 93
     },
     {
       "id": "1545",
       "question": "U procesu donošenja odluka u vazduhoplovstvu, koji je prvi korak u neutralisanju pogubnih \nstavova? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 128
     },
     {
       "id": "1546",
       "question": "Šta pomaže u situaciji kada pilot ima poguban impulsivan stav ? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 110
     },
     {
       "id": "1547",
       "question": "Šta pomaže u situaciji kada pilot ima poguban stav „ protiv autoriteta“ ? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 111
     },
     {
       "id": "1548",
       "question": "Šta pomaže u situaciji kada pilot ima poguban stav „neranjivosti“ ? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 112
     },
     {
       "id": "1549",
       "question": "Na nekoj nadmorskoj visini, pritisak kiseonika u atmosferi je: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 78
     },
     {
       "id": "1550",
       "question": "Piloti sa izuzetnom prekomernom težinom su skloniji jednom od sledećih stanja ? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 90
     },
     {
       "id": "1551",
-      "question": "“ Greška “ je generički termin koji opisuje sve situacije kada serije mentalnih ili fizičkih \naktivnosti ne dovedu do planiranih rezultata.“Greške “: \n",
-      "topicId": "limits"
+      "question": "Greška je generički termin koji opisuje sve situacije kada serije mentalnih ili fizičkih \naktivnosti ne dovedu do planiranih rezultata.“Greške “: \n",
+      "topicId": "limits",
+      "sortNo": 10
     },
     {
       "id": "1552",
       "question": "Koja izjava je tačna kada je u pitanju prisustvo alkohola u ljudskom telu? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 40
     },
     {
       "id": "1553",
       "question": "Koja rečenica definiše hipoksiju: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 54
     },
     {
       "id": "1554",
       "question": "Osoba ne može biti član posade aviona civilnog saobraćaja ukoliko je konzumirala alkohol \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 87
     },
     {
       "id": "1555",
       "question": "Iluziju da je avion na većoj visini nego što zaista jeste stvara: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 43
     },
     {
       "id": "1556",
       "question": "Visinomer sa tri skazaljke koristi se u mnogim avionima lake avijacije \na. Lako se dešava da se pogrešno očitava\nb. Retko se pogrešno očitava\nc. Tačan I pouzdan\nd. Nije baš pouzdan i tačan",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 139
     },
     {
       "id": "1557",
       "question": "Koji od sledećih termina se generalno koristi da opiše vrstu ili vrste memorije u okviru \npredmeta Ljudske sposobnosti I ograničenja? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 65
     },
     {
       "id": "1558",
       "question": "Spoljašnje, srednje I unutrašnje uho su ispunjeni: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 102
     },
     {
       "id": "1559",
       "question": "Presbiakuzija je oštećenje sluha usled: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 99
     },
     {
       "id": "1560",
       "question": "Šta izaziva konduktivnu nagluvost: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 105
     },
     {
       "id": "1561",
       "question": "U kojem delu oka je vizuelna oštrina najveća? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 121
     },
     {
       "id": "1562",
       "question": "Da bi video jasnu sliku dolazećeg aviona koji je zapažen okom, pilot bi trebalo da: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 26
     },
     {
       "id": "1563",
       "question": "Količinu svetlosti koja ulazi u oko kontroliše: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 68
     },
     {
       "id": "1564",
       "question": "U kojem delu srca kontrakcijama nastaje puls? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 122
     },
     {
       "id": "1565",
@@ -1948,187 +2061,224 @@ const DATA = {
     {
       "id": "1493",
       "question": "Najbolje vreme da pilot putnicima da informaciju o proceduri u slučaju opasnosti je: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 81
     },
     {
       "id": "1494",
       "question": "Dva pilota sede za komandama i oba su kvalifikovana za tip. Na početku leta dolazi do otkaza \nmotora. Ko preuzima kontrolu nad avionom? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 30
     },
     {
       "id": "1495",
       "question": "Koja od sledećih karakteristika se odlično komunicira I posebno je opasna tokom leta ? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 53
     },
     {
       "id": "1496",
       "question": "Koji od sledećih načina pomaže da se izbegne stres u kabini pilota ? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 63
     },
     {
       "id": "1497",
       "question": "Šta su stres faktori ili stresori? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 115
     },
     {
       "id": "1498",
       "question": "U prikazu koje vrste podataka analogni displej je bolji od digitalnog? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 127
     },
     {
       "id": "1499",
       "question": "Šta je od sledećeg tačno kada pilot sedi visoko u kabini?\nA. Dobar pogled na dole izvan kabine. \nB. Loš pregled instrumenata. \nC. Ometanje pri pogledu na gore izvan kabine.",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 16
     },
     {
       "id": "1500",
       "question": "Spremate se za trening let sa instruktorom i ne možete da nađete listu za proveru. Trebalo bi da: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 104
     },
     {
       "id": "1501",
       "question": "Ukoliko je neophodan savet u vezi sa mogućim letenjem tokom bolesti, pilot bi trebalo da \nkontaktira; \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 132
     },
     {
       "id": "1502",
       "question": "Šta uvek negativno utiče na sposobnost za letenje? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 116
     },
     {
       "id": "1503",
       "question": "Kod pilota, dugi letovi tokom visokih letnjih temperatura povećavaju mogućnost za nastanak \ndehidriranosti obzirom da: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 39
     },
     {
       "id": "1504",
       "question": "Do bolesti kretanja dovodi: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 32
     },
     {
       "id": "1505",
       "question": "Koji savet biste dali pilotu koji ima simptome bolesti kretanja? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 67
     },
     {
       "id": "1506",
       "question": "U avionima u kojima vazduh nije pod pritiskom, na velikim visinama količina kiseonika koja prolazi \nmembrane pluća u krv je: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 120
     },
     {
       "id": "1507",
       "question": "Tokom penjanja na visinu od 18 000 ft, procenat kiseonika u atmosferi se: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 119
     },
     {
       "id": "1508",
       "question": "Iako nije obavezan, dopunski kiseonik se preporučuje kada se leti noću na visinama iznad: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 42
     },
     {
       "id": "1509",
       "question": "Hipoksija je rezultat: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 25
     },
     {
       "id": "1510",
       "question": "Koja izjava u vezi sa hipoksijom je tačna? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 41
     },
     {
       "id": "1511",
       "question": "Šta se javlja pri penjanju na visinu iznad 18 000 ft u avionu bez pritiska vazduha i bez dopunskog \nkiseonika ? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 113
     },
     {
       "id": "1512",
       "question": "Sklonost ka trovanju ugljen monoksidom se povećava: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 100
     },
     {
       "id": "1513",
       "question": "Ugljen monoksid u kabini aviona je: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 129
     },
     {
       "id": "1514",
       "question": "Velike koncentracije ugljen monoksida u ljudskom telu dovode do: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 136
     },
     {
       "id": "1515",
       "question": "Kako pušenje utiče na pilota ? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 49
     },
     {
       "id": "1516",
       "question": "Šta najčešće dovodi do hiperventilacije? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 106
     },
     {
       "id": "1517",
       "question": "Brzo ili veoma duboko disanje tokom korišćenja kiseonika može dovesti do stanja koje se \nzove: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 23
     },
     {
       "id": "1518",
       "question": "Hiperventilacija nastaje zbog: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 37
     },
     {
       "id": "1519",
       "question": "Pilot bi trebalo da prevaziđe simptome ili da izbegne kasnija javljanja hiperventilacije ? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 88
     },
     {
       "id": "1520",
       "question": "Ukoliko bi nakon ronjenja, koje nije zahtevalo kontrolisani izlazak na površinu, osoba \ntrebalo da leti na visini do 2400m( 8000 ft), preporučeno vreme koje bi trebalo da prođe pre tog \nleta je bar: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 131
     },
     {
       "id": "1521",
       "question": "Ukoliko bi nakon ronjenja, koje je zahtevalo kontrolisani izlazak na površinu, osoba trebalo \nda leti na visini do 2400m( 8000 ft), preporučeno vreme koje bi trebalo da prođe pre tog leta je \nbar: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 130
     },
     {
       "id": "1522",
       "question": "Adaptacija na mrak se oštećuje izlaganjem: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 9
     },
     {
       "id": "1523",
       "question": "Koje pripreme su potrebne pilotu da bi adaptirao oči na noćno letenje? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 57
     },
     {
       "id": "1524",
       "question": "Jedan od načina za povećanje efektivnosti noćnog vida je: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 46
     },
     {
       "id": "1525",
       "question": "Koji je najefektivniji način gledanja tokom noćnog leta? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 61
     },
     {
       "id": "1526",
       "question": "Najefikasnija tehnika otkrivanja drugog aviona tokom noći je: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 145
     },
     {
       "id": "1527",
       "question": "Najbolji metod u traženju nekog drugog saobraćaja noću je \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 82
     },
     {
       "id": "1528",
       "question": "Pre nego što se započne svaki manevar, svaki pilot bi trebalo da: \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 98
     },
     {
       "id": "1529",
       "question": "Pravilna tehnika osmatranja vazdušnog prostora levo i desno od nosa aviona je:? \n",
-      "topicId": "limits"
+      "topicId": "limits",
+      "sortNo": 97
     },
     {
       "id": "1656",
