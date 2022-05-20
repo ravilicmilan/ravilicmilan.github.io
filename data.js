@@ -83,22 +83,26 @@ const DATA = {
     {
       "id": "1599",
       "question": "Kada letite iznad Evrope imate pojavu konstantnog zanošenja udesno na konstantnoj indiciranoj visini. \nUkoliko podatak na barometarskoj skali visinomera nije podešen, doći će do sledeće situacije: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 18
     },
     {
       "id": "1600",
       "question": "Letite na konstantnoj indiciranoj visini u odnosu na QNH podešenim na vrednost od 1015 mb na \nbarometarskoj skali i primećujete da spoljna temperature vazduha konstantno opada. Šta će se dešava \nsa vašom stvarnom visinom? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 71
     },
     {
       "id": "1601",
       "question": "Uređaj koji služi za merenje vlažnosti vazduha naziva se: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 103
     },
     {
       "id": "1602",
       "question": "U toku procesa kondenzacije , povećana temperatura je rezultat ________ količine ________ toplote \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 96
     },
     {
       "id": "1603",
@@ -118,12 +122,14 @@ const DATA = {
     {
       "id": "1606",
       "question": "Tokom vedre noći, temperatura na površini zemlje će ________ Relativna Vlažnost će se _________ a \ntačka rose će _______ \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 90
     },
     {
       "id": "1607",
       "question": "Koji od navedenih procesa može prouzrokovati zasićenost vazduha? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 33
     },
     {
       "id": "1608",
@@ -133,7 +139,8 @@ const DATA = {
     {
       "id": "1609",
       "question": "Data je atmosferska situacija gde je vlažnost 60% i ELR je manji od DALR, ukoliko je vazduh prisiljen na \npodizanje biće: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 4
     },
     {
       "id": "1610",
@@ -143,7 +150,8 @@ const DATA = {
     {
       "id": "1611",
       "question": "Vazduh je stabilan kada: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 104
     },
     {
       "id": "1612",
@@ -153,7 +161,8 @@ const DATA = {
     {
       "id": "1613",
       "question": "Vazduhoplov leti u blizini nizbrdice, koja se prostire u pravcu sever-jug, preko koje vetar duva u pravcu \nzapad –istok. Koja od navedenih situacija može dovesti vazduhoplov u polje opasnih nisponskih \nstrujanja? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 105
     },
     {
       "id": "1614",
@@ -163,12 +172,14 @@ const DATA = {
     {
       "id": "1615",
       "question": "U uslovima planinskog talasa, na najizraženiju turbulenciju se najverovatnije se može naići prilikom \nletenja: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 97
     },
     {
       "id": "1616",
       "question": "Koje od sledećih tvrđenja karakteriše nestabilni vazduh? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 29
     },
     {
       "id": "1617",
@@ -178,27 +189,32 @@ const DATA = {
     {
       "id": "1618",
       "question": "Jedan ili više obojenih prstenova oko sunca ili meseca mogu nagovestiti prisustvo kojeg tipa oblaka? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 15
     },
     {
       "id": "1619",
       "question": "Ako je data temperatura +21°C i tačka rose +7°C, aproksimativno na kojoj će visini biti baza oblaka \nkumulusa? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 2
     },
     {
       "id": "1620",
       "question": "Iz kojeg tipa oblaka najčešće pada grad? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 13
     },
     {
       "id": "1621",
       "question": "Na osnovu ponuđenih odgovora izaberite Niske, Srednje i Visoke oblake po rastućem nizu \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 86
     },
     {
       "id": "1622",
       "question": "Upotreba sufiksa “nimbus” ili prefiksa “nimbo” se odnosi na ? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 102
     },
     {
       "id": "1623",
@@ -208,47 +224,56 @@ const DATA = {
     {
       "id": "1624",
       "question": "Nestabilan vazduh je prisiljen da se podiže sa jedne strane planine. Kakvo vreme se može očekivati na \nobroncima planine koje su izložene vetru? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 37
     },
     {
       "id": "1625",
       "question": "Koju uslovi mora da postoje da bi došlo da razvoja oluje sa grmljavinom: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 59
     },
     {
       "id": "1626",
       "question": "Koja od ponuđenih kombinacija parametara vremena dovodi do pojave kumulo tipa oblaka, dobre \nvidljivosti, kišnih pljuskova i mogućnosti pojave ledenih kristala u oblacima ? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 26
     },
     {
       "id": "1627",
       "question": "Turbulencija, smicanje vetra, zaleđivanje, slabe i jake padavine asociraju na pojavu kumulonimbusa. \nKoje od sledećih tvrđenja je tačno? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 92
     },
     {
       "id": "1628",
       "question": "Tokom _____ ćelije grmljavinske nepogode, oblak sadrži_______. \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 89
     },
     {
       "id": "1629",
       "question": "Koju fazu grmljavinske nepogode karakterišu pretežno nispona strujanja \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 57
     },
     {
       "id": "1630",
       "question": "Za razvoj kumulonimbusa, neophodno je da postoji? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 108
     },
     {
       "id": "1631",
       "question": "Koju fazu grmljavinske nepogode karakterišu samo uspona strujanja? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 58
     },
     {
       "id": "1632",
       "question": "Koji od sledećih uslova najverovatnije prouzrokuje grmljavinske nepogode ? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 35
     },
     {
       "id": "1633",
@@ -263,17 +288,20 @@ const DATA = {
     {
       "id": "1635",
       "question": "Objavljen vetar na nivou 2000 ft iznad aerodroma je 330/15kt. Koristeći pravilo desnog palca , koja je \nočekivana vrednost vetra na površini zemlje? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 111
     },
     {
       "id": "1636",
       "question": "Koriolisova sila na Severnoj hemisferi će prouzrokovati kretanje vazduha koji naizgled skreće: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 69
     },
     {
       "id": "1637",
       "question": "Vetrovi koji duvaju oko oblasti anticiklona (sistem visokog pritiska) na nižim nivoima u Severnoj \nHemisferi prikazani su na kartama niskog vazdušnog pritiska sa smerom duvanja: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 106
     },
     {
       "id": "1638",
@@ -288,32 +316,38 @@ const DATA = {
     {
       "id": "1640",
       "question": "Nizak nivo maglovitog sloja značajno smanjuje horizontalnu vidljivost prilikom letenja na visini od 2000 \nft. Da bi povećali horizontalnu vidljivost neophodno je da? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 110
     },
     {
       "id": "1641",
       "question": "Koji od navedenih uslova su najpogodniji za formiranje radiacione magle? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 34
     },
     {
       "id": "1642",
       "question": "Iznad unutrašnjosti aerodroma objavljeno je postojanje radiacione magle tokom jutra. Kako se brzina \nvetra povećava do 10 kt može se očekivati: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 14
     },
     {
       "id": "1643",
       "question": "Koje su karakteristike prolaza hladnog fronta? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 31
     },
     {
       "id": "1644",
       "question": "Koja je aproksimativna brzina toplog fronta? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 23
     },
     {
       "id": "1645",
       "question": "Oblačno je, primećeno je da je granularni tip leda prikupljen i isturen ispred napadne ivice aeroprofila. \nTo je najverovatnije jedan od sledećih tipova leda: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 112
     },
     {
       "id": "1646",
@@ -323,17 +357,20 @@ const DATA = {
     {
       "id": "1647",
       "question": "Na kojem rastojanju ispred tipičnog toplog fronta se može naići na pojavu padavina? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 81
     },
     {
       "id": "1648",
       "question": "Nagomilavanje leda na induktivnom sistemu klipnog motora je prouzrokovano: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 87
     },
     {
       "id": "1649",
       "question": "Koji od navedenih frontalnih sistema najčešće prouzrokuje grmljavinske nepogode \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 32
     },
     {
       "id": "1650",
@@ -343,7 +380,8 @@ const DATA = {
     {
       "id": "1651",
       "question": "Kakve bi trebale da budu promene u vremenu prilikom prolaska karakterisitčnog toplotnog fronta: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 21
     },
     {
       "id": "1652",
@@ -353,17 +391,20 @@ const DATA = {
     {
       "id": "1653",
       "question": "Letite iznad nivoa hladnog vazduha, a tačno iznad vas je topli front. Ukoliko pada kiša , kakvu vrstu \nzaleđivanja možete očekivati? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 70
     },
     {
       "id": "1654",
       "question": "Koji od ponuđenih odgovora predstavalja ispravno dešifrovan METAR izveštaj: METAR EGKL 130350Z \n32005KT 0400N DZ BCFG VV002 \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 55
     },
     {
       "id": "1655",
       "question": "Kada se TREND nalazi na kraju METAR izveštaja ,on zapravo predstavlja vremensku prognozu koja je \nvalidna za: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 49
     },
     {
       "id": "1281",
@@ -1722,17 +1763,20 @@ const DATA = {
     {
       "id": "1565",
       "question": "Ispod sloja tropopauze,vrednosti Međunarodne Standardne Atmosfere (ISA) po ICAO su : \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 11
     },
     {
       "id": "1566",
       "question": "U kojem sloju atmosfere se nalazi najveća količina vodene pare? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 93
     },
     {
       "id": "1567",
       "question": "Koja je zastupljenost gasova u atmosferi? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 25
     },
     {
       "id": "1568",
@@ -1747,7 +1791,8 @@ const DATA = {
     {
       "id": "1570",
       "question": "Kako se naziva instrument koji obezbeđuje merenje,kontinuirani zapis i čitanje podataka atmosferskog \npritiska? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 20
     },
     {
       "id": "1571",
@@ -1762,17 +1807,20 @@ const DATA = {
     {
       "id": "1573",
       "question": "Linija koja na meteorološkoj karti povezuje mesta koja imaju jednake vrednosti barometarskog pritiska \nna istoj nadmorskoj visini naziva se: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 79
     },
     {
       "id": "1574",
       "question": "U poređenju sa ISA uslovima , kakav uticaj ima topli vazduh na rastojanje prikazano kao promena \npritiska za 1 hpa ( barometarska visinska stepenica) \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 95
     },
     {
       "id": "1575",
       "question": "Kolika je gustina vazduha na nivou mora prema međunarodnoj standardnoj atmosferi (ISA uslovi)? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 12
     },
     {
       "id": "1576",
@@ -1782,12 +1830,14 @@ const DATA = {
     {
       "id": "1577",
       "question": "Uopšteno, sa povećanjem visine : \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 101
     },
     {
       "id": "1578",
       "question": "Definicija gustine je : \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 1
     },
     {
       "id": "1579",
@@ -1797,17 +1847,20 @@ const DATA = {
     {
       "id": "1580",
       "question": "Koje od navedenih tvrđenja je ispravno? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 27
     },
     {
       "id": "1581",
       "question": "Dnevna varijacija temperature je: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 5
     },
     {
       "id": "1582",
       "question": "Ukoliko je temperatura konstantna sa povećanjem visine, dobijamo: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 98
     },
     {
       "id": "1583",
@@ -1817,12 +1870,14 @@ const DATA = {
     {
       "id": "1584",
       "question": "Tokom zimskih meseci, nastajanje kojih od navedenih vremenskih prilika je karakteristično za \npostojanje anticiklona \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 91
     },
     {
       "id": "1585",
       "question": "Dnevna varijacija temperature na površini zemlje će : \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 6
     },
     {
       "id": "1586",
@@ -1837,7 +1892,8 @@ const DATA = {
     {
       "id": "1588",
       "question": "Metod po kom energija se transformiše iz jednog oblika u drugi sa kojim je u kontaktu naziva se: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 80
     },
     {
       "id": "1589",
@@ -1847,37 +1903,44 @@ const DATA = {
     {
       "id": "1590",
       "question": "Inverzija je kada se : \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 10
     },
     {
       "id": "1591",
       "question": "Koje od navedenih tvrđenja najbliže opisuje COL? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 28
     },
     {
       "id": "1592",
       "question": "Greben kao sistem raspodele vazdušnog pritiska se odnosi na: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 8
     },
     {
       "id": "1593",
       "question": "Kada letimo ka polju niskog vazdušnog pritiska(Ciklonu) na konstantnoj indiciranoj visini, stvarna visina \nće biti: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 17
     },
     {
       "id": "1594",
       "question": "Kada je barometarska skala altimetra (visinomera) podešena na ravan pritiska QFE, altimetar pokazuje \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 16
     },
     {
       "id": "1595",
       "question": "Visinomer će uvek pokazivati: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 107
     },
     {
       "id": "1596",
       "question": "Avion leti na konstantnoj indiciranoj visini od PSS A (QNH 1009mb) do PSS B (QNH 1019m. Šta će se \ndesiti iznad PSS B ukoliko barometarska skala visinomera nije resetovana \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 41
     },
     {
       "id": "1597",
@@ -1887,7 +1950,8 @@ const DATA = {
     {
       "id": "1598",
       "question": "Avion leti sa aerodroma A ( QNH 1020 mb) , prema aerodromu B (QNH=999mb).Aerodrom “A” se \nnalazi 800 ft ispod srednjeg nivoa mora dok je aerodrom “B” 500 ft iznad srednjeg nivoa mora. Ukoliko \nvrednost na barometarskoj skali visinomera nije resovana od trenutka poletanja (tj. QNH 1020 mb), visinomer će pokazivati na sletanju: (pretpostaviti 1mb=30ft)",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 42
     },
     {
       "id": "1754",
@@ -2283,49 +2347,58 @@ const DATA = {
     {
       "id": "1656",
       "question": "Grupa vidljivosti R20/0050 u METAR izveštaju znači: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 45
     },
     {
       "id": "1657",
       "question": "Kod : \"BECMG FM 1100 -RASH\" u METAR izveštaju predstavlja : \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 51
     },
     {
       "id": "1658",
       "question": "Temperaturna grupa 28/24 u METAR izveštaju predstavlja: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 38
     },
     {
       "id": "1659",
       "question": "U dole navedenom METAR izveštaju izostavljena je visina baze sloja oblaka. Na kojoj visini možemo \nočekivati bazu sloja oblaka ukoliko postoji kumulus tip oblaka \n28005KT9999 SCT??? 12/05 Q1020 NOSIG \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 39
     },
     {
       "id": "1660",
       "question": "Pod uslovom da minimalna sektorska visina nije ustanovljena, CAVKOK grupa u TAF prognozi ili METAR \nizveštaju znači da je: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 76
     },
     {
       "id": "1661",
       "question": "Koji od navedenih odgovora predstavlja ispravno dešifrovanu TAF prognozu: LYBE 161100Z 1612/1712 \nVRB08KT9999 SCT025? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 54
     },
     {
       "id": "1662",
       "question": "BECMG 1621/1701 BKN030 u TAF prognozi znači : \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 43
     },
     {
       "id": "1663",
       "question": "Na osnovu dijagrama odrediti na visini od 2000f t brzinu vetra i temperaturu za tačku u preseku 50°N 0° \nE/W (Pogledajte sliku PPL Meteo-1) \n",
       "topicId": "meteo",
-      "image": "Slika-PPL-Meteo-1.jpg"
+      "image": "Slika-PPL-Meteo-1.jpg",
+      "sortNo": 82
     },
     {
       "id": "1664",
       "question": "Na osnovu dijagrama odrediti na visini od 5000ft brzinu vetra za tačku u preseku 50°N 0°EM: \n(Pogledajte sliku PPL Meteo-2) \n",
       "topicId": "meteo",
-      "image": "Slika-PPL-Meteo-2.jpg"
+      "image": "Slika-PPL-Meteo-2.jpg",
+      "sortNo": 83
     },
     {
       "id": "1665",
@@ -2337,7 +2410,8 @@ const DATA = {
       "id": "1666",
       "question": "Na osnovu dijagrama odrediti zonu koju navedena TAF prognoza opisuje(Pogledajte sliku PPL Meteo-5) \n1322 35020KT9999 SCT030 SCT090 TEMPO 1322 8000 SHRA BKN015 PROB30 TEMPO 1522 5000 +RASH \nSCT008 BKN009CB= \n",
       "topicId": "meteo",
-      "image": "Slika-PPL-Meteo-5.jpg"
+      "image": "Slika-PPL-Meteo-5.jpg",
+      "sortNo": 75
     },
     {
       "id": "1667",
@@ -2349,17 +2423,20 @@ const DATA = {
       "id": "1668",
       "question": "Na osnovu dijagrama, odrediti pojavu koja je identifikovana sa slovom J u tački 60°N 12°W? \n(Pogledajte sliku PPL Meteo-10) \n",
       "topicId": "meteo",
-      "image": "Slika-PPL-Meteo-10.jpg"
+      "image": "Slika-PPL-Meteo-10.jpg",
+      "sortNo": 84
     },
     {
       "id": "1669",
       "question": "Na osnovu karte značajnog vremena (male visine) , primećujemo sistem pritiska 50 stepeni \nseverno, 1 stepen istočno, označen sa slovom “L”, strelicom i brojevima “20” i “988”. Šta predstavlja \novako definisan sistem pritiska? (Pogledajte sliku PPL Meteo 14)",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 85
     },
     {
       "id": "1670",
       "question": "Koliki je period važenja WAFC karte značajnog vremena? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 67
     },
     {
       "id": "1671",
@@ -2369,52 +2446,62 @@ const DATA = {
     {
       "id": "1672",
       "question": "EGTT SIGMET SST 01 VALID 310730/311130 EGRR LONDON FIR ISOL CB FCST TOPS FL370 SST ROUTES \nW OF W00400 STNR NC = \nŠta predstavlja šifra \"SST\" u gore navedenoj SIGMET prognozi? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 44
     },
     {
       "id": "1673",
       "question": "Vremenska prognoza za oblast AIRMET predstavlja prognozu vremena do? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 63
     },
     {
       "id": "1674",
       "question": "LFFF SIGMET SST 1 VALID 310600/311100 LFPW- UIR FRANCE MOD TURB FCST BLW FL420 W of \n04W MOV E 30KT NC = \nKoja od opasnosti je prognozirana u gore navedenoj SIGMET poruci \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 72
     },
     {
       "id": "1675",
       "question": "Kada se prognozira jak vetar u AIRMET prognozi? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 48
     },
     {
       "id": "1676",
       "question": "Prognoza za oblast AIRMET se izdaje _________ period važenja je _________ a poželjno je da \nperiod važenja ne bude duži od __________ \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 77
     },
     {
       "id": "1677",
       "question": "VOLMET emisije se obnavljaju? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 61
     },
     {
       "id": "1678",
       "question": "VOLMET emisije se definišu kao : \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 60
     },
     {
       "id": "1679",
       "question": "VOLMET emisije su? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 62
     },
     {
       "id": "1680",
       "question": "ATIS emisije se obnavljaju \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 40
     },
     {
       "id": "1681",
       "question": "Da bi se minimiziralo zauzetost VHF frekvencije, ATIS emisije mogu se obaviti na govornoj \nfrekvenciji kojeg navigacionog sredstva? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 3
     },
     {
       "id": "1682",
@@ -2424,23 +2511,27 @@ const DATA = {
     {
       "id": "1683",
       "question": "Na koji način se vrši identifikacija trenutnog izveštaja prilikom ATIS emisije ? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 74
     },
     {
       "id": "1684",
       "question": "Na kojem frekventnom opsegu se obično emituje ATIS ? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 73
     },
     {
       "id": "1685",
       "question": "Kolika je temperatura vazduha na visini 7000 ft, ako je temperatura vazduha na nadmorskoj \nvisini 1.500 ft 15°C i ako pretpostavimo da važi vertikalni termički gradijent ISA (ICAO): \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 66
     },
     {
       "id": "1686",
       "question": "Kakav vetar označava znak na meteorološkoj karti: (Pogledajte sliku PPL Meteo-15)",
       "topicId": "meteo",
-      "image": "Slika-PPL-Meteo-15.jpg"
+      "image": "Slika-PPL-Meteo-15.jpg",
+      "sortNo": 78
     },
     {
       "id": "1687",
@@ -2450,17 +2541,20 @@ const DATA = {
     {
       "id": "1688",
       "question": "Koji vremenski fenomen je posledica temperaturne inverzije? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 56
     },
     {
       "id": "1689",
       "question": "Najčešći tip zemaljske ili prizemne temperaturne inverzije je proizvod \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 88
     },
     {
       "id": "1690",
       "question": "Ukupna količina vodene pare koju vazduh može održati zavisi od : \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 100
     },
     {
       "id": "1691",
@@ -2470,17 +2564,20 @@ const DATA = {
     {
       "id": "1692",
       "question": "Koje su karakteristike nestabilne vazdušne mase ? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 30
     },
     {
       "id": "1693",
       "question": "Koji tip oblaka je najčešće povezan za prolaskom toplog fronta? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 36
     },
     {
       "id": "1694",
       "question": "Kakvi vremenski uslovi bi trebali da budu ispod sloja u kojem je nizak nivo temperaturne \ninverzije \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 22
     },
     {
       "id": "1695",
@@ -2495,7 +2592,8 @@ const DATA = {
     {
       "id": "1697",
       "question": "Koja je očekivana visina baze kumulusa iznad aerodroma , ako je trenutna temperatura tačke \nrose vazduha pri zemlji 5°C, a prognozirana dnevna maksimalna temperatura je 25°C: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 24
     },
     {
       "id": "1698",
@@ -2505,12 +2603,14 @@ const DATA = {
     {
       "id": "1699",
       "question": "Grmljavinska nepogoda dostiže najveći intenzitet tokom \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 9
     },
     {
       "id": "1700",
       "question": "Kada se mogu očekivati opasnost za vazduhoplov uslovljena pojavom smicanja vetra \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 19
     },
     {
       "id": "1701",
@@ -2520,52 +2620,62 @@ const DATA = {
     {
       "id": "1702",
       "question": "Ukoliko je u blizini aerodroma na koji želite da sletite grmljavinska nepogoda . Koju \natmosfersku pojavu možete očekivati prilikom procedure prilaza za sletanje \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 99
     },
     {
       "id": "1703",
       "question": "Gde može da postoji smicanje vetra? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 7
     },
     {
       "id": "1704",
       "question": "Zašto se zamrzavanje smatra opasnim po let vazduhoplova \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 109
     },
     {
       "id": "1705",
       "question": "U kojim uslovima , led na strukturi vazduhoplova najčešće ima najveću stopu nagomilavanja \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 94
     },
     {
       "id": "1706",
       "question": "Kolika je količina oblačnosti u nižem sloju oblaka nad aerodromom u času osmatranja vremena: \nMETARLSZH 131630Z 24008KT 0600 R16/1000U FG DZ FEW003 SCT010 OVC020 17/16 Q1018 NECMG \nTL1700 0800 FG BECMG AT1800 9999 NSW= \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 65
     },
     {
       "id": "1707",
       "question": "Koja je bila temperatura na aerodromu u času osmatranja vremena: \nMETAR LSZH 131630Z 24008KT 0600 R16/1000U FG DZ FEW003 SCT010 OVC020 17/16 Q1018 BECMG \nTL1700 0800 BECMG AT1800 9999= \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 52
     },
     {
       "id": "1708",
       "question": "Koliko je iznosio vazdušni pritisak na aerodromu u času osmatranja vremena: \nMETAR LSZH 131630Z 24008KT 0600 R16/1000U FG DZ FEW003 SCT010 OVC020 17/16 Q1018 BECMG \nTL1700 0800 BECMG AT1800 9999= \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 68
     },
     {
       "id": "1709",
       "question": "Kada je bio izdat sledeći METAR izveštaj: \nMETAR LSZH 131630Z 24008KT 0666 R16/1000U FG DZ FE003 SCT010 OVC020 17/16 Q1018 BECMG \nTL1700 0800 FG BECMG AT 1800 9999 NSW= \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 46
     },
     {
       "id": "1710",
       "question": "Koje padavine su bile na aerodromu u času osmatranja vremena: \nMETAR LSZH 131630Z 24008KT 0600 R16/1000U FG DZ FSW003 SCT010 OVC020 17/16 Q1018 BECMG \nTL1700 0800 FG BECMG AT 1800 9999 NSW = \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 53
     },
     {
       "id": "1711",
       "question": "Kolika je bila baza oblaka na aerodromu u času osmatranja vremena: \nMETAR LSZH 131630Z 24008KT 0600 R16/1000U FG DZ FEW003 SCT010 OVC020 17/16 Q1018 BECMG \nTL1700 0800 FG BECMG AT1800 9999 NSW= \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 64
     },
     {
       "id": "1712",
@@ -2575,12 +2685,14 @@ const DATA = {
     {
       "id": "1713",
       "question": "Kada možemo računati da ce se na aerodromu podići magla i da ce biti uslova za VFR letenje: \nMETAR LSZH 131630Z 24008KT 0600 R16/1000U FG DZ FEW003 SCT010 OVC020 17/16 Q1018 BECMG \nTL1700 0800 BECMG \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 47
     },
     {
       "id": "1714",
       "question": "Kakvo se vreme predviđa na aerodromu posle 12:00 UTC: \nTAF LYBE 160500Z 1606/1706 13010KT 9000 BKN020 BECMG 1606/1608 SCT015CB BKN020 TEMPO \n1608/1612 17012G22KT 1000 TSRA SCT010CB BKN020 FM12 15006KT 9999 BKN020 BKN100= \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 50
     },
     {
       "id": "1718",
