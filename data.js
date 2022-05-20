@@ -107,17 +107,20 @@ const DATA = {
     {
       "id": "1603",
       "question": "Temperatura mokrog termometra bi trebalo da bude manja od temperature suvog termometra : \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 144
     },
     {
       "id": "1604",
       "question": "Proces promene stanja iz gasovitog u tečno stanje poznat je kao: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 125
     },
     {
       "id": "1605",
       "question": "Povratan proces promene stanja iz čvrstog u stanje vodene pare i naziva se : \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 121
     },
     {
       "id": "1606",
@@ -145,7 +148,8 @@ const DATA = {
     {
       "id": "1610",
       "question": "Pilot vazduhoplova približava se planini leteći niz vetar,nekoliko stotina stopa (fita) iznad nivoa \ngrebena,osmatrajući sočivaste oblake. Na koje uslove pilot može naići prilikom nastavka leta? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 119
     },
     {
       "id": "1611",
@@ -156,7 +160,8 @@ const DATA = {
     {
       "id": "1612",
       "question": "Stvarna promena temperature poznata je kao: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 141
     },
     {
       "id": "1613",
@@ -167,7 +172,8 @@ const DATA = {
     {
       "id": "1614",
       "question": "Šta je od sledećih tvrđenja tačno u vezi najnižeg nivoa smicanja vetra \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 135
     },
     {
       "id": "1615",
@@ -219,7 +225,8 @@ const DATA = {
     {
       "id": "1623",
       "question": "Padavina koju prouzrokuje stratus je \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 116
     },
     {
       "id": "1624",
@@ -278,12 +285,14 @@ const DATA = {
     {
       "id": "1633",
       "question": "Rizične situacije po vazduhoplov koje su prouzrokovane pojavom kumulonimbusa ili grmljavinskim \nnepogodama mogu se očekivati: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 129
     },
     {
       "id": "1634",
       "question": "Rizične situacije faze zrelosti ćelije grmljavinske nepogode uključuju munje, turbulenciju i: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 128
     },
     {
       "id": "1635",
@@ -306,12 +315,14 @@ const DATA = {
     {
       "id": "1638",
       "question": "Prizemni vetrovi na severnoj hemisferi koji duvaju u blizini depresije predstavljeni su na vremenskim \nkartama u : \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 124
     },
     {
       "id": "1639",
       "question": "Sa kojom pojavom je uslovljeno formiranje advektivne magle? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 130
     },
     {
       "id": "1640",
@@ -352,7 +363,8 @@ const DATA = {
     {
       "id": "1646",
       "question": "Šta će se dogoditi sa pravcem vetra na površini zemlje nakon prolaza toplog fronta? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 132
     },
     {
       "id": "1647",
@@ -375,7 +387,8 @@ const DATA = {
     {
       "id": "1650",
       "question": "Oblici prozirnog - glatkog leda su rezultat: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 115
     },
     {
       "id": "1651",
@@ -386,7 +399,8 @@ const DATA = {
     {
       "id": "1652",
       "question": "Šta je glavni razlog činjenice da voda može da ostane u tečnom stanju pri temperaturi koja je manja od \n0°C? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 134
     },
     {
       "id": "1653",
@@ -1781,12 +1795,14 @@ const DATA = {
     {
       "id": "1568",
       "question": "Sloj atmosfere je najbliži zemlji u kojem nastaje najveći deo meteoroloških pojava? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 131
     },
     {
       "id": "1569",
       "question": "Prognozirana temperature od 5°C na nadmorskoj visini od 2000 ft na osnovu ICAO ISA može se \npredstaviti kao: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 126
     },
     {
       "id": "1570",
@@ -1802,7 +1818,8 @@ const DATA = {
     {
       "id": "1572",
       "question": "Šta predstavljaju blisko postavljene izobare? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 139
     },
     {
       "id": "1573",
@@ -1842,7 +1859,8 @@ const DATA = {
     {
       "id": "1579",
       "question": "Pod kojim uslovima će gustina vazduha na bilo kom mestu biti najmanja : \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 120
     },
     {
       "id": "1580",
@@ -1882,12 +1900,14 @@ const DATA = {
     {
       "id": "1586",
       "question": "Oblačnost će smanjiti dnevnu varijaciju temperature na površini zemlje zbog: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 113
     },
     {
       "id": "1587",
       "question": "Oblast sa malim gradijentom pritiska između dva centra niskog ili visokog vazdušnog pritiska naziva se: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 114
     },
     {
       "id": "1588",
@@ -1898,7 +1918,8 @@ const DATA = {
     {
       "id": "1589",
       "question": "Sunce daje _______ količinu energije talasima _________ talasnih dužina. Zemlja daje relativno \n_____količinu energije talasima relativno_______ talasnih dužina \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 142
     },
     {
       "id": "1590",
@@ -1945,7 +1966,8 @@ const DATA = {
     {
       "id": "1597",
       "question": "Ravan pritiska koji odgovara najnižem prognoziranom pritisku na MSL je: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 127
     },
     {
       "id": "1598",
@@ -2404,7 +2426,8 @@ const DATA = {
       "id": "1665",
       "question": "Šta predstavlja simbol sa dijagrama na prognostičkim kartama? (Pogledajte sliku PPL Meteo-4) \n",
       "topicId": "meteo",
-      "image": "Slika-PPL-Meteo-4.jpg"
+      "image": "Slika-PPL-Meteo-4.jpg",
+      "sortNo": 137
     },
     {
       "id": "1666",
@@ -2417,7 +2440,8 @@ const DATA = {
       "id": "1667",
       "question": "Šta predstavlja simbol sa dijagrama na prognostičkim kartama? (Pogledajte sliku PPL Meteo-6) \n",
       "topicId": "meteo",
-      "image": "Slika-PPL-Meteo-6.jpg"
+      "image": "Slika-PPL-Meteo-6.jpg",
+      "sortNo": 138
     },
     {
       "id": "1668",
@@ -2441,7 +2465,8 @@ const DATA = {
     {
       "id": "1671",
       "question": "Šta predstavlja oznaka \"CB\" na WAFC vremenskim kartama značajnog vremena? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 136
     },
     {
       "id": "1672",
@@ -2506,7 +2531,8 @@ const DATA = {
     {
       "id": "1682",
       "question": "Šta je ATIS? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 133
     },
     {
       "id": "1683",
@@ -2536,7 +2562,8 @@ const DATA = {
     {
       "id": "1687",
       "question": "Svaki fizički proces koji dovodi do promene vremenskih prilika je praćen, ili je rezultat, \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 143
     },
     {
       "id": "1688",
@@ -2559,7 +2586,8 @@ const DATA = {
     {
       "id": "1691",
       "question": "Približno koliko iznosi temperatura tačke rose na nivou aerodroma, ako je temperatura 20°C, a \nbaza kumulusnih oblaka 1.100 metara iznad aerodroma: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 123
     },
     {
       "id": "1692",
@@ -2587,7 +2615,8 @@ const DATA = {
     {
       "id": "1696",
       "question": "Približno koliko iznosi baza kumulusa iznad zemlje, ako je temperatura pri zemlji 27°C, a tačka \nrose 15°C: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 122
     },
     {
       "id": "1697",
@@ -2598,7 +2627,8 @@ const DATA = {
     {
       "id": "1698",
       "question": "Padavine u obliku pljuskova, padaju iz oblaka tipa: \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 117
     },
     {
       "id": "1699",
@@ -2615,7 +2645,8 @@ const DATA = {
     {
       "id": "1701",
       "question": "Pilot može očekivati zonu smicanja vetra pri temperaturnoj inverziji uvek kad je brzina vetra na \nvisini od 2000ft do 4000 ft najmanje \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 118
     },
     {
       "id": "1702",
