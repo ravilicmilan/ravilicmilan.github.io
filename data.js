@@ -2610,7 +2610,8 @@ const DATA = {
     {
       "id": "1695",
       "question": "Šta proračunavamo pomoću sledeće formule: (razlika između temperature i tačke rose) x 123 \n=.....? \n",
-      "topicId": "meteo"
+      "topicId": "meteo",
+      "sortNo": 140
     },
     {
       "id": "1696",
