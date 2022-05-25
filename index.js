@@ -19,9 +19,13 @@ const endGameWrapper = document.getElementById('end-game-wrapper');
 const newTestBtn = document.getElementById('new-test-btn');
 const endGameLabel = document.getElementById('end-game-label');
 const modal = document.getElementById('modal');
+const modalInner = document.getElementById('modal-inner');
 const closeModalBtn = document.getElementById('close-modal-btn');
 const imageWrapper = document.getElementById('image-wrapper');
 const indicator = document.getElementById('indicator');
+const zoomInBtn = document.getElementById('zoom-in-btn');
+const zoomOutBtn = document.getElementById('zoom-out-btn');
+
 
 allQuestionsBtn.addEventListener('click', handleAllQuestionsClick);
 randomQuestionsBtn.addEventListener('click', handleRandomQuestionsClick);
@@ -30,6 +34,8 @@ backBtn.addEventListener('click', handleBackClick);
 newTestBtn.addEventListener('click', handleNewTestClick);
 closeModalBtn.addEventListener('click', handleCloseModalClick);
 openModalBtn.addEventListener('click', handleOpenModalClick);
+zoomInBtn.addEventListener('click', handleZoomIn);
+zoomOutBtn.addEventListener('click', handleZoomOut);
 
 const APP = {
   questionsArr: [],
@@ -44,7 +50,12 @@ const APP = {
   currentImage: null,
   nextQuestionDisabled: true,
   disableAnswersButtons: false,
-  images: []
+  images: [],
+  mouseX: null,
+  mouseY: null,
+  imageScale: 1,
+  imageWidth: null,
+  imageHeight: null
 };
 
 const images = [
@@ -72,6 +83,7 @@ function loadAllImages () {
       }
 
     };
+
     APP.images.push({ image: images[i], el: img });
   }
 }
@@ -116,6 +128,12 @@ function prepareQuestions () {
 
 function handleCloseModalClick () {
   modal.style.display = 'none';
+  modalInner.style.position = 'relative';
+  modalInner.style.left = ``;
+  modalInner.style.top = ``;
+  APP.imageScale = 1;
+  modalInner.style.width = '';
+  modalInner.style.height = '';
 }
 
 function handleOpenModalClick () {
@@ -123,9 +141,70 @@ function handleOpenModalClick () {
   if (imageWrapper.childElementCount > 0) {
     imageWrapper.firstChild.remove();
   }
+
   imageWrapper.appendChild(imageToShow.el);
   modal.style.display = 'flex';
+
+  imageWrapper.addEventListener('mousedown', handleMouseDown);
+
+  APP.imageWidth = imageToShow.el.naturalWidth;
+  APP.imageHeight = imageToShow.el.naturalHeight;
 }
+
+function handleMouseDown (e) {
+  APP.mouseX = e.clientX;
+  APP.mouseY = e.clientY;
+  imageWrapper.firstChild.draggable = false;
+  APP.imageCss = modalInner.getBoundingClientRect();
+  document.addEventListener('mousemove', handleMouseMove);
+  document.addEventListener('mouseup', handleMouseUp);
+}
+
+function handleMouseMove (e) {
+  const dx = e.clientX - APP.mouseX;
+  const dy = e.clientY - APP.mouseY;
+  const left = APP.imageCss.left + dx;
+  const top = APP.imageCss.top + dy;
+  modalInner.style.position = 'absolute';
+  modalInner.style.left = `${left}px`;
+  modalInner.style.top = `${top}px`;
+}
+
+function handleMouseUp () {
+  document.removeEventListener('mousemove', handleMouseMove);
+  document.removeEventListener('mouseup', handleMouseUp);
+}
+
+function handleZoomIn () {
+  if (APP.imageScale >= 5) {
+    return false;
+  }
+
+  APP.imageScale += 0.5;
+  zoomImage();
+}
+
+function handleZoomOut () {
+  if (APP.imageScale <= 1) {
+    return false;
+  }
+
+  APP.imageScale -= 0.5;
+  zoomImage();
+}
+
+function zoomImage () {
+  const newWidth = APP.imageWidth * APP.imageScale;
+  const newHeight = APP.imageHeight * APP.imageScale;
+  const newLeft = (window.innerWidth - newWidth) / 2;
+  const newTop = (window.innerHeight - newHeight) / 2;
+  modalInner.style.position = 'absolute';
+  modalInner.style.left = `${newLeft}px`;
+  modalInner.style.top = `${newTop}px`;
+  modalInner.style.width = `${newWidth}px`;
+  modalInner.style.height = `${newHeight}px`;
+}
+
 
 function handleTopicClick (e) {
   APP.currentTopic = this.dataset.topic;

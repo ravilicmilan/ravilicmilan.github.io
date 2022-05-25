@@ -1979,32 +1979,38 @@ const DATA = {
       "id": "1754",
       "question": "Severno 11 kilometara od geografskih koordinata N 44° 41,3\" i E 21° 04,1\" nalazi se mesto? (Pogledajte PPL \nNav-4) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-4.jpg"
+      "image": "Slika-PPL-Nav-4.jpg",
+      "sortNo": 35
     },
     {
       "id": "1755",
       "question": "Dužina 1 Nm je \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 66
     },
     {
       "id": "1756",
       "question": "Dužina 1 nautičke milje je: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 38
     },
     {
       "id": "1757",
       "question": "Formula za brzo preračunavanje kilometara u nautičke milje je: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 18
     },
     {
       "id": "1758",
       "question": "Koliko približno kilometara iznosi 70 nautičkih milja:? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 17
     },
     {
       "id": "1759",
       "question": "Dužina jedne statutne milje je: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 16
     },
     {
       "id": "1760",
@@ -2014,135 +2020,161 @@ const DATA = {
     {
       "id": "1761",
       "question": "Gde na karti možemo izmeriti rastojanje između dve tačke, koje smo izmerili šestarom ili označili na rubu \nparčeta papira:? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 15
     },
     {
       "id": "1762",
       "question": "Rastojanje od 15 km na određenoj karti iznosi 6 cm. Koje razmere je karta? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 14
     },
     {
       "id": "1763",
       "question": "Razmera karte je : (Pogledajte PPL Nav-3) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-3.jpg"
+      "image": "Slika-PPL-Nav-3.jpg",
+      "sortNo": 13
     },
     {
       "id": "1764",
       "question": "Koliko centimetara iznosi 105 km na karti razmere 1:500.000:? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 3
     },
     {
       "id": "1765",
       "question": "Koliko centimetara iznosi 210 km na karti razmere 1:300.000:? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 11
     },
     {
       "id": "1766",
       "question": "Na priloženoj karti rastojanje između tačaka A i B je 9 cm. koliko je to kilometara? (Pogledajte PPL Nav-2) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-2.jpg"
+      "image": "Slika-PPL-Nav-2.jpg",
+      "sortNo": 19
     },
     {
       "id": "1767",
       "question": "Na priloženoj karti rastojanje između tačaka A i B je 9 cm. koliko je to Nm? (Pogledajte PPL Nav-2) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-2.jpg"
+      "image": "Slika-PPL-Nav-2.jpg",
+      "sortNo": 9
     },
     {
       "id": "1768",
       "question": "Rastojanje između tačaka ALFA i BRAVO iznosi 107 NM. Vazduhoplovu je za prvih 16 NM bilo potrebno 10 \nminuta. Koliko vremena će trajati ukupan let, ako brzina vazduhoplova ostaje nepromenjena? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 8
     },
     {
       "id": "1769",
       "question": "Koje rastojanje preleti vazduhoplov sa 32 US gal upotrebljivog goriva u rezervoarima, srednja potrošnja 7,1 \nUS gal/h, putna brzina 108 kt, a mora imati na kraju leta rezervu goriva za 1 sat letenja? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 7
     },
     {
       "id": "1770",
       "question": "Koje rastojanje preleti vazduhoplov sa 27 US gal upotrebljivog goriva u rezervoarima, srednja potrošnja 6,8 \nUS gal/h, putna brzina 93 kt, i ako na kraju leta mora imati 6 US gal rezerve goriva \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 6
     },
     {
       "id": "1771",
       "question": "Koliko upotrebljivog goriva mora imati vazduhoplov za let dužine 300 NM sa putnom brzinom 120 kt, sa \nprosečnom potrošnjom od 7,3 US gal/h i rezervom goriva za 1 sat letenja \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 5
     },
     {
       "id": "1772",
       "question": "Dužinu u metrima brzo pretvaramo u dužinu u fitima pomoću formule:: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 4
     },
     {
       "id": "1773",
       "question": "Visina 1.500 metara iznosi približno: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 26
     },
     {
       "id": "1774",
       "question": "Na karti očitamo visinu prepreke od 275 metara. Koja je to najmanja visina u fitima, na kojoj smemo da \nletimo iznad prepreke, a da bi poštovali propis od 1.000 ft nadvišavanja prepreke: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 28
     },
     {
       "id": "1775",
       "question": "Visina 6.000 ft iznosi približno: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 12
     },
     {
       "id": "1776",
       "question": "Pritisku QFE 1.000 hPa na aerodromu sa nadmorskom visinom 200 metara odgovara pritisak QNH? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 34
     },
     {
       "id": "1777",
       "question": "U slučaju kada na visinomeru vazduhoplova na zemlji promenimo postavljeni pritisak sa 996 hPa na 1.033 \nhPa, visina se: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 33
     },
     {
       "id": "1778",
       "question": "Visinomer vazduhoplova postavljen na 1.008 hPa, pokazuje na zemlji 1.600 ft. Koju ce visinu pokazivati ako \npromenimo pritisak na 1.009 hPa? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 32
     },
     {
       "id": "1779",
       "question": "Ako pilot promene visinomer podešavanje iz 1010 hPa za 1000 hPa, koja je približan promena u indikacija? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 31
     },
     {
       "id": "1780",
       "question": "Šta je merna jedinica čvor (kt), koja se upotrebljava u vazduhoplovstvu? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 30
     },
     {
       "id": "1781",
       "question": "Brzina vetra 10 m/sec je približno \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 29
     },
     {
       "id": "1782",
       "question": "Brzina vetra 5 kt je približno \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 1
     },
     {
       "id": "1783",
       "question": "Brzina 120 km/h izražena u čvorovima je: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 27
     },
     {
       "id": "1784",
       "question": "Variometar vazduhoplova pokazuje penjanje 500ft/min, što znaci da se vazduhoplov uzdiže približno sa \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 36
     },
     {
       "id": "1785",
       "question": "Kolika je putna brzina (GS) vazduhoplova, ako isti preleti u vremenu od 40 minuta rastojanje , koje \npredstavlja dužinu 10,8 cm na karti razmere 1:500.000? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 25
     },
     {
       "id": "1786",
       "question": "Vazduhoplov bi u uslovima bez vetra preleteo rastojanje od 120 km za 2 sata i 40 minuta, a stvarno je leteo \n3 sata i 5 minuta. Koliko iznosi uzdužna komponenta vetra na ruti? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 24
     },
     {
       "id": "1493",
@@ -2729,307 +2761,365 @@ const DATA = {
     {
       "id": "1718",
       "question": "Koliko iznosi ugao inklinacije zemljine ose ? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 2
     },
     {
       "id": "1719",
       "question": "Meridijan koji prolazi kroz Grinič je poznat kao? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 54
     },
     {
       "id": "1720",
       "question": "Loksodroma je? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 53
     },
     {
       "id": "1721",
       "question": "Varijacija je ugao između: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 52
     },
     {
       "id": "1722",
       "question": "Izogona je linija koja spaja tačke \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 51
     },
     {
       "id": "1723",
       "question": "Koje tačke na zemaljskoj kugli određuju zemljinu osu: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 50
     },
     {
       "id": "1724",
       "question": "Približno koliko iznosi obim Zemljinog ekvatora: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 49
     },
     {
       "id": "1725",
       "question": "Prečnik Zemljine kugle na ekvatoru, je u odnosu na dužinu Zemljine ose: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 48
     },
     {
       "id": "1726",
       "question": "Koja od sledećih tvrdnji koje se odnose na kruženje Zemlje oko Sunca, je pravilna: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 37
     },
     {
       "id": "1727",
       "question": "Zemljina kugla rotira: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 46
     },
     {
       "id": "1728",
       "question": "Zemljina putanja je: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 55
     },
     {
       "id": "1729",
       "question": "šta je uzrok godišnjih doba? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 44
     },
     {
       "id": "1730",
       "question": "Najkraću razdaljinu između dve tačke na Zemljinoj kugli zovemo: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 43
     },
     {
       "id": "1731",
       "question": "Veliki krug(ovi) na Zemaljskoj kugli je(su): \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 42
     },
     {
       "id": "1732",
       "question": "Ekvator je veliki krug čija ravan: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 41
     },
     {
       "id": "1733",
       "question": "Koliko velikih krugova (ortodroma) je moguće ostvariti na zemljinoj kugli: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 40
     },
     {
       "id": "1734",
       "question": "Veliki krug na Zemljinoj kugli je presek površine Zemlje i ravni, koja prolazi kroz: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 39
     },
     {
       "id": "1735",
       "question": "Koji od navedenih krugova na Zemaljskoj kugli nema središte u središtu Zemlje: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 64
     },
     {
       "id": "1736",
       "question": "U čemu je značaj loksodrome: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 45
     },
     {
       "id": "1737",
       "question": "Koji krugovi iz geografske mreže su istovremeno ortodrome i loksodrome: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 47
     },
     {
       "id": "1738",
-      "question": "Za koliko vremena Sunce prede luk po nebu dužine 5 lučnih stepeni: \n",
-      "topicId": "nav"
+      "question": "Za koliko vremena Sunce pređe luk po nebu dužine 5 lučnih stepeni: \n",
+      "topicId": "nav",
+      "sortNo": 73
     },
     {
       "id": "1739",
       "question": "Za koje vreme će se promeniti ugao Sunca za 27 stepeni: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 72
     },
     {
       "id": "1740",
       "question": "Koordinirano univerzalno vreme - UTC je: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 71
     },
     {
       "id": "1741",
       "question": "13:00 po srednje evropskom letnjem vremenu je \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 70
     },
     {
       "id": "1742",
-      "question": "Vazduhoplov se nalazi nad Beogradom i leti tačno prema jugu. Vreme je 12:00 UTC. Sunce je tada: \n",
-      "topicId": "nav"
+      "question": "Vazduhoplov se nalazi nad Beogradom i leti tađno prema jugu. Vreme je 12:00 UTC. Sunce je tada: \n",
+      "topicId": "nav",
+      "sortNo": 69
     },
     {
       "id": "1743",
       "question": "Geografska širina je rastojanje tačke na Zemaljskoj kugli od: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 68
     },
     {
       "id": "1744",
       "question": "Koliko iznosi geografska širina tačke na ekvatoru? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 67
     },
     {
       "id": "1745",
       "question": "Koliko iznosi uglovna razlika među geografskim dužinama tačke A i B, a kojima su geografske dužine: A:04° \n14\" 18\" E \nB: 02° 30\" 30\" E \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 56
     },
     {
       "id": "1746",
       "question": "Koliko iznosi uglovna razlika među geografskim širinama tačaka A i B, a koje leže na geografskim širinama \nA: 15° 54\" 30\" N \nB: 10° 33\" 30\" S \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 65
     },
     {
       "id": "1747",
       "question": "Koliko iznosi geografska širina tačke B, koja leži 240 NM severno od tačke A čija je geografska širina 62°33\" \n00\" N. \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 74
     },
     {
       "id": "1748",
       "question": "Rastojanje između 10° N. i 11°N. geografske širine, merena na meridijanu je: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 63
     },
     {
       "id": "1749",
       "question": "Geografski koordinate tačke A su (Pogledajte PPL Nav-1) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-1.jpg"
+      "image": "Slika-PPL-Nav-1.jpg",
+      "sortNo": 62
     },
     {
       "id": "1750",
       "question": "Geografski koordinate tačke B su (Pogledajte PPL Nav-1) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-1.jpg"
+      "image": "Slika-PPL-Nav-1.jpg",
+      "sortNo": 61
     },
     {
       "id": "1751",
       "question": "Geografski koordinate tačke C su (Pogledajte PPL Nav-1) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-1.jpg"
+      "image": "Slika-PPL-Nav-1.jpg",
+      "sortNo": 60
     },
     {
       "id": "1752",
-      "question": "Koji tačka imao je geografski koordinate N 44° 33,2\" i E 20° 59,0\"? (Pogledajte PPL Nav-4) \n",
+      "question": "Koja tačka imao je geografski koordinate N 44° 33,2\" i E 20° 59,0\"? (Pogledajte PPL Nav-4) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-4.jpg"
+      "image": "Slika-PPL-Nav-4.jpg",
+      "sortNo": 59
     },
     {
       "id": "1753",
       "question": "Geografske koordinate tačke DUBRA su (Pogledajte PPL Nav-4) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-4.jpg"
+      "image": "Slika-PPL-Nav-4.jpg",
+      "sortNo": 58
     },
     {
       "id": "1787",
       "question": "Dužina rute od tačke X do Y preko kontrolne tačke Z je 84 km. Vazduhoplovu je od tačke X do tačke Z,koja je \nod tačke X udaljena 35 km, trebalo 50 minuta. Koliko vremena ce trajati let od X do Y? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 23
     },
     {
       "id": "1788",
       "question": "Koliko ce vazduhoplov preleteti za 2-1/2 minuta ako mu je brzina u odnosu na zemlju 98 kts? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 22
     },
     {
       "id": "1789",
       "question": "Koliko funti iznosi 100 kilograma? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 21
     },
     {
       "id": "1790",
       "question": "Koliko kilograma iznosi 90 funti? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 20
     },
     {
       "id": "1791",
       "question": "Koliko litara iznosi 25 US galona? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 82
     },
     {
       "id": "1792",
       "question": "Koja oznaka u trouglu vetra na slici označava pravi putni ugao: (Pogledajte PPL Nav-13)? \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-13.jpg"
+      "image": "Slika-PPL-Nav-13.jpg",
+      "sortNo": 10
     },
     {
       "id": "1793",
       "question": "Koja oznaka u trouglu vetra na slici označava pravi kurs: (Pogledajte PPL Nav-13)? \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-13.jpg"
+      "image": "Slika-PPL-Nav-13.jpg",
+      "sortNo": 57
     },
     {
       "id": "1794",
       "question": "Koja oznaka u trouglu vetra na slici označava magnetni kurs: (Pogledajte PPL Nav-13)? \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-13.jpg"
+      "image": "Slika-PPL-Nav-13.jpg",
+      "sortNo": 107
     },
     {
       "id": "1795",
       "question": "Koja oznaka u trouglu vetra na slici označava kompasni kurs: (Pogledajte PPL Nav-13)? \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-13.jpg"
+      "image": "Slika-PPL-Nav-13.jpg",
+      "sortNo": 106
     },
     {
       "id": "1796",
       "question": "Koja oznaka u trouglu vetra na slici označava ugao popravke zbog vetra: (Pogledajte PPL Nav-13)? \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-13.jpg"
+      "image": "Slika-PPL-Nav-13.jpg",
+      "sortNo": 105
     },
     {
       "id": "1797",
       "question": "Koja oznaka u trouglu vetra na slici označava magnetnu deklinaciju: (Pogledajte PPL Nav-13)? \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-13.jpg"
+      "image": "Slika-PPL-Nav-13.jpg",
+      "sortNo": 104
     },
     {
       "id": "1798",
       "question": "Koja oznaka u trouglu vetra na slici označava devijaciju kompasa: (Pogledajte PPL Nav-13)? \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-13.jpg"
+      "image": "Slika-PPL-Nav-13.jpg",
+      "sortNo": 103
     },
     {
       "id": "1799",
       "question": "Koja oznaka u trouglu vetra na slici označava stvarnu vazdušnu brzinu (TAS) vazduhoplova: (Pogledajte PPL \nNav-13)? \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-13.jpg"
+      "image": "Slika-PPL-Nav-13.jpg",
+      "sortNo": 102
     },
     {
       "id": "1800",
       "question": "Koja oznaka u trouglu vetra na slici označava putnu brzinu (GS) vazduhoplova: (Pogledajte PPL Nav-13)? \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-13.jpg"
+      "image": "Slika-PPL-Nav-13.jpg",
+      "sortNo": 101
     },
     {
       "id": "1801",
       "question": "Koja oznaka na slici trougla vetra označava vektor vetra: (Pogledajte PPL Nav-13)? \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-13.jpg"
+      "image": "Slika-PPL-Nav-13.jpg",
+      "sortNo": 91
     },
     {
       "id": "1802",
       "question": "U navigaciji \"ugao zanosa\" označava? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 99
     },
     {
       "id": "1803",
       "question": "Ugao popravke vetra je ugao razlike između \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 108
     },
     {
       "id": "1804",
       "question": "Koji azimut označava stranu WNW? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 97
     },
     {
       "id": "1805",
       "question": "Koja vrednost je uračunata u magneti putni ugao? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 96
     },
     {
       "id": "1806",
       "question": "Ugao između smera geografskog severa i smera magnetnog severa zovemo \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 95
     },
     {
       "id": "1807",
       "question": "Gde odnosno kako dobijamo podatke o magnetnoj deklinaciji date tačke na površini Zemlje \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 94
     },
     {
       "id": "1808",
       "question": "Kako zovemo linije na geografskoj karti, koje povezuju tačke sa jednakom magnetnom deklinacijom pozvan \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 93
     },
     {
       "id": "1809",
@@ -3040,76 +3130,89 @@ const DATA = {
       "id": "1810",
       "question": "Koliko iznosi magnetna deklinacija područja , koje je prikazano na karti: (Pogledajte PPL Nav-3) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-3.jpg"
+      "image": "Slika-PPL-Nav-3.jpg",
+      "sortNo": 115
     },
     {
       "id": "1811",
       "question": "U formuli za preračunavanje magnetnog pravca iz datog pravog pravca, zapadna deklinacija se \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 98
     },
     {
       "id": "1812",
       "question": "Formula za izračunavanje magnetnog putnog ugla je: \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 100
     },
     {
       "id": "1813",
       "question": "Kako se izračunava magnetni kurs (MK): \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 138
     },
     {
       "id": "1814",
       "question": "Da li može doći do slučaja kada, ZPPU (zadani pravi putni ugao), PK i stvarni PPU, imaju istu vrednost? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 137
     },
     {
       "id": "1815",
       "question": "Koji elemenat u trouglu vetra ima nultu vrednost, ako je magnetni kurs (MK) jednak kompasnom kursu \n(KK)? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 136
     },
     {
       "id": "1816",
       "question": "PK (pravi kurs) za let između dve tačke na ruti je 270°, popravka za ugao zanosa iznosi - 10°. Koji ce biti \npravi kurs za povratni let po istoj ruti? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 135
     },
     {
       "id": "1817",
       "question": "Koja od navedenih tvrdnji, a koja se odnosi na pasivni let na NDB, je pravilna. Metoda pasivnog leta na \nNDB? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 134
     },
     {
       "id": "1818",
       "question": "Da bi mogli kao pomoćno sredstvo za određivanje pozicije upotrebiti VHF/DF, vazduhoplov mora biti \nopremljen sa ispravnim \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 133
     },
     {
       "id": "1819",
       "question": "NDB normalno radi na frekvenciji? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 132
     },
     {
       "id": "1820",
       "question": "Na ADF-u A ,relativni pravac KA stanici je ? (Pogledajte PPL Nav-10) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-10.jpg"
+      "image": "Slika-PPL-Nav-10.jpg",
+      "sortNo": 109
     },
     {
       "id": "1821",
       "question": "Na ADF-u B ,relativni pravac KA stanici je ? (Pogledajte PPL Nav-10) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-10.jpg"
+      "image": "Slika-PPL-Nav-10.jpg",
+      "sortNo": 130
     },
     {
       "id": "1822",
-      "question": "Na ADF-u D ,relativni pravac KA stanici je ? (Pogledajte PPL Nav-11) \n",
+      "question": "Na ADF-u D ,relativni pravac KA stanici je ? (Pogledajte PPL Nav-10) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-11.jpg"
+      "image": "Slika-PPL-Nav-10.jpg"
     },
     {
       "id": "1823",
       "question": "Na ADF-u E ,relativni pravac KA stanici je ? (Pogledajte PPL Nav-11) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-11.jpg"
+      "image": "Slika-PPL-Nav-11.jpg",
+      "sortNo": 114
     },
     {
       "id": "1824",
@@ -3127,184 +3230,217 @@ const DATA = {
       "id": "1826",
       "question": "Na ADF-u A ,magnetni kurs KA stanici je? (Pogledajte PPL Nav-10) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-10.jpg"
+      "image": "Slika-PPL-Nav-10.jpg",
+      "sortNo": 113
     },
     {
       "id": "1827",
       "question": "Na ADF-u B , u koji magnetni kurs je potrebno okrenuti da bi leteli KA stanici ? (Pogledajte PPL Nav-10) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-10.jpg"
+      "image": "Slika-PPL-Nav-10.jpg",
+      "sortNo": 112
     },
     {
       "id": "1828",
       "question": "Na ADF-u B , u koji magnetni kurs je potrebno okrenuti da bi presekli pravac 180° KA stanici? \n(Pogledajte PPL Nav-10) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-10.jpg"
+      "image": "Slika-PPL-Nav-10.jpg",
+      "sortNo": 111
     },
     {
       "id": "1829",
       "question": "Na ADF-u C ,magnetni kurs OD stanice je? (Pogledajte PPL Nav-10) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-10.jpg"
+      "image": "Slika-PPL-Nav-10.jpg",
+      "sortNo": 89
     },
     {
       "id": "1830",
       "question": "Koja od slika ADF prikazuje let KA stanici sa desnim bočnim vetrom? (Pogledajte PPL Nav-10) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-10.jpg"
+      "image": "Slika-PPL-Nav-10.jpg",
+      "sortNo": 131
     },
     {
       "id": "1831",
       "question": "Na ADF-u A ,magnetni kurs OD stanice je? (Pogledajte PPL Nav-10) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-10.jpg"
+      "image": "Slika-PPL-Nav-10.jpg",
+      "sortNo": 92
     },
     {
       "id": "1832",
       "question": "Sa magnetnim kursom od 320° i sa situacijom prikazanoj na ADF H, magnetni pravac KA stanici je ? \n(Pogledajte PPL Nav-11) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-11.jpg"
+      "image": "Slika-PPL-Nav-11.jpg",
+      "sortNo": 123
     },
     {
       "id": "1833",
       "question": "Sa magnetnim kursom od 035° i sa situacijom prikazanoj na ADF I, magnetni pravac KA stanici je ? \n(Pogledajte PPL Nav-11) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-11.jpg"
+      "image": "Slika-PPL-Nav-11.jpg",
+      "sortNo": 122
     },
     {
       "id": "1834",
       "question": "Sa magnetnim kursom od 120° i sa situacijom prikazanoj na ADF J, magnetni pravac KA stanici je ? \n(Pogledajte PPL Nav-11) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-11.jpg"
+      "image": "Slika-PPL-Nav-11.jpg",
+      "sortNo": 121
     },
     {
       "id": "1835",
       "question": "Ako je magnetni pravac od aviona KA stanici 240°, kom magnetnom kursu odgovara situacija na ADF \nJ? (Pogledajte PPL Nav-11) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-11.jpg"
+      "image": "Slika-PPL-Nav-11.jpg",
+      "sortNo": 120
     },
     {
       "id": "1836",
       "question": "Ako je magnetni pravac od aviona KA stanici 030°, kom magnetnom kursu odgovara situacija na ADF \nK? (Pogledajte PPL Nav-11) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-11.jpg"
+      "image": "Slika-PPL-Nav-11.jpg",
+      "sortNo": 119
     },
     {
       "id": "1837",
       "question": "Ako je magnetni pravac od aviona KA stanici 135°, kom magnetnom kursu odgovara situacija na ADF \nL? (Pogledajte PPL Nav-11) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-11.jpg"
+      "image": "Slika-PPL-Nav-11.jpg",
+      "sortNo": 118
     },
     {
       "id": "1838",
       "question": "Izaberite tačan redosled u proceduri za let KA VOR stanici. \na) Okrenuti OBS birač kanala dok se igla ne postavi u centar CDI.\nb) Proveriti identifikaciju signal.\nc) Proveriti koja je frekvenca izabrana\nd) Okrenuti avion u kurs, jednak radijalu izabranom na OBS",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 117
     },
     {
       "id": "1839",
       "question": "Radijali VOR-a su \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 75
     },
     {
       "id": "1840",
       "question": "Približno koliko iznosi bočno odstupanje od pravca vazdušnog puta, ako pilot očita na DME udaljenost \n120NM, a kazaljka indikatora VOR-a je otklonjena za 1/5 celog otklona u jednu stranu? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 83
     },
     {
       "id": "1841",
       "question": "Kada upotrebe VOR za navigaciju, prolaz stanice je nagovešten \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 124
     },
     {
       "id": "1842",
       "question": "U kojoj situaciji je suprotno čitanje stanja od VOR-a? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 81
     },
     {
       "id": "1843",
       "question": "Za održavanje R180 u odletu od stanice VOR-a moramo postaviti radijal \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 80
     },
     {
       "id": "1844",
       "question": "Ako želimo leteti prema stanici VOR-a po radijalu 215°, moramo na indikatoru VOR-a u kabini \nvazduhoplova postaviti OBS na \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 79
     },
     {
       "id": "1845",
       "question": "Kada je VOR/ILS prijemnik podešen na VOR učestalost, koliko stepen je puno skretanje CDI? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 78
     },
     {
       "id": "1846",
       "question": "Koliko milja bočno se nalazi vazduhoplov, koji je 60 Nm ispred stanice VOR-a, ako je indikator CDI \notklonjen za jednu petinu punog otklona u jednu stranu \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 77
     },
     {
       "id": "1847",
       "question": "Koji avion(i) odgovara(ju) VOR indikatoru V? (Pogledajte PPL Nav-12) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-12.jpg"
+      "image": "Slika-PPL-Nav-12.jpg",
+      "sortNo": 76
     },
     {
       "id": "1848",
       "question": "Koji avion(i) odgovara(ju) VOR indikatoru X? (Pogledajte PPL Nav-12) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-12.jpg"
+      "image": "Slika-PPL-Nav-12.jpg",
+      "sortNo": 141
     },
     {
       "id": "1849",
       "question": "Koji avion(i) ce odgovara(ju) VOR indikatoru U? (Pogledajte PPL Nav-12) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-12.jpg"
+      "image": "Slika-PPL-Nav-12.jpg",
+      "sortNo": 144
     },
     {
       "id": "1850",
       "question": "Koji prikaz VOR indikatora odgovara poziciji aviona 8? (Pogledajte PPL Nav-12) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-12.jpg"
+      "image": "Slika-PPL-Nav-12.jpg",
+      "sortNo": 116
     },
     {
       "id": "1851",
       "question": "Koji prikaz VOR indikatora odgovara poziciji aviona 5 i 7? (Pogledajte PPL Nav-12) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-12.jpg"
+      "image": "Slika-PPL-Nav-12.jpg",
+      "sortNo": 88
     },
     {
       "id": "1852",
       "question": "Koja od sledećih izjava, obzirom na DME operacija, je tacna? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 87
     },
     {
       "id": "1853",
       "question": "Koju daljinu pokazuje DME indikator? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 86
     },
     {
       "id": "1854",
       "question": "Ako je vazduhoplov direktno iznad VOR/DME stanice na visini od 6,000 ft AGL, DME ce očitati? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 85
     },
     {
       "id": "1855",
       "question": "Greška kose daljine od DME je maksimalna na \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 84
     },
     {
       "id": "1856",
       "question": "Kurs za vazdušne puteve i na Jeppesen radionavigacionoj karti je u: (Pogledajte PPL Nav-3) \n",
       "topicId": "nav",
-      "image": "Slika-PPL-Nav-3.jpg"
+      "image": "Slika-PPL-Nav-3.jpg",
+      "sortNo": 145
     },
     {
       "id": "1857",
       "question": "Waypoints podatak u GPS bazi podataka (sa izuzetkom korisničkih waypoints) mogu biti ažurirani od \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 125
     },
     {
       "id": "1858",
       "question": "Kazaljka odnosno igla CDI na elektronskom ekranu GPS-a pokazuje odstupanje od ose zadane linije puta \nu \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 143
     },
     {
       "id": "1888",
@@ -3729,47 +3865,56 @@ const DATA = {
     {
       "id": "1859",
       "question": "Tačnost GPS-a je, isto kao što to važi i za VOR, u velikoj meri zavisi od udaljenosti izabrane tačke. \nTvrdnja je. \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 90
     },
     {
       "id": "1860",
       "question": "GPS navodi vazduhoplov na ruti po \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 142
     },
     {
       "id": "1861",
       "question": "Koji pravac je normalno selektovan kada se podešava GPS? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 140
     },
     {
       "id": "1862",
       "question": "Prijem GPS signala u veliko zavisi od visine na kojoj leti avion. Ovaj iskaz je \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 139
     },
     {
       "id": "1863",
       "question": "Kada se radi sa GPS-om mora se znati da \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 129
     },
     {
       "id": "1864",
       "question": "Koji mapa podatak treba da bude selektovan na iniciranje GPS-a? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 128
     },
     {
       "id": "1865",
       "question": "Koja brzina je izmerena u načelu kod svakog GPS instrumenta? \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 127
     },
     {
       "id": "1866",
       "question": "GPS signal može biti prekidan kod emitovanja na VHF frekvenciji \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 126
     },
     {
       "id": "1867",
       "question": "U RNAV modu, bočno skretanje od CDI prikazaće \n",
-      "topicId": "nav"
+      "topicId": "nav",
+      "sortNo": 110
     },
     {
       "id": "1868",
