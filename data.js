@@ -3445,197 +3445,236 @@ const DATA = {
     {
       "id": "1888",
       "question": "Tokom vezivanja vazduhoplova, morate ostaviti konopac malo olabavljen? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 70
     },
     {
       "id": "1889",
       "question": "Šta treba uraditi ako vam se motor vazduhoplova pregreje tokom taksiranja? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 69
     },
     {
       "id": "1890",
       "question": "Koja je ispravna pilotska procedura u slučaju iskakanja osigurača? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 68
     },
     {
       "id": "1891",
       "question": "Ukoliko je otkaz motora praćen mehaničkom bukom i elisa prestane da se okreće, verovatan uzrok \notkaza motora je: \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 67
     },
     {
       "id": "1892",
       "question": "Posle iznenadnog totalnog gubitka snage motora, kad nema mehaničke buke, i elisa nastavi da se \nokreće. Najverovatniji uzrok gubitka snage motora je: \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 66
     },
     {
       "id": "1893",
       "question": "Šta će te da uradite ako temperatura glave cilindara opadne previše tokom prilaza za sletanje ili tokom \nplaniranja bez motora: \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 65
     },
     {
       "id": "1894",
       "question": "Koji je razlog da gasimo motor sa unutrašnjim sagorevanjem tako što koristimo ručicu smeše a ne \nprekidač startera: \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 64
     },
     {
       "id": "1895",
       "question": "Koje početne mere predostrožnosti pilot mora da preduzme kada parkira vazduhoplov sa magnetima \nkoji nemaju uzemljenje zbog oštećenja priključaka u samom prekidaču startera: \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 53
     },
     {
       "id": "1896",
       "question": "Koji je najpouzdaniji praktičan metod provere nivoa goriva u rezervoarima vazduhoplova dok je on na \nzemlji: \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 62
     },
     {
       "id": "1897",
       "question": "Zašto morate proveriti uzorak goriva iz drenaža pre svakog leta? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 71
     },
     {
       "id": "1898",
       "question": "Koju vrstu zaprljanosti goriva je najteže izolovati kod filter sistema za uzimanje uzoraka? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 60
     },
     {
       "id": "1899",
       "question": "Za pravilno odstranjivanje vode iz gorivnog sistema vazduhoplova opremljenog sa drenažom u filteru \ngoriva i drenažama za brzo dreniranje, neophodno je drenirati gorivo iz: \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 59
     },
     {
       "id": "1900",
       "question": "Koji je najbolji način da se smanji mogućnost kontaminacije goriva sa vodom? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 58
     },
     {
       "id": "1901",
       "question": "Punjenje rezervoara goriva posle poslednjeg leta u danu se smatra dobrom praksom zato što će to \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 57
     },
     {
       "id": "1902",
       "question": "Šta se događa kada se olabavi poklopac krilnog rezervoara goriva? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 56
     },
     {
       "id": "1903",
       "question": "Šta će se dogoditi ako pumpa za ubrizgavanje goriva nije potpuno zabravljena posle upotrebe? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 55
     },
     {
       "id": "1904",
-      "question": "Koji je najčešću uzrok izbijanja požara prilikom dosipanja goriva uzrokovanog varnicom statičkog \nelektriciteta? \n",
-      "topicId": "operproc"
+      "question": "Koji je najčešći uzrok izbijanja požara prilikom dosipanja goriva uzrokovanog varnicom statičkog \nelektriciteta? \n",
+      "topicId": "operproc",
+      "sortNo": 35
     },
     {
       "id": "1905",
       "question": "Koja je specifična masa benzina za klipne motore na vazduhoplovima? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 63
     },
     {
       "id": "1906",
       "question": "Težina 1 USA galon AVGAS 100 LL iznosi \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 39
     },
     {
       "id": "1907",
       "question": "Težina 53 litara AVGAS 100 LL iznosi \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 17
     },
     {
       "id": "1908",
       "question": "Koje je boje gorivo za vazduhoplove gradacije 80/87? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 16
     },
     {
       "id": "1909",
       "question": "Koje je boje gorivo za vazduhoplove gradacije 100/130? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 15
     },
     {
       "id": "1910",
       "question": "Koje je boje gorivo za vazduhoplove 100LL ? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 14
     },
     {
       "id": "1911",
       "question": "Koju gradaciju goriva bi trebali da koristite za vaš vazduhoplov u slučaju da gorivo gradacije koja je \npropisana nije dostupna? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 13
     },
     {
       "id": "1912",
       "question": "Ako je gradacija goriva koje se koristi za vazduhoplove niža od specificirane za dati motor, to će \nnajverovatnije uzrokovati \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 12
     },
     {
       "id": "1913",
       "question": "Šta je moguće da bude najčešći uzrok prekoračenja opsega operativnih pokazivanja temperature glave \ncilindara i temperature ulja u motoru? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 11
     },
     {
       "id": "1914",
       "question": "Detonacije mogu nastupiti pri postavljanju režima maksimalne snage kada \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 1
     },
     {
       "id": "1915",
       "question": "Ako je gradacija goriva korišćenog u vazduhoplovu niža od specificirane za taj motor, to će \nnajverovatnije izazvati da \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 9
     },
     {
       "id": "1916",
       "question": "Kada se na vazduhoplovom opremljenim gorivnim pumpama, koristi pomoćna električna pumpa? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 18
     },
     {
       "id": "1917",
       "question": "Šta bi trebalo da bude prva radnja posle startovanja motora na vazduhoplovu? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 7
     },
     {
       "id": "1918",
       "question": "Pošto je pokrenut motor, pilot mora da proveri pritisak ulja u motoru. Ako je motor hladan pre \nstartovanja, onda moramo \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 6
     },
     {
       "id": "1919",
       "question": "Šta bi normalno trebalo učiniti ako posle startovanja vrućeg četvorotaktnog motora vazduhoplova, \npritisak motorskog ulja ne dostigne propisani nivo? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 5
     },
     {
       "id": "1920",
       "question": "Najverovatniji mogući razlog da se propeler zaokrene na suprotnu stranu prilikom startovanja motora \nsa unutrašnjim sagorevanjem je \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 4
     },
     {
       "id": "1921",
       "question": "Najverovatniji mogući razlog da motor nastavi sa radom i posle isključivanja prekidačem startera je : \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 3
     },
     {
       "id": "1922",
       "question": "Na kom mestu i kada pilot treba da proveri kočnice na točkovima? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 2
     },
     {
       "id": "1923",
       "question": "Očitavanje 5 inhg na meraču vakuma u vazduhoplovu je pokazatelj \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 27
     },
     {
       "id": "1924",
       "question": "Očitavanje 2 inhg na meraču vakuma u vazduhoplovu je pokazatelj \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 29
     },
     {
       "id": "1925",
       "question": "Kada je potrebno podesiti barometarski pritisak na visinomeru u vazduhoplovu? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 10
     },
     {
       "id": "1926",
       "question": "Preciznost visinomera se proverava pomoću \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 34
     },
     {
       "id": "1927",
@@ -3645,32 +3684,38 @@ const DATA = {
     {
       "id": "1928",
       "question": "Pilot može obično da pregleda stanje napunjenosti uljno-pneumatskih amortizera tokom pretpoletnog \npregleda pomoću \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 33
     },
     {
       "id": "1929",
       "question": "Crvena oznaka proklizavanja na glavnom točku vazduhoplova služi da \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 32
     },
     {
       "id": "1930",
       "question": "Ako guma proklizne tako da oznaka proklizavanja nije poravnata, to označava da \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 31
     },
     {
       "id": "1931",
       "question": "Kočenje samo jednim od glavnih točkova poznato je kao \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 30
     },
     {
       "id": "1932",
       "question": "Koji uslovi duvanja vetra su najkritičniji kada taksiramo vazduhoplov visokokrilac sa nosnim točkom? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 19
     },
     {
       "id": "1933",
       "question": "Kako treba otkloniti kormilo dubine dok taksiramo vazduhoplov sa repnim točkom u slučaju jakog \nleđnog vetra? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 28
     },
     {
       "id": "1934",
@@ -3680,187 +3725,224 @@ const DATA = {
     {
       "id": "1935",
       "question": "U kom položaju bi trebalo da držimo komande dok taksiramo vazduhoplov sa tricikl stajnim trapom u \nuslovima vetra iz levog leđnog kvadranta? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 26
     },
     {
       "id": "1936",
       "question": "Kako moramo držati komande dok taksiramo vazduhoplov sa repnim točkom kod repnog vetra iz levog \nkvadranta? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 25
     },
     {
       "id": "1937",
       "question": "Koji položaj krilaca pilot obično mora da koristi kada taksira u jakom vetru iz čeonih kvadranata? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 24
     },
     {
       "id": "1938",
       "question": "Kako moramo držati komande dok taksiramo vazduhoplov sa triciklom kod čeonog vetra iz levog \nkvadranta? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 23
     },
     {
       "id": "1939",
       "question": "Kako moramo držati komande dok taksiramo vazduhoplov sa repnim točkom kod čeonog vetra iz \ndesnog kvadranta? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 22
     },
     {
       "id": "1940",
       "question": "Ako situacija sletanja u nuždi zahteva sletanje niz vetar, pilot treba da očekuje veću \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 21
     },
     {
       "id": "1941",
       "question": "Da bi ublažio bočno opterećenje na stajni trap tokom sletanja, pilot mora da održava \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 83
     },
     {
       "id": "1942",
       "question": "Kako vazduhoplov penje na veće visine sa ručicom u položaju za bogatu smešu, gorivo/vazduh smeša \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 8
     },
     {
       "id": "1943",
       "question": "Dok krstarite na 9500 fita MSL, smeša gorivo/vazduh je dobro podešena. Šta će se desiti ako se spustite \nna 4500 fita MSL, bez pravilno prepodešene smeše? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 54
     },
     {
       "id": "1944",
       "question": "Pravilno pariranje vetra u pravolinijskom horizontalnom krstarenju, pilot sprovodi tako što \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 103
     },
     {
       "id": "1945",
       "question": "Tokom probe motora na aerodromu velike nadmorske visine, pilot ustanovljava neznatnu grubost u radu koja se ne menja prilikom provere magneta ali se značajno pogoršava tokom provere grejača karburatora. Pod navedenim uslovima, šta bi logično predstavljalo prvi naredni postupak?",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 104
     },
     {
       "id": "1946",
       "question": "Ispravna procedura osiromašivanja smeše tokom krstarenja je povlačenje poluge smeše unazad tj. \nPrema LEAN- siromašno kada će obrtaji motora RPM \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 105
     },
     {
       "id": "1947",
       "question": "Ako, tokom startovanja požar izbije u usisniku vazduha motora, uobičajena procedura je da: \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 106
     },
     {
       "id": "1948",
       "question": "Šta predstavlja pojava crnog dima iz izduvnih cevi motora tokom startovanja? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 107
     },
     {
       "id": "1949",
       "question": "Šta predstavlja pojava plavog dima koji izlazi iz izduvnih cevi motora prilikom startovanja? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 108
     },
     {
       "id": "1950",
       "question": "U kom položaju treba da se nalazi poluga smeše za poletanje na nivou mora? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 109
     },
     {
       "id": "1951",
       "question": "Prisustvo leda u karburatoru u vazduhoplovu opremljenim sa elisom fiksnog koraka može biti \nustanovljen uključivanjem grejanja karburatora i praćenjem \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 110
     },
     {
       "id": "1952",
       "question": "Tokom krstarećeg leta koristite u potpunosti grejanje karburatora na vašem vazduhoplovu sa elisom \nfiksnog koraka. Koje efekte očekujete po pitanju obrtaja motora RPM u normalnim uslovima? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 111
     },
     {
       "id": "1953",
       "question": "Tokom provere motora posle zapuštanja na zemlji, pilot može proveriti ispravnost rada grejača \nkarburatora tako što će pomerati polugu grejača karburatora na HOT-toplo i primetiti \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 113
     },
     {
       "id": "1954",
       "question": "Grejanje karburatora tokom taksiranja mora biti pažljivo korišćeno zbog \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 102
     },
     {
       "id": "1955",
       "question": "Kako morate postaviti korak elise za poletanje kod vašeg vazduhoplova sa elisom automatski \npromenljivog koraka? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 115
     },
     {
       "id": "1956",
       "question": "U vazduhoplovu opremljenim sa promenljivim korakom elise, smanjenje snage tako što će se prvo \nsmanjiti \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 116
     },
     {
       "id": "1957",
       "question": "Prilikom prevođenja vazduhoplova opremljenim sa promenljivim korakom elise iz režima krstarenja u \npenjanje, pilot mora \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 128
     },
     {
       "id": "1958",
       "question": "Neposredno posle startovanja motora vazduhoplova uočili ste očitavanje levo - nula na ampermetru tj, \nprotok jake struje iako su svi elektro potrošači isključeni? Tada normalno morate da: \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 127
     },
     {
       "id": "1959",
       "question": "Šta znači očitavanje nule na ampermetru sa skalom levo - nula ? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 125
     },
     {
       "id": "1960",
       "question": "Kako možete prepoznati pomoću pokazivanja na ampermetru sa skalom levo - nula, da alternator na \nvazduhoplovu nije ispravan. Tada očitavanje skale treba da pokazuje \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 129
     },
     {
       "id": "1961",
       "question": "Neposredno pošto smo startovali motor primetili ste da se igla pokazivača na ampermetru sa skalom \ncentar-nula, otklonila desno ,dok su električni potrošači bili isključeni. Ova indikacija znači \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 124
     },
     {
       "id": "1962",
       "question": "Šta može, očitavanje nule na ampermetru sa skalom centar-nula, tokom leta da znači? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 123
     },
     {
       "id": "1963",
       "question": "Tokom leta primetili ste da se ,igla ampermetara sa skalom centar-nula, otklonila na levo. Šta ovo \npokazivanje znači i šta vi kao pilot aviona treba obično tada uradite? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 122
     },
     {
       "id": "1964",
       "question": "Tokom leta primetite da zasija narandžasto svetlo na panelu sa instrumentima. Šta to znači? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 121
     },
     {
       "id": "1965",
       "question": "Desi se otkaz električnog sistema (akumulatora i alternatora) u toku leta. U toj situaciji vi će te \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 120
     },
     {
       "id": "1966",
       "question": "Vrtloženje na krajevima krila se javlja u trenutku kada vazduhoplov \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 117
     },
     {
       "id": "1967",
       "question": "Može li nastati takvo nispono vazdušno strujanje kao rezultat vrtloga sa krajeva krila težeg \nvazduhoplova, da ono prevazilazi mogućnosti penjanja lakog vazduhoplova? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 119
     },
     {
       "id": "1968",
       "question": "Šta je najverovatniji uzrok nastajanja opasne turbulencije iza teškog vazduhoplova? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 126
     },
     {
       "id": "1969",
       "question": "Koje aktivnosti predostrožnosti treba preduzeti kada zaustavite mali vazduhoplov iza velikog koji se \nzaustavio na manevarskim površinama? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 118
     },
     {
       "id": "1970",
       "question": "Prilikom izvršenog poletanja iza odlazećeg velikog vazduhoplova, pilot može da smanji rizik od \nvrtloga nastalih sa krajeva krila tako što će \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 114
     },
     {
       "id": "1971",
       "question": "Kada sleće iza velikog vazduhoplova, pilot mora da izbegava vrtložnu turbulenciju tako što će ostati \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 86
     },
     {
       "id": "1859",
@@ -3919,42 +4001,50 @@ const DATA = {
     {
       "id": "1868",
       "question": "Neposredno posle vazduhoplovne nesreće u Republici Srbiji, kome od navedenih mora, što je pre \nmoguće, da se javi za nesreću: \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 20
     },
     {
       "id": "1869",
       "question": "Ako pilot oceni da je njegov vazduhoplov u ozbiljnoj i neposrednoj opasnosti ,njegova poruka treba da \nzapočne sa: \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 51
     },
     {
       "id": "1870",
       "question": "Koja od sledećih iskaza nije tačan? \nNesreća mora biti prijavljena ako, u međuvremenu od kad se bilo ko ukrca na vazduhoplov i sve dok ga \nsvi ne napuste: \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 50
     },
     {
       "id": "1871",
       "question": "Koje od navedenih iskaza definiše vazduhoplovnu nesreću. \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 49
     },
     {
       "id": "1872",
       "question": "Ako pilot odluči da objavi „distress“ ili poruku hitnosti, na kojoj frekvenciji treba emitovati objavu, kao \nalternativu umesto na 121.5 MHz? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 48
     },
     {
       "id": "1873",
       "question": "Pri odabiru poželjnih ruta zbog buke, zaokreti tokom poletanja i penjanja ne sme biti predviđen dok \nvazduhoplov ne dostigne: \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 47
     },
     {
       "id": "1874",
       "question": "Koje od navedenog nije deo faze uzbunjivanja Službe Traganja i Spasavanja? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 46
     },
     {
       "id": "1875",
       "question": "Pilot je dužan da se uveri da je vazduhoplov propisano opremljen za planirani let. Ukoliko postoji bulo \nkakva sumnja pilot mora to da proveri u: \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 45
     },
     {
       "id": "1876",
@@ -3964,37 +4054,44 @@ const DATA = {
     {
       "id": "1877",
       "question": "Svi vazduhoplovi na manevarskim površinama aerodroma sa pokrenutim motorima uključuju svoja \nsvetla da bi to označili. Koje od navedenih se koristi u tu svrhu? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 43
     },
     {
       "id": "1878",
       "question": "Za noćno letenje vazduhoplov mora biti opremljen sledećim svetlima : \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 52
     },
     {
       "id": "1879",
       "question": "U uslovima letenja tokom trajanja dnevne svetlosti, pilot utvrdi da svetla protiv sudara na \nvazduhoplovu nisu ispravna. Koje su neophodne radnje koje pilot mora da sprovede? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 41
     },
     {
       "id": "1880",
       "question": "Kada se svetlo protiv sudara koristi (ako je instalirano)? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 40
     },
     {
       "id": "1881",
       "question": "Na mestu vazduhoplovnog udesa, preživeli je napravio signal na zemlji koji prikazuje veliki krst sa uglom \nod 90 stepeni između kraka krsta. Šta to označava? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 38
     },
     {
       "id": "1882",
       "question": "Zvanični podaci graničnih operativnih limita i dozvoljenih masa vašeg vazduhoplova mogu se naći u: \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 37
     },
     {
       "id": "1883",
-      "question": "Koju bi frekvenciju trebalo koristiti u vazduhoplov kada poleće sa aerodrome na teritoriji Republike \nSrbije, koji nema objavljenu svoju frekvencu.? \n",
-      "topicId": "operproc"
+      "question": "Koju bi frekvenciju trebalo koristiti u vazduhoplov kada poleće sa aerodroma na teritoriji Republike \nSrbije, koji nema objavljenu svoju frekvencu.? \n",
+      "topicId": "operproc",
+      "sortNo": 36
     },
     {
       "id": "1884",
@@ -4004,265 +4101,314 @@ const DATA = {
     {
       "id": "1885",
       "question": "Koje jedinice mere se koriste u vazduhoplovstvu kada se saopštavaju podaci za vertikalnu brzinu? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 61
     },
     {
       "id": "1886",
       "question": "Koje jedinice mere se koriste u vazduhoplovstvu kada se saopštavaju podaci o vetru (sa izuzetkom \npoletanja i sletanja)? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 42
     },
     {
       "id": "1887",
       "question": "Prilikom pretpoletnog pregleda pomerite upravljački volan vazduhoplova u jednu stranu i ustanovite da \nse krilce naviše otklonilo više od krilca nadole. Šta bi ste uradili? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 44
     },
     {
       "id": "1972",
       "question": "Koje procedure morate da se pridržavate da bi izbegli vrtložnu turbulenciju velikog mlaznjaka ako \npreseca vaš kurs sa leva na desno približno 1 milju ispred i to na vašoj visini? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 73
     },
     {
       "id": "1973",
       "question": "Koliko dugo će se vrtložna turbulencija zadržati posle prolaska velikog vazduhoplova? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 74
     },
     {
       "id": "1974",
       "question": "Kada letimo vazduhoplovom sa kabinskim pritiskom visine preko 10,000 fita sve do i uključujući \n13,000 fita MSL, dodatni kiseonik mora da bude korišćen od strane posade \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 75
     },
     {
       "id": "1975",
       "question": "Ako koristimo vazduhoplov sa kabinskim pritiskom visine iznad 13,000 fita MSL, dovoljna količina \nkiseonika mora biti nošena za snabdevanje \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 76
     },
     {
       "id": "1976",
       "question": "Nakon odvajanja vazdušne struje sa jednog krila i zaokretanjem i klizanjem na jednu stranu, pilot će \nsprečiti da vazduhoplov razvije puni kovit tako što će \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 77
     },
     {
       "id": "1977",
       "question": "Odaberi ispravnu proceduru za vađenje iz kovita za avione? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 78
     },
     {
       "id": "1978",
       "question": "Odaberi ispravnu radnju za vađenje iz spiralnog zaokreta?. \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 79
     },
     {
       "id": "1979",
       "question": "Jedna od glavnih uloga flapsa, zakrilca, tokom prilaza i sletanja je da \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 88
     },
     {
       "id": "1980",
       "question": "Glavni prednost upotrebe zakrilaca u prilazu i sletanju je to što \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 80
     },
     {
       "id": "1981",
       "question": "Zakrilca na krilima postavljena na poletanje: \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 112
     },
     {
       "id": "1982",
       "question": "Zakrilca na krila postavljena na sletanje: \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 84
     },
     {
       "id": "1983",
       "question": "Koji efekat ima izvučeno zakrilce na brzinu prevlačenja? Brzina prevlačenja će: \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 85
     },
     {
       "id": "1984",
       "question": "Tokom sletanja kada je zemlja blizu i pri malim brzinama kroz vazduh, može biti opasno da se uvuče \nflaps, zakrilce krila, zato što : \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 101
     },
     {
       "id": "1985",
       "question": "Zakrilce krila se ne izvlači do kraja na poletanju da bi izbegli \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 87
     },
     {
       "id": "1986",
       "question": "Deo piste označen slovom A može da se koristi za (Pogledajte Sliku PPL OP-1) \n",
       "topicId": "operproc",
-      "image": "Slika-PPL-OP-1.jpg"
+      "image": "Slika-PPL-OP-1.jpg",
+      "sortNo": 133
     },
     {
       "id": "1987",
       "question": "Prema crtežu aerodroma, koji od iskaza je ispravan? (Pogledajte Sliku PPL OP-1) \n",
       "topicId": "operproc",
-      "image": "Slika-PPL-OP-1.jpg"
+      "image": "Slika-PPL-OP-1.jpg",
+      "sortNo": 135
     },
     {
       "id": "1988",
       "question": "Kada prilazite rulnoj stazi do linije čekanja od strane obeležene punim linijama, pilot \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 72
     },
     {
       "id": "1989",
       "question": "Koja je svrha znaka zaustavljanja na ukrštanju dve piste? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 89
     },
     {
       "id": "1990",
-      "question": "Koja je razlika između dela A i dela B na prikazanom aerodromu? (Pogledajte Sliku PPL OP-1) \n",
+      "question": "Koja je razlika između dela A i dela E na prikazanom aerodromu? (Pogledajte Sliku PPL OP-1) \n",
       "topicId": "operproc",
-      "image": "Slika-PPL-OP-1.jpg"
+      "image": "Slika-PPL-OP-1.jpg",
+      "sortNo": 132
     },
     {
       "id": "1991",
       "question": "Prostor C na prikazanom aerodromu se klasificira kao (Pogledajte Sliku PPL OP-1) \n",
       "topicId": "operproc",
-      "image": "Slika-PPL-OP-1.jpg"
+      "image": "Slika-PPL-OP-1.jpg",
+      "sortNo": 131
     },
     {
       "id": "1992",
       "question": "Strelice koje se javljaju na kraju piste SEVER/JUG označavaju da taj prostor (Pogledajte Sliku PPL OP- \n2) \n",
       "topicId": "operproc",
-      "image": "Slika-PPL-OP-2.jpg"
+      "image": "Slika-PPL-OP-2.jpg",
+      "sortNo": 130
     },
     {
       "id": "1993",
       "question": "Brojevi 4 i 22 na pisti označavaju da je pista približno orjentisana (Pogledajte Sliku PPL OP-2) \n",
       "topicId": "operproc",
-      "image": "Slika-PPL-OP-2.jpg"
+      "image": "Slika-PPL-OP-2.jpg",
+      "sortNo": 134
     },
     {
       "id": "1994",
       "question": "Granična svetla taksi rulne staze na aerodromu su obeležena noću sa \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 90
     },
     {
       "id": "1995",
       "question": "Koje od navedenog opisuje svetla praga piste? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 91
     },
     {
       "id": "1996",
       "question": "Svetla niskog intenziteta na nepomičnim objektima moraju biti \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 92
     },
     {
       "id": "1997",
       "question": "VFR, vizuelni prilazi za sletanje noću moraju se obavljati \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 93
     },
     {
       "id": "1998",
       "question": "Svaki pilot vazduhoplova koji je u prilazu za pistu koja je opremljena sa svetlima indikacije ugla \nprilaza (VASI) mora \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 94
     },
     {
       "id": "1999",
       "question": "Kada prilazi na sletanje na pistu koja je opremljena sa svetlima indikacije ugla prilaza (VASI) pilot \nmora \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 95
     },
     {
       "id": "2000",
       "question": "Pokazivanje nešto iznad- ugla prilaza na indikatoru preciznog prilaza su \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 96
     },
     {
       "id": "2001",
       "question": "Indikacija ispod - ugla prilaza kod trobojnog VASI je \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 97
     },
     {
       "id": "2002",
       "question": "Indikacija iznad- ugla prilaza kod trobojnog VASI je \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 98
     },
     {
       "id": "2003",
       "question": "Indikacija na- uglu prilaza kod trobojnog VASI je \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 99
     },
     {
       "id": "2004",
       "question": "Indikacija ispod- ugla prilaza kod trepćućeg prilaznog pokazivača ugla prilaza je \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 100
     },
     {
       "id": "2005",
       "question": "Slika A prikazuje da je vazduhoplov (Pogledajte Sliku PPL OP-3) \n",
       "topicId": "operproc",
-      "image": "Slika-PPL-OP-3.jpg"
+      "image": "Slika-PPL-OP-3.jpg",
+      "sortNo": 136
     },
     {
       "id": "2006",
       "question": "Slika C prikazuje da je vazduhoplov (Pogledajte Sliku PPL OP-3) \n",
       "topicId": "operproc",
-      "image": "Slika-PPL-OP-3.jpg"
+      "image": "Slika-PPL-OP-3.jpg",
+      "sortNo": 137
     },
     {
       "id": "2007",
       "question": "Slika B prikazuje da je vazduhoplov (Pogledajte Sliku PPL OP-3) \n",
       "topicId": "operproc",
-      "image": "Slika-PPL-OP-3.jpg"
+      "image": "Slika-PPL-OP-3.jpg",
+      "sortNo": 138
     },
     {
       "id": "2008",
       "question": "Na kontrolisanom aerodromu primetili ste žuti pravougaonu tablu sa natpisom C, crne boje, \nostavljene iznad vrata (slika C). Šta to znači? (Pogledajte Sliku PPL OP-4) \n",
       "topicId": "operproc",
-      "image": "Slika-PPL-OP-4.jpg"
+      "image": "Slika-PPL-OP-4.jpg",
+      "sortNo": 140
     },
     {
       "id": "2009",
       "question": "U označenom prostoru aerodrome, crveni pravougaoni znak sa jednom žutom dijagonalnom linijom \n(slika B) znači: (Pogledajte Sliku PPL OP-4) \n",
       "topicId": "operproc",
-      "image": "Slika-PPL-OP-4.jpg"
+      "image": "Slika-PPL-OP-4.jpg",
+      "sortNo": 141
     },
     {
       "id": "2010",
       "question": "Kakvo je značenje vizuelnog zemaljskog signala u obliku horizontalnog pravougaonog panela sa \nžutom dijagonalom prikazanom na prostoru signalizacije aerodrome (slika A)? (Pogledajte Sliku PPL OP- \n4) \n",
       "topicId": "operproc",
-      "image": "Slika-PPL-OP-4.jpg"
+      "image": "Slika-PPL-OP-4.jpg",
+      "sortNo": 142
     },
     {
       "id": "2011",
       "question": "Beli krst postavljen horizontalno na početak rulne staze (slika G), znači: (Pogledajte Sliku PPL OP-4) \n",
       "topicId": "operproc",
-      "image": "Slika-PPL-OP-4.jpg"
+      "image": "Slika-PPL-OP-4.jpg",
+      "sortNo": 143
     },
     {
       "id": "2012",
       "question": "U signalnoj zoni aerodrome, dupli beli krst (Slika H) znači: (Pogledajte Sliku PPL OP-4) \n",
       "topicId": "operproc",
-      "image": "Slika-PPL-OP-4.jpg"
+      "image": "Slika-PPL-OP-4.jpg",
+      "sortNo": 144
     },
     {
       "id": "2013",
       "question": "U signalnoj zoni aerodrome, beli, prečkom spojeni krugovi ( Slika D) znači: (Pogledajte Sliku PPL \nOP-4) \n",
       "topicId": "operproc",
-      "image": "Slika-PPL-OP-4.jpg"
+      "image": "Slika-PPL-OP-4.jpg",
+      "sortNo": 145
     },
     {
       "id": "2014",
       "question": "U signalnoj zoni aerodrome, beli krugovi spojeni prečkom sa Crnim linijama preko svakog kružnog \ndela pod pravim uglom na osovinu (slika E) znači: (Pogledajte Sliku PPL OP-4) \n",
       "topicId": "operproc",
-      "image": "Slika-PPL-OP-4.jpg"
+      "image": "Slika-PPL-OP-4.jpg",
+      "sortNo": 146
     },
     {
       "id": "2015",
       "question": "Koje oznake se mogu prikazati tokom dana na aerodromu radi označavanja neupotrebljivosti bilo \nkog dela manevarskih površina? \n",
-      "topicId": "operproc"
+      "topicId": "operproc",
+      "sortNo": 81
     },
     {
       "id": "2016",
       "question": "U signalnoj zoni aerodrome, znak (Slika I), znači: (Pogledajte Sliku PPL OP-4) \n",
       "topicId": "operproc",
-      "image": "Slika-PPL-OP-4.jpg"
+      "image": "Slika-PPL-OP-4.jpg",
+      "sortNo": 82
     },
     {
       "id": "2017",
       "question": "U signalnoj zoni aerodrome, belo slovo “T” (Slika F) znači: (Pogledajte Sliku PPL OP-4) \n",
       "topicId": "operproc",
-      "image": "Slika-PPL-OP-4.jpg"
+      "image": "Slika-PPL-OP-4.jpg",
+      "sortNo": 139
     },
     {
       "id": "2177",
