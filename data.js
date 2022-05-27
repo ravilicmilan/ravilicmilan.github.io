@@ -6198,27 +6198,32 @@ const DATA = {
     {
       "id": "2451",
       "question": "Gustina: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 39
     },
     {
       "id": "2452",
       "question": "Vazdušni pritisak koji deluje na telo koje se nalazi u njemu : \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 145
     },
     {
       "id": "2453",
       "question": "Ako u određenom danu temperatura vazduha na 4000ft iznosi 23°C ,kolika je približna razlika \nizmeđu stvarne i temperature u međunarodnoj standardnoj atmosferi (ISA): \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 3
     },
     {
       "id": "2454",
       "question": "Prisustvo vodene pare: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 109
     },
     {
       "id": "2455",
       "question": "Koji od ponuđenih odgovora je tačan,a odnosi se na promenu gustine vazduha sa visinom: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 69
     },
     {
       "id": "2456",
@@ -6228,730 +6233,874 @@ const DATA = {
     {
       "id": "2457",
       "question": "Osobine Zemljine atmosfere koje utiču na performanse aviona su: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 131
     },
     {
       "id": "2458",
       "question": "Pretpostavljajući da je pritisak na nivou mora po standardnoj međunarodnoj atmosferi( ISA), a \ntemperatura 10°C veća nego temperature po ISA, gustina će biti: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 99
     },
     {
       "id": "2459",
       "question": "Vazdušni pritisak: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 145
     },
     {
       "id": "2460",
       "question": "Avion sa klipnim motorom leti u sloju atmosfere koji se naziva: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 21
     },
     {
       "id": "2461",
       "question": "U toku leta na avion deluju sledeće sile: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 137
     },
     {
       "id": "2462",
       "question": "Jedinica za silu je: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 41
     },
     {
       "id": "2463",
       "question": "Dinamički pritisak koji deluje na avion u toku leta jednak je: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 31
     },
     {
       "id": "2464",
       "question": "Relativni protok vazduha je _____ i ______ u odnosu na smer kretanja aviona: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 114
     },
     {
       "id": "2465",
       "question": "Simbol za dinamički pritisak je: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 118
     },
     {
       "id": "2466",
       "question": "U pravolinijskom letu, vazdušna struja preko gornjake krila poređena sa vazdušnom strujom koja \nnije ometena krilom će imati: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 93
     },
     {
       "id": "2467",
       "question": "Koji od četiri ponuđena odgovora najtačnije dovršava sledeću rečenicu: Povećanje brzine leta ima \nza posledicu povećanje uzgona zbog: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 68
     },
     {
       "id": "2468",
       "question": "Avion ima tendenciju obaranja nosa zbog odnosa uzgona/težine, i tendenciju podizanja nosa zbog \nodnosa potiska/otpora. Kada je dodat gas: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 19
     },
     {
       "id": "2469",
       "question": "Uzimajući u obzir sile koje deluju na avion prilikom konstantne brzine, koja je tvrdnja tačna: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 142
     },
     {
       "id": "2470",
       "question": "U pravolinijskom letu, pritisak u slobodnoj vazdušnoj struji u poređenju sa pritiskom u vazdušnoj \nstruji koja prolazi odmah ispod krila je: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 92
     },
     {
       "id": "2471",
       "question": "Ako je površina poprečnog preseka vazdušne struje mehanički kontrolisana i smanjena: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 13
     },
     {
       "id": "2472",
       "question": "Dinamički pritisak je: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 30
     },
     {
       "id": "2473",
       "question": "Kada posmatramo vazduh:\n1-Vazduh ima masu\n2-Vazduh nije moguće sabiti\n3- Vazduh ima mogućnost strujanja ili promene oblika kada je izražen i najmanjoj promeni pritiska 4- Viskozitet vazduha je vrlo veliki\n5- Vazduh koji se kreće ima kinetičku energiju Kombinacije tačnih odgovora su:",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 49
     },
     {
       "id": "2474",
       "question": "Vazduhoplov rotira oko: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 144
     },
     {
       "id": "2475",
       "question": "Masa vazduhoplova je rezultat: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 126
     },
     {
       "id": "2476",
       "question": "Dinamički pritisak je jednak: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 29
     },
     {
       "id": "2477",
       "question": "Ako je brzina vazdušne mase povećana: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 5
     },
     {
       "id": "2478",
       "question": "Granični sloj ima: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 38
     },
     {
       "id": "2479",
       "question": "Kakav mora biti odnos sila koje deluju na avion u letu, da bi taj avion leteo konstantnom brzinom i \nbez promene visine? \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 54
     },
     {
       "id": "2480",
       "question": "Glatko strujanje vazduha, kada svaki molekul prati putanju prethodnog molekula je definicija: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 37
     },
     {
       "id": "2481",
       "question": "U podzvučnom strujanju, kada vazduh prolazi kroz venturi tubu, masa protoka ________, brzina \nprotoka _________, a statički pritisak________. \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 91
     },
     {
       "id": "2482",
       "question": "Masa vazduha koji se kreće poseduje kinetičku energiju. Kada se neki objekat nađe na putu tog \nvazduha onda na njega deluje: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 125
     },
     {
       "id": "2483",
       "question": "Dinamički pritisak može biti izražen formulom: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 32
     },
     {
       "id": "2484",
       "question": "Kada se brzina povećava, indukovani otpor se: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 51
     },
     {
       "id": "2485",
       "question": "Kada je indikovana brzina (IAS) smanjena, da bi se održavala visina, pilot mora: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 47
     },
     {
       "id": "2486",
       "question": "Deo ukupnog otpora aviona, koji je prateća pojava stvaranja uzgona se naziva: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 27
     },
     {
       "id": "2487",
       "question": "Promenom napadnog ugla krila, pilot može da kontroliše: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 110
     },
     {
       "id": "2488",
       "question": "Otpor ili trenje po površini, zbog viskoziteta vazduha koji struji po površini krila je tip: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 132
     },
     {
       "id": "2489",
       "question": "Ako je indikovana brzina vazduhoplova povećana sa 50 čvorova na 100 čvorova, parazitni otpor će \nse: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 6
     },
     {
       "id": "2490",
       "question": "Zamišljana prava linija, koja se proteže od središnje tačke napadne ivice aeroprofila pa do izlazne \nivice istog se naziva: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 149
     },
     {
       "id": "2491",
       "question": "Aeroprofil sa pozitivnom zakrivljenošću srednje linije počinje da proizvodi uzgon pri napadnom uglu \nod otprilike: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 2
     },
     {
       "id": "2492",
       "question": "Na sekciju aeroprofila, uzgon deluje normalno, a sila otpora paralelno sa: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 127
     },
     {
       "id": "2493",
       "question": "Kako se brzina povećava, indukovani otpor se_________, parazitni otpor se________ ,a totalni \notpor se______ \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 55
     },
     {
       "id": "2494",
       "question": "Ako se u pravolinijskom letu brzina smanji ispod one koja obezbeđuje maksimalan odnos \nUZGON/OTPOR, efekat će biti: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 18
     },
     {
       "id": "2495",
       "question": "Napadni ugao je ugao između: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 129
     },
     {
       "id": "2496",
       "question": "Maksimalna vrednost koeficijenta uzgona se nalazi na napadnom uglu od otprilike: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 123
     },
     {
       "id": "2497",
       "question": "Pri konstantnom napadnom uglu, smanjenje brzine će za posledicu imati: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 100
     },
     {
       "id": "2498",
       "question": "Ako napadni ugao i drugi faktori ostaju konstanti, pri duplom povećanju brzine, uzgon će se: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 14
     },
     {
       "id": "2499",
       "question": "Definicija uzgona je: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 26
     },
     {
       "id": "2500",
       "question": "Koji od ponuđenih odgovora najbolje dovršava rečenicu? Količina uzgona koju neko krilo pravi \ndirektno je proporcionalna: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 70
     },
     {
       "id": "2501",
       "question": "Maksimalna vrednost koeficijenta uzgona se nalazi: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 124
     },
     {
       "id": "2502",
       "question": "Pri određenoj indikovanoj brzini, kakav efekat će povećanje gustine vazduha imati na uzgon i otpor? \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 101
     },
     {
       "id": "2503",
       "question": "Aeroprofil je dizajniran tako da pravi uzgon koji je posledica razlike: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 1
     },
     {
       "id": "2504",
       "question": "Pun otklon flapsa bi trebalo selektovati: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 111
     },
     {
       "id": "2505",
       "question": "Krila koja su nagnuta na dole gledano od korena krila ka vrhu su krila sa : \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 77
     },
     {
       "id": "2506",
       "question": "Kada je centar težišta blizu prednje granice : \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 46
     },
     {
       "id": "2507",
       "question": "Posle uzdužne pobude, avion koji je poprečno-smerno nestabilan će: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 95
     },
     {
       "id": "2508",
       "question": "Avion koji je po prirodi stabilan ce: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 20
     },
     {
       "id": "2509",
       "question": "Posle pobude po visini, avion kome se povećava amplituda oscilacije je: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 136
     },
     {
       "id": "2510",
       "question": "Ako određena sila izaziva valjanje kod aviona: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 15
     },
     {
       "id": "2511",
       "question": "Ako je aerodinamički centar krila ispred centra težišta: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 4
     },
     {
       "id": "2512",
       "question": "Po načinu konstrukcije, centar pritiska na određenom avionu je iza centra težišta. Ako je avion \nlongitudinalno (uzdužno) stabilan i pobuđen nosem na dole od strane turbulencije: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 134
     },
     {
       "id": "2513",
       "question": "V-forma krila produkuje stabilizirajući momenat valjanja tako što povećava uzgon: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 146
     },
     {
       "id": "2514",
       "question": "Kada je avion pobuđen iz pravolinijskog mirnog leta, na primer turbulencijom, kaže se da je stabilan \nukoliko: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 42
     },
     {
       "id": "2515",
       "question": "Punjenje aviona tako da centar težišta pređe svoju zadnju granicu može rezultirati: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 112
     },
     {
       "id": "2516",
       "question": "Koje od sledeće četiri opcije opisuje posledicu poletanja sa stepenom flapsa koji je preporučen od \nstrane proizvođača: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 64
     },
     {
       "id": "2517",
       "question": "Sa spuštenim flapsovima, brzina svaljivanja se: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 117
     },
     {
       "id": "2518",
       "question": "Kada je avion pobuđen iz svog trimovanog položaja, na primer turbulencijom, kaže se da ima \nneutralnu stabilnost ukoliko: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 43
     },
     {
       "id": "2519",
       "question": "Ukoliko je centar težišta aviona na granici prilikom poletanja: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 140
     },
     {
       "id": "2520",
-      "question": "Sa centom težišta na prednjoj granici, avion će imati : \n",
-      "topicId": "princflight"
+      "question": "Sa centrom težišta na prednjoj granici, avion će imati : \n",
+      "topicId": "princflight",
+      "sortNo": 116
     },
     {
       "id": "2521",
       "question": "Longitudinalna (uzdužna) stabilnost je dobijena zahvaljujući: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 79
     },
     {
       "id": "2522",
       "question": "Centar težišta koji je blizu zadnje granice će dati: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 25
     },
     {
       "id": "2523",
       "question": "Tendencija aviona da razvije sile koje ga vraćaju u prvobitan položaj, kada je pobuđen iz \npravolinijskog mirnog leta je poznata kao: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 88
     },
     {
       "id": "2524",
       "question": "Stabilnost oko vertikalne ose: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 122
     },
     {
       "id": "2525",
       "question": "Maksimalna razdaljina jedrenja sa visine od 6000 fita, za avion u čistoj konfiguraciji sa finesom od \n8:1 je otprilike 8 milja. Ukoliko se flaps izvuče: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 83
     },
     {
       "id": "2526",
       "question": "Pilot izvlači flaps dok održava konstantnu brzinu. Da bi održao let na istoj visini, napadni ugao: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 133
     },
     {
       "id": "2527",
       "question": "Rotiranje aviona oko vertikalne ose je poznato kao: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 115
     },
     {
       "id": "2528",
       "question": "Krilo aviona je dizajnirano sa pozitivnom V-formom kako bi se obezbedila: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 78
     },
     {
       "id": "2529",
       "question": "Pravac kretanja vazduhoplova je poremećen iznenadnim udarom vetra. Neutralna stabilnost je \nkada bez komandovanja pilota avion: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 97
     },
     {
       "id": "2530",
       "question": "Kada su flapsovi spušteni, kritičan napadni ugao krila se: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 53
     },
     {
       "id": "2531",
       "question": "Visokokrilac bez ikakve V-forme, u poređenju sa niskokrilcem bez ikakve V-forme će imati: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 147
     },
     {
       "id": "2532",
       "question": "Avion je pobuđen sa svog originalnog pravca leta iznenadnim udarom vetra. Ako ima tendenciju da \nse vrati na originalni pravac leta bez komandovanja pilota onda je taj avion ima: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 12
     },
     {
       "id": "2533",
       "question": "Uređaji na napadnoj ivici krila, kao što su pretkrilca, dizajnirani su tako da omoguće let na većim \nnapadnim uglovima tako što: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 141
     },
     {
       "id": "2534",
       "question": "Površina koja avionu pruža direkcionu stabilnost je: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 96
     },
     {
       "id": "2535",
       "question": "Ako se sleće bez izvučenog flapsa, onda brzina sletanja mora biti: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 17
     },
     {
       "id": "2536",
       "question": "Maksimalna brzina sa kojom avion sme da se leti sa izvučenim flapsovima se zove: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 81
     },
     {
       "id": "2537",
       "question": "Skretanje je pokretanje oko _______ose. \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 120
     },
     {
       "id": "2538",
       "question": "Poprečna osa aviona je zamišljena linija koja: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 135
     },
     {
       "id": "2539",
       "question": "Izvlačenje flapsa tokom prilaza za sletanje: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 40
     },
     {
       "id": "2540",
       "question": "Tokom manevra, eleroni su otklonjeni i vraćeni u neutralni položaj kada je avion dostigao mali \nnagibni ugao. Ako se avion vrati u horizontalni položaj bez dodatnih pokreta komandi, onda je: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 90
     },
     {
       "id": "2541",
       "question": "Svrha anti-servo krilca je: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 84
     },
     {
       "id": "2542",
       "question": "Fenomen flatera je opisan kao: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 35
     },
     {
       "id": "2543",
       "question": "Eleron može biti aerodinamički izbalansiran tako što će: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 33
     },
     {
       "id": "2544",
       "question": "Kada je palica gurnuta napred, servo krilce na kormilu visine će se: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 48
     },
     {
       "id": "2545",
       "question": "Svrha diferencijalnih elerona je da: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 85
     },
     {
       "id": "2546",
       "question": "Primarni i sekundarni efekti kormila pravca su: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 107
     },
     {
       "id": "2547",
       "question": "Kod aviona sa običnim krilcem za trimovanje na komandnoj površini, kada je površina pomerena, \nkrilce za trimovanje ostaje u istoj poziciji u odnosu na : \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 56
     },
     {
       "id": "2548",
       "question": "Koja komandna površina obezbeđuje kontrolu oko vertikalne ose aviona: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 59
     },
     {
       "id": "2549",
       "question": "Primarni i sekundarni efekat davanje samo leve noge je: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 106
     },
     {
       "id": "2550",
       "question": "Kada se eleroni pomeraju iz neutralnog položaja \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 52
     },
     {
       "id": "2551",
       "question": "Kormilo pravca na avionu je opremljeno servo krilcem. Pomeranje kormila pravca u desno \nće uzrokovati pomeranje servo krilca: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 75
     },
     {
       "id": "2552",
       "question": "Avion ima tendenciju spuštanja desnog krila kada su komande slobodne. Trimovano je sa \ntrimerom koji se nalazi na levom eleronu. Trimer će se: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 11
     },
     {
       "id": "2553",
       "question": "Eleroni obezbeđuju: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 34
     },
     {
       "id": "2554",
       "question": "Posle trimovanja za miran let po pravcu i visini, u avionu sa centrom težišta blizu prednje \ngranice i kormilom visine opremljenim sa običnim trimerom : \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 94
     },
     {
       "id": "2555",
       "question": "Komande površine su balansirane tegovima da bi se: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 72
     },
     {
       "id": "2556",
       "question": "Primarni sekundarni efekti komandovanja eleronima su: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 108
     },
     {
       "id": "2557",
       "question": "Svrha sistema trimera opremljenih oprugom je: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 86
     },
     {
       "id": "2558",
       "question": "Komandna površina može imati balansiranje tegom kako bi se: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 74
     },
     {
       "id": "2559",
       "question": "Komandna površina može biti balansirana tegom: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 73
     },
     {
       "id": "2560",
       "question": "Fiksni trimeri na eleronima: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 36
     },
     {
       "id": "2561",
       "question": "Koje komandne površine obezbeđuju uzdužnu kontrolu? \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 63
     },
     {
       "id": "2562",
       "question": "Svrha trimera je: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 87
     },
     {
       "id": "2563",
       "question": "Skretanja je rotacija oko: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 119
     },
     {
       "id": "2564",
       "question": "Ako je palica gurnuta napred i u levo: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 9
     },
     {
       "id": "2565",
       "question": "Ako je palica pomerena levo, servo krilce na levom eleronu će se: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 10
     },
     {
       "id": "2566",
       "question": "Diferencijalni eleroni su dizajnirani tako da sprečavaju : \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 28
     },
     {
       "id": "2567",
       "question": "Ako je napadni ugao povećan preko kritičnog napadnog ugla: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 8
     },
     {
       "id": "2568",
       "question": "Ako je napadni ugao povećan preko kritičnog napadnog ugla, krilo više neće proizvoditi \ndovoljan uzgon potreban da održi avion u horizontalnom letu: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 7
     },
     {
       "id": "2569",
       "question": "Slom uzgona na krilu nastaje kada: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 121
     },
     {
       "id": "2570",
       "question": "Ukoliko je brzina svaljivanja u pravolinijskom letu 60 čvorova, koja je brzina svaljivanja \nprilikom zaokreta sa nagibom od 60°: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 139
     },
     {
       "id": "2571",
       "question": "Kada je avion u penjanju bez promene režima, aerodinamička sila je________ nego težina \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 45
     },
     {
       "id": "2572",
       "question": "Tipičan napadni ugao kod aviona pri kojem nastaje slom uzgona je: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 89
     },
     {
       "id": "2573",
       "question": "Maksimalan ugao penjanja nekog aviona je određen : \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 80
     },
     {
       "id": "2574",
       "question": "Napadni ugao prilikom koga se avion svaljuje: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 130
     },
     {
       "id": "2575",
       "question": "Kada je avion u kovitu, smer obrtanja je najsigurnije određen: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 44
     },
     {
       "id": "2576",
       "question": "Razlog zbog koga je krilo iskrivljeno samom konstrukcijom je: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 113
     },
     {
       "id": "2577",
       "question": "Maksimalna dozvoljena brzina sa izvučenim flapsovima (VFE) je manja nego brzina krstarenja \nzbog: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 82
     },
     {
       "id": "2578",
       "question": "Brzina svaljivanja aviona u pravolinijskom letu je 80 čvorova, kolika je brzina svaljivanja \nprilikom zaokreta sa nagibom od 45 stepeni: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 23
     },
     {
       "id": "2579",
       "question": "Prilikom svaljivanja, centar pritiska koji se pomera unazad će izazvati da nos______, a \nsmanjen uzgon da avion ________. \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 105
     },
     {
       "id": "2580",
       "question": "VNE je: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 148
     },
     {
       "id": "2581",
       "question": "Prilikom penjanja sa konstantnom brzinom, potisak je: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 104
     },
     {
       "id": "2582",
       "question": "Koja je važnost brzine koja se naziva VNO: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 58
     },
     {
       "id": "2583",
       "question": "Brzina svaljivanja nekog aviona, pod pretpostavkom da je težina konstantna, je funkcija: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 24
     },
     {
       "id": "2584",
       "question": "Ugao penjanja je proporcionalan: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 138
     },
     {
       "id": "2585",
       "question": "Kada se avion leti sa brzinom dizajniranom za manevrisanje VA: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 50
     },
     {
       "id": "2586",
       "question": "Ako se poveća težina aviona, bez promene u centru težišta, kritičan napadni ugao će: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 16
     },
     {
       "id": "2587",
       "question": "Koji je to napadni ugao krila, pri kojem očekujemo slom uzgona: \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 66
     },
     {
       "id": "2588",
       "question": "Koja od označenih tačaka na slici polare krila predstavlja režim napadnog ugla najbolje \nfinese (Pogledajte sliku PPL PoF-2.) : \n",
       "topicId": "princflight",
-      "image": "Slika-PPL-PoF-2.jpg"
+      "image": "Slika-PPL-PoF-2.jpg",
+      "sortNo": 61
     },
     {
       "id": "2589",
       "question": "Koja od označenih tačaka na slici polare krila predstavlja režim kritičnog napadnog ugla \n(Pogledajte sliku PPL PoF-2.): \n",
       "topicId": "princflight",
-      "image": "Slika-PPL-PoF-2.jpg"
+      "image": "Slika-PPL-PoF-2.jpg",
+      "sortNo": 60
     },
     {
       "id": "2590",
       "question": "Koja od označenih tačaka na slici polare krila predstavlja režim napadnog ugla najmanjeg \notpora (Pogledajte sliku PPL PoF-2.): \n",
       "topicId": "princflight",
-      "image": "Slika-PPL-PoF-2.jpg"
+      "image": "Slika-PPL-PoF-2.jpg",
+      "sortNo": 62
     },
     {
       "id": "2591",
       "question": "Koji oblik krila ima najveći indukovani otpor : \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 67
     },
     {
       "id": "2592",
       "question": "Kod dvostrukog povećanja brzine opstrujavanja vazduha, koeficijent aerodinamičkog \notpora tela se : \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 57
     },
     {
       "id": "2593",
       "question": "Pri povećanju opterećenja krila za 15%, minimalna brzina se povećava približno za : \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 102
     },
     {
       "id": "2594",
       "question": "Koliko približno iznosi povećanje minimalne brzine vazduhoplova, ako mu povećamo masu \nza 20% : \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 71
     },
     {
       "id": "2595",
       "question": "Približno koliko uzgona moraju ostvariti krila 3.000 lb teškog vazduhoplova u zaokretu \nnagiba 20° bez gubitka visine (Pogledajte sliku PPL PoF-1.) : \n",
       "topicId": "princflight",
-      "image": "Slika-PPL-PoF-1.jpg"
+      "image": "Slika-PPL-PoF-1.jpg",
+      "sortNo": 103
     },
     {
       "id": "2596",
       "question": "Krila 4.600 lb teškog vazduhoplova moraju ostvariti u zaokretu nagiba 50% , bez gubitka \nvisine silu uzgona od (Pogledajte sliku PPL PoF-1.) : \n",
       "topicId": "princflight",
-      "image": "Slika-PPL-PoF-1.jpg"
+      "image": "Slika-PPL-PoF-1.jpg",
+      "sortNo": 76
     },
     {
       "id": "2597",
       "question": "Najveći dozvoljeni nagib u zaokretu sa preopterećenjem od + 2.5 G je (Pogledajte sliku PPL \nPoF-1.) : \n",
       "topicId": "princflight",
-      "image": "Slika-PPL-PoF-1.jpg"
+      "image": "Slika-PPL-PoF-1.jpg",
+      "sortNo": 128
     },
     {
       "id": "2598",
       "question": "Koji je najveći dozvoljeni nagib u zaokretu, ako je preopterećenje + 3.8 G (Pogledajte sliku \nPPL PoF-1.) : \n",
       "topicId": "princflight",
-      "image": "Slika-PPL-PoF-1.jpg"
+      "image": "Slika-PPL-PoF-1.jpg",
+      "sortNo": 65
     },
     {
       "id": "2599",
       "question": "Preopterećenje vazduhoplova u zaokretu nagiba 60° je (Pogledajte sliku PPL PoF-1.) : \n",
       "topicId": "princflight",
-      "image": "Slika-PPL-PoF-1.jpg"
+      "image": "Slika-PPL-PoF-1.jpg",
+      "sortNo": 98
     },
     {
       "id": "2600",
       "question": "Brzina pri kojoj pilot sa naglim otklonom kormila visine na gore ne može preopteretiti \nkonstrukciju vazduhoplova je : \n",
-      "topicId": "princflight"
+      "topicId": "princflight",
+      "sortNo": 22
     },
     {
       "id": "2601",
