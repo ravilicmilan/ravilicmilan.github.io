@@ -8,77 +8,92 @@ const DATA = {
     {
       "id": "1266",
       "question": "VHF frekvencija se koristi za komunikacije čiji je opseg: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 29
     },
     {
       "id": "1267",
       "question": "Maksimalni domet VHF sredstva za komunikaciju koji možete da očekujete na FL100 iznosi \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 18
     },
     {
       "id": "1268",
       "question": "Vazduhoplov se nalazi u najboljem dometu VHF sredstva za komunikaciju ukoliko se nalazi: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 30
     },
     {
       "id": "1269",
       "question": "Značenje skraćenice \"IMC\" je: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 28
     },
     {
       "id": "1270",
       "question": "Izraz \"SVFR let\" znači: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 3
     },
     {
       "id": "1271",
       "question": "Izraz \"CVFR let\" znači: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 4
     },
     {
       "id": "1272",
       "question": "Skraćenica \"VMC\" znaci: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 1
     },
     {
       "id": "1273",
       "question": "Šta znači izraz \"VFR let\": \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 10
     },
     {
       "id": "1274",
       "question": "Šta znači izraz \"wilco\": \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 9
     },
     {
       "id": "1275",
       "question": "Šta znači izraz \"verify\": \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 11
     },
     {
       "id": "1276",
       "question": "Šta znači izraz \"roger\": \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 12
     },
     {
       "id": "1277",
       "question": "Šta znači izraz \"acknowledge\": \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 14
     },
     {
       "id": "1278",
       "question": "Šta znači izraz “vacate right” ? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 8
     },
     {
       "id": "1279",
       "question": "Šta znači izraz \"go around\"? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 7
     },
     {
       "id": "1280",
       "question": "Šta znači izraz \"standby\"? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 2
     },
     {
       "id": "1599",
@@ -423,22 +438,26 @@ const DATA = {
     {
       "id": "1281",
       "question": "Šta znači izraz monitor? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 15
     },
     {
       "id": "1282",
       "question": "Šta znači izraz report? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 16
     },
     {
       "id": "1283",
       "question": "Šta znači izraz SID? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 17
     },
     {
       "id": "1284",
       "question": "Šta znači \"orbit right\" \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 31
     },
     {
       "id": "1285",
@@ -448,102 +467,122 @@ const DATA = {
     {
       "id": "1286",
       "question": "Izraz \"altitude\" označava: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 5
     },
     {
       "id": "1287",
       "question": "Šta znači izraz \"flight level\": \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 13
     },
     {
       "id": "1288",
       "question": "Faze leta: climb, take off, descent, start-up, approach, cruise, push back, final approach, taxi, take \noff roll, touch down i line-up su pomešane. Njihov redosled je: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 6
     },
     {
       "id": "1289",
       "question": "Koji visinu je javio pilot vazduhoplova sa porukom \"five thousand feet QFE\": \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 37
     },
     {
       "id": "1290",
       "question": "Šta podrazumeva kontrolor letenja, ako mu pilot vazduhoplova javi \"FIVE THOUSAND FEET\": \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 49
     },
     {
       "id": "1291",
       "question": "Visina 4.500 ft QNH se javlja frazom: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 44
     },
     {
       "id": "1292",
       "question": "Radio vezom visinu 5.000 ft javljamo kao: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 50
     },
     {
       "id": "1293",
       "question": "Kako se radio vezom javlja 11.000 ft: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 34
     },
     {
       "id": "1294",
       "question": "Visina 10.500 ft sa pravilno javlja frazom: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 45
     },
     {
       "id": "1295",
       "question": "COMM frekvencija 118,125 se u radio poruci izgovara kao: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 25
     },
     {
       "id": "1296",
       "question": "U radio poruci se broj 583 izgovara kao: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 46
     },
     {
       "id": "1297",
       "question": "U radio poruci se broj 496 izgovara kao: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 47
     },
     {
       "id": "1298",
       "question": "U radio poruci se broj 4501 izgovara kao: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 48
     },
     {
       "id": "1299",
       "question": "Broj 600 se u radio poruci izgovara kao: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 27
     },
     {
       "id": "1300",
       "question": "COMM frekvencija 118,0 se u radio poruci javlja kao: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 26
     },
     {
       "id": "1301",
       "question": "Kako se radio porukom javlja COMM frekvencija 118,1: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 32
     },
     {
       "id": "1302",
       "question": "Kako se radio porukom javlja COMM frekvencija 118,150: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 35
     },
     {
       "id": "1303",
       "question": "Frekvencija 121.725 MHz biće emitovana kao: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 20
     },
     {
       "id": "1304",
       "question": "Kada sme pilot da upotrebi kraci pozivni znak vazduhoplova: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 19
     },
     {
       "id": "1305",
       "question": "Vreme 10:20 se u vazduhoplovnoj frazeologiji odašilje kao \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 43
     },
     {
       "id": "1306",
@@ -553,22 +592,26 @@ const DATA = {
     {
       "id": "1307",
       "question": "Fonetski izgovor za oznaku 70-VEL glasi: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 24
     },
     {
       "id": "1308",
       "question": "Fonetski izgovor za oznaku EXTRA glasi: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 21
     },
     {
       "id": "1309",
       "question": "Fonetski izgovor za oznaku C-MNXY glasi: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 22
     },
     {
       "id": "1310",
       "question": "Fonetski izgovor za oznaku B9-DFF NXY glasi \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 23
     },
     {
       "id": "1311",
@@ -578,7 +621,8 @@ const DATA = {
     {
       "id": "1312",
       "question": "Koji je ispravan način izgovora FRI-VOR? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 36
     },
     {
       "id": "1313",
@@ -588,102 +632,122 @@ const DATA = {
     {
       "id": "1314",
       "question": "Koja od sledećih skraćenica mora biti emitovana pojedinačnim slovima? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 33
     },
     {
       "id": "1315",
       "question": "Koji je Q kod za merenje relativne visine iznad aerodroma? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 38
     },
     {
       "id": "1316",
       "question": "Koji je Q kod za merenje apsolutne visine? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 40
     },
     {
       "id": "1317",
       "question": "Koji je Q kod za merenje nivoa leta? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 39
     },
     {
       "id": "1318",
       "question": "Koji je Q kod za magnetni kurs ka radio stanici? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 42
     },
     {
       "id": "1319",
       "question": "Koji je Q kod za magnetni kurs od radio stanice? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 41
     },
     {
       "id": "1320",
       "question": "Koji je Q kod za pravi kurs od radio stanice? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 63
     },
     {
       "id": "1321",
       "question": "Šta znaci međunarodna radiotelefonska skraćenica QDM: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 61
     },
     {
       "id": "1322",
       "question": "Međunarodna radiotelefonska skraćenica QNH znači: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 62
     },
     {
       "id": "1323",
       "question": "Ako želite da zatražite uslugu od zemaljska stanice: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 54
     },
     {
       "id": "1324",
       "question": "Koje od sledećih navedenih ATC poruka pilot treba obavezno i u celini da ponovi \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 69
     },
     {
       "id": "1325",
       "question": "Pilot je dužan da ponovi: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 73
     },
     {
       "id": "1326",
-      "question": "Koja od sledećih izjava je tačna? \"U komunikaciji zemlja - vazduh kontrolor će uvek\": \n",
-      "topicId": "komunication"
+      "question": "U komunikaciji zemlja - vazduh kontrolor će uvek: \n",
+      "topicId": "komunication",
+      "sortNo": 81
     },
     {
       "id": "1327",
       "question": "Pozivni znak za ATC koja kontroliše vazduhoplove i vozila po manevarskim površinama je ? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 75
     },
     {
       "id": "1328",
       "question": "Propisana fraza, sa kojom zahtevamo dozvolu za početak voženja po manevarskim površinama do \npoletno sletne staze je: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 77
     },
     {
       "id": "1329",
       "question": "U slučaju kada TWR kaže pilotu vazduhoplova \"REPORT DOWNWIND\", pilot je dužan da javi: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 83
     },
     {
       "id": "1330",
       "question": "Kada kontrolor želi dobiti informacije o nivou leta na kom je avion leti, koristi frazu: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 65
     },
     {
       "id": "1331",
       "question": "Koji izraz se koristi kada kontrolor obaveštava pilota da nije potreban izveštaj iznad neke tačke? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 70
     },
     {
       "id": "1332",
       "question": "Kada pilot vazduhoplova nije u stanju da izvrši naređenje, obaveštava kontrolu letenja frazom: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 66
     },
     {
       "id": "1333",
       "question": "Kako da tražite da Vam se poruka ponovi? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 68
     },
     {
       "id": "1334",
@@ -693,52 +757,62 @@ const DATA = {
     {
       "id": "1335",
       "question": "Ako vam je kontrolor poslao poruku koju razumete i po kojoj će te postupiti, standardno odgovor je \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 56
     },
     {
       "id": "1336",
       "question": "Ako pilot ne uspostavi kontakt na predviđenoj frekvenci on će: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 64
     },
     {
       "id": "1337",
       "question": "Kada emituje poruku kojoj prethodi izraz \"transmitting blind due to receiver failure\" pilot će takođe: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 57
     },
     {
       "id": "1338",
       "question": "Vi ste na tački čekanja za pistu u upotrebi,završili ste sve provere I spremni ste da izađete na pistu I \npoletite. Koju poruku će te koristiti da obavеstite ATC o vašoj spremnosti? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 86
     },
     {
       "id": "1339",
       "question": "Ako pilot ne može da izvršava instrukcije ili naređenja treba da izvesti ATC sa frazom : \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 58
     },
     {
       "id": "1340",
       "question": "Letite na FL50 u YU-ABC. Kada vam kontrolor zatraži da javite vaš nivo leta, koji je korektan \nodgovor? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 71
     },
     {
       "id": "1341",
       "question": "U dugom prilazu za sletanje poruka \"Long Final\" će biti izgovorena na daljini: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 80
     },
     {
       "id": "1342",
       "question": "U prilazu za sletanje poruka “Final” će biti izgovorena na daljini: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 82
     },
     {
       "id": "1343",
       "question": "Letite u SeveroIstočnom kursu na 2500 ft. Izvestiće te o vašem kursu i nivou kao: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 72
     },
     {
       "id": "1344",
       "question": "Kako će te korektno odgovoriti na ATC poruku \"Y-CD, Change to Belgrade Tower, 118.1”? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 67
     },
     {
       "id": "1345",
@@ -748,353 +822,422 @@ const DATA = {
     {
       "id": "1346",
       "question": "ATC će dati instrukcije za snižavanje sledećom frazom: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 52
     },
     {
       "id": "1347",
       "question": "ATC će dati instrukcije za penjanje sledećom frazom: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 51
     },
     {
       "id": "1348",
       "question": "Vazduhoplovu je dato početno odobrenje da penje na nivo FL100. Zbog razdvajanja potrebno je da \nse zadrži neko vreme na nivou FL80. ATC će poslati poruku koristeći sledeću frazu: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 85
     },
     {
       "id": "1349",
       "question": "Ako od vas ATC zatraži \"Are you able to maintain FL 40\" korektan odgovor sadrži frazu: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 59
     },
     {
       "id": "1350",
       "question": "Ako zahtevate specijalni VFR let morate ATC dati sledeće detalje \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 55
     },
     {
       "id": "1351",
       "question": "Upravo ste sleteli i toranj vas obaveštava da kontaktirate zemaljsku stanicu kada napustite pistu. Vi \nznate da je pista napuštena kada: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 84
     },
     {
       "id": "1352",
       "question": "Ako kontrolni toranj traži da javite kada ste prešli pistu, koristićete sledeću frazu: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 60
     },
     {
       "id": "1353",
       "question": "Poruka \"downwind\" se emituje: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 74
     },
     {
       "id": "1354",
       "question": "Javljanje u poziciji kroz vetar (base leg) se vrši: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 53
     },
     {
       "id": "1355",
       "question": "Pravilna frazeologija za javljanje u finalu (final report) je: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 76
     },
     {
       "id": "1356",
       "question": "Pozicija na pisti označena slovom C se zove: (Pogledajte sliku PPL Kom-1) \n",
       "topicId": "komunication",
-      "image": "Slika-PPL-Kom-1.jpg"
+      "image": "Slika-PPL-Kom-1.jpg",
+      "sortNo": 90
     },
     {
       "id": "1357",
       "question": "Pozicija u školskom krugu označena slovom E se zove: (Pogledajte sliku PPL Kom-1) \n",
       "topicId": "komunication",
-      "image": "Slika-PPL-Kom-1.jpg"
+      "image": "Slika-PPL-Kom-1.jpg",
+      "sortNo": 92
     },
     {
       "id": "1358",
       "question": "Kojim slovom u školskom krugu je označen “base leg“: (Pogledajte sliku PPL Kom-1) \n",
       "topicId": "komunication",
-      "image": "Slika-PPL-Kom-1.jpg"
+      "image": "Slika-PPL-Kom-1.jpg",
+      "sortNo": 87
     },
     {
       "id": "1359",
       "question": "Kojim slovom u školskom krugu je označen “Final“: (Pogledajte sliku PPL Kom-1) \n",
       "topicId": "komunication",
-      "image": "Slika-PPL-Kom-1.jpg"
+      "image": "Slika-PPL-Kom-1.jpg",
+      "sortNo": 88
     },
     {
       "id": "1360",
       "question": "Pozicija na aerodromu označena slovom A zove se: (Pogledajte sliku PPL Kom-1) \n",
       "topicId": "komunication",
-      "image": "Slika-PPL-Kom-1.jpg"
+      "image": "Slika-PPL-Kom-1.jpg",
+      "sortNo": 89
     },
     {
       "id": "1361",
       "question": "Pozicija na rulnoj stazi označena slovom B zove se: (Pogledajte sliku PPL Kom-1) \n",
       "topicId": "komunication",
-      "image": "Slika-PPL-Kom-1.jpg"
+      "image": "Slika-PPL-Kom-1.jpg",
+      "sortNo": 91
     },
     {
       "id": "1362",
       "question": "Šta od sledećeg je uslovno odobrenje? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 97
     },
     {
       "id": "1363",
       "question": "Taksi instrukcije koje se izdaju od kontrolora a sadrže ograničena odobrenja u pravilu će biti : \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 98
     },
     {
       "id": "1364",
       "question": "Fraza \"CLEARANCE EXPIRES AT 02 35\"znači pilotu da \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 93
     },
     {
       "id": "1365",
       "question": "Koja fraza se koristi da poništi prethodno poslato odobrenje? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 94
     },
     {
       "id": "1366",
       "question": "Odobrenja da taksira do linije poletanja će biti dato frazom: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 95
     },
     {
       "id": "1367",
       "question": "Pilot dobija sledeću poruku od kontrole leta. \n\"YU-ABC, After departure cleared to zone boundary via Route Bravo, Climb to Altitude 2 500 feet, \nQNH 1005, Squawk 6521.\" Koji je ovo tip odobrenja? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 96
     },
     {
       "id": "1368",
       "question": "U slučaju kada pilot vazduhoplova opremljenog sa transponderom,dobije od kontrole \nletenja poruku \"SQUAWK 1200\", dužan je da na transponderu postavi kod 1200 i : \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 108
     },
     {
       "id": "1369",
       "question": "Fraza koja zahteva od pilota da ponovno postavi kod A 6620 je: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 102
     },
     {
       "id": "1370",
       "question": "U slučaju da transponder ne odgovara u C modu, kontrola letenja saopštava pilotu da \nuključi mod C frazom: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 107
     },
     {
       "id": "1371",
       "question": "Dobili ste poruku \"YU-ABC Squawk Ident\". Vi će te : \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 100
     },
     {
       "id": "1372",
       "question": "Fraza \"Squawk Charlie\" znači: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 101
     },
     {
       "id": "1373",
       "question": "Kod uključenog SSR transpondera dobijete poruku \"YU-ABC verify your level\" od kontrole \nleta. Šta će te uraditi \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 103
     },
     {
       "id": "1374",
       "question": "Pri radarskom praćenju informacije o kursu date od strane pilota i kontrolora su u: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 105
     },
     {
       "id": "1375",
       "question": "U slučaju otkaza radio veze SSR transponder treba prebaciti na : \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 109
     },
     {
       "id": "1376",
       "question": "Skvok A 7700 postavljen od strane pilota pokazuje zemaljskoj stanici da je : \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 106
     },
     {
       "id": "1377",
       "question": "Koji mod transpondera očitava visinu? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 104
     },
     {
       "id": "1378",
       "question": "Ako letite avionom koji ne poseduje transponder, šta će te javiti ako Vam budu tražili da \npostavite SQUAWK? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 99
     },
     {
       "id": "1379",
       "question": "Međunarodni radiotelefonski izraz, kojim pilot vazduhoplova presretača obaveštava pilota \npresretenog vazduhoplova da može nastaviti let je: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 113
     },
     {
       "id": "1380",
       "question": "Izraz \"CALL SIGN\" koji pilot vazduhoplova presretača radio vezom saopštava pilotu \npresretenog vazduhoplova znaci: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 110
     },
     {
       "id": "1381",
       "question": "Šta znaci međunarodni radiotelefonski izraz \"you land\", koji saopštava pilotu presretenog \nvazduhoplova pilot presretača: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 116
     },
     {
       "id": "1382",
       "question": "Pilot presretenog vazduhoplova saopštava pilotu presretača, da ne može postupiti po \nnjegovim uputstvima, sledećim radiotelefonskim izrazom: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 114
     },
     {
       "id": "1383",
       "question": "Pilot presretnutog vazduhoplova javlja pilotu presretaču, o gubitku orijentacije sledećim \nizrazom: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 115
     },
     {
       "id": "1384",
       "question": "Koja frekvencija je određena za vezu vazduhoplova presretača i presretenog vazduhoplova: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 111
     },
     {
       "id": "1385",
       "question": "Koji je to međunarodni radiotelefonski izraz, kojim pilot vazduhoplova presretača saopštava \npilotu presretenog vazduhoplova da ga sledi: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 112
     },
     {
       "id": "1386",
       "question": "Koje su dve vrsta poruka u nuždi (Emergency Message)? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 124
     },
     {
       "id": "1387",
       "question": "Poruke Opasnosti (Distress) se emituju u \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 128
     },
     {
       "id": "1388",
       "question": "Poruke Hitnosti (Urgency) se emituju u \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 127
     },
     {
       "id": "1389",
       "question": "Frekvencija za prvo emitovanje poruke “MAYDAY” je \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 119
     },
     {
       "id": "1390",
       "question": "Kada pilot želi poslati hitnu poruku, koja se tiče bezbednosti drugog vazduhoplova, dužan je \nzapočeti poruku sa: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 122
     },
     {
       "id": "1391",
       "question": "Pri preletu šumovitog područja ugledate u krošnjama drveća motorni zmaj i vidite pilota \nkako visi na vezama. Odlučili ste da o nesreći obavestite najbliži aerodrom. Kojom frazom \nzapočinjete poruku? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 129
     },
     {
       "id": "1392",
       "question": "Svedok ste prinudnog sletanja sportskog aviona na travnjak ispod vas. Avion izgleda \nneoštećen, a posada nepovređena. Fraza sa kojom započinjete vašu radio poruku o događaju \nkontroli letenja, je: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 130
     },
     {
       "id": "1393",
       "question": "Koji radiotelefonski izraz znaci \" U VELIKOJ SMO NEPOSREDNOJ OPASNOSTI I POTREBNA \nNAM JE HITNA POMOC\": \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 125
     },
     {
       "id": "1394",
       "question": "Fraza sa kojom počinjete poruku u nuždi je: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 117
     },
     {
       "id": "1395",
       "question": "Na vanaerodromskom sletanju ste razbili avion i zadobili povrede. U blizini nema nikoga ko \nbi vam pružio pomoć. Kojom frazom bi uputili poziv u pomoć radio stanicom, koja je ostala \nispravna? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 126
     },
     {
       "id": "1396",
       "question": "Koja od navedenih frekvencija je međunarodna govorna frekvencija u slučaju nužde: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 123
     },
     {
       "id": "1397",
       "question": "Frekvencija 121,500 MHz je: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 118
     },
     {
       "id": "1398",
       "question": "Kada pilot ne uspe da uspostavi komunikaciju sa zemaljskom stanicom ili drugim avionom \ntreba da emituje svoju poruko 2 puta i da je počne sa frazom: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 121
     },
     {
       "id": "1399",
       "question": "Kada pilot čuje poruku u slučaju opasnosti treba da: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 120
     },
     {
       "id": "1400",
       "question": "Proveru čujnosti vršite na sledeći način: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 136
     },
     {
       "id": "1401",
       "question": "Za održavanje što kvalitetnije veze: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 137
     },
     {
       "id": "1402",
       "question": "Na skali razumljivosti “readability 5” znači: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 135
     },
     {
       "id": "1403",
       "question": "Na skali razumljivosti “readability 4” znači: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 134
     },
     {
       "id": "1404",
       "question": "Na skali razumljivosti “readability 3” znači: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 133
     },
     {
       "id": "1405",
       "question": "Na skali razumljivosti “readability 2” znači: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 132
     },
     {
       "id": "1406",
       "question": "Na skali razumljivosti “readability 1” znači: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 131
     },
     {
       "id": "1407",
       "question": "Koji vazduhoplovni komunikacioni servis automatski daje informacije o aerodromu i \nmeteorološkim uslovima za dolazeći i odlazeći saobraćaj? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 141
     },
     {
       "id": "1408",
       "question": "Koje su 3 kategorije vazduhoplovnih komunikacionih servisa? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 140
     },
     {
       "id": "1409",
       "question": "Ako ATIS nije u upotrebi kojom frazom pilot traži informacije za odlazak sa aerodroma? \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 138
     },
     {
       "id": "1410",
       "question": "Radar Information Service (RIS) je jedan ATC servis: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 143
     },
     {
       "id": "1411",
       "question": "Skraćenica ATIS označava: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 79
     },
     {
       "id": "1412",
       "question": "ATIS se može naći na: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 139
     },
     {
       "id": "1413",
       "question": "Servis radarskog nadzora: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 78
     },
     {
       "id": "1414",
       "question": "Pozivni znak stanice koja prosleđuje flight information service je: \n",
-      "topicId": "komunication"
+      "topicId": "komunication",
+      "sortNo": 142
     },
     {
       "id": "1415",
