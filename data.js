@@ -39102,39 +39102,108 @@ const DATA = {
   "topics": [
     {
       "topicId": "rules",
-      "topicName": "Pravila"
+      "topicName": "Pravila",
+      "questionGroups": [
+        { "groupId": 1, "count": 5, "from": 1, "to": 8 },
+        { "groupId": 2, "count": 5, "from": 9, "to": 35 },
+        { "groupId": 3, "count": 5, "from": 36, "to": 49 },
+        { "groupId": 4, "count": 5, "from": 50, "to": 57 }
+      ]
     },
     {
       "topicId": "komunication",
-      "topicName": "Komunikacije"
+      "topicName": "Komunikacije",
+      "questionGroups": [
+        { "groupId": 1, "count": 4, "from": 1, "to": 18 },
+        { "groupId": 2, "count": 4, "from": 19, "to": 35 },
+        { "groupId": 3, "count": 3, "from": 36, "to": 50 },
+        { "groupId": 4, "count": 2, "from": 51, "to": 64 },
+        { "groupId": 5, "count": 2, "from": 65, "to": 77 },
+        { "groupId": 6, "count": 5, "from": 78, "to": 143 }
+      ]
     },
     {
       "topicId": "limits",
-      "topicName": "Ljudske mogucnosti"
+      "topicName": "Ljudske mogucnosti",
+      "questionGroups": [
+        { "groupId": 1, "count": 2, "from": 1, "to": 20 },
+        { "groupId": 2, "count": 2, "from": 21, "to": 37 },
+        { "groupId": 3, "count": 2, "from": 38, "to": 55 },
+        { "groupId": 4, "count": 2, "from": 56, "to": 69 },
+        { "groupId": 5, "count": 2, "from": 70, "to": 84 },
+        { "groupId": 6, "count": 10, "from": 85, "to": 150 }
+      ]
     },
     {
       "topicId": "meteo",
-      "topicName": "Meteorologija"
+      "topicName": "Meteorologija",
+      "questionGroups": [
+        { "groupId": 1, "count": 2, "from": 1, "to": 12 },
+        { "groupId": 2, "count": 1, "from": 13, "to": 22 },
+        { "groupId": 3, "count": 2, "from": 23, "to": 37 },
+        { "groupId": 4, "count": 7, "from": 38, "to": 77 },
+        { "groupId": 5, "count": 3, "from": 78, "to": 88 },
+        { "groupId": 6, "count": 5, "from": 89, "to": 144 }
+      ]
     },
     {
       "topicId": "nav",
-      "topicName": "Navigacija"
+      "topicName": "Navigacija",
+      "questionGroups": [
+        { "groupId": 1, "count": 2, "from": 1, "to": 19 },
+        { "groupId": 2, "count": 2, "from": 20, "to": 36 },
+        { "groupId": 3, "count": 2, "from": 37, "to": 54 },
+        { "groupId": 4, "count": 2, "from": 55, "to": 68 },
+        { "groupId": 5, "count": 2, "from": 69, "to": 83 },
+        { "groupId": 6, "count": 10, "from": 84, "to": 145 }
+      ]
     },
     {
       "topicId": "operproc",
-      "topicName": "Operativne procedure"
+      "topicName": "Operativne procedure",
+      "questionGroups": [
+        { "groupId": 1, "count": 3, "from": 1, "to": 20 },
+        { "groupId": 2, "count": 2, "from": 21, "to": 35 },
+        { "groupId": 3, "count": 3, "from": 36, "to": 51 },
+        { "groupId": 4, "count": 4, "from": 52, "to": 65 },
+        { "groupId": 5, "count": 4, "from": 66, "to": 80 },
+        { "groupId": 6, "count": 4, "from": 81, "to": 146 }
+      ]
     },
     {
       "topicId": "perfom",
-      "topicName": "Perfomanse leta"
+      "topicName": "Perfomanse leta",
+      "questionGroups": [
+        { "groupId": 1, "count": 3, "from": 1, "to": 14 },
+        { "groupId": 2, "count": 2, "from": 15, "to": 30 },
+        { "groupId": 3, "count": 2, "from": 31, "to": 48 },
+        { "groupId": 4, "count": 3, "from": 49, "to": 62 },
+        { "groupId": 5, "count": 2, "from": 63, "to": 75 },
+        { "groupId": 6, "count": 8, "from": 76, "to": 137 }
+      ]
     },
     {
       "topicId": "aircraft",
-      "topicName": "Poznavanje vazduhoplova"
+      "topicName": "Poznavanje vazduhoplova",
+      "questionGroups": [
+        { "groupId": 1, "count": 4, "from": 1, "to": 18 },
+        { "groupId": 2, "count": 4, "from": 19, "to": 65 },
+        { "groupId": 3, "count": 4, "from": 66, "to": 114 },
+        { "groupId": 4, "count": 4, "from": 115, "to": 124 },
+        { "groupId": 5, "count": 4, "from": 125, "to": 136 }
+      ]
     },
     {
       "topicId": "princflight",
-      "topicName": "Principi leta"
+      "topicName": "Principi leta",
+      "questionGroups": [
+        { "groupId": 1, "count": 3, "from": 1, "to": 19 },
+        { "groupId": 2, "count": 3, "from": 20, "to": 36 },
+        { "groupId": 3, "count": 3, "from": 37, "to": 54 },
+        { "groupId": 4, "count": 3, "from": 55, "to": 68 },
+        { "groupId": 5, "count": 2, "from": 69, "to": 83 },
+        { "groupId": 6, "count": 6, "from": 84, "to": 149 }
+      ]
     }
   ]
 };
