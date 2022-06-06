@@ -25,6 +25,8 @@ const imageWrapper = document.getElementById('image-wrapper');
 const indicator = document.getElementById('indicator');
 const zoomInBtn = document.getElementById('zoom-in-btn');
 const zoomOutBtn = document.getElementById('zoom-out-btn');
+const currentQuestionNumber = document.getElementById('current-question-number');
+const currentQuestionSortNumber = document.getElementById('current-question-sort-number');
 
 
 allQuestionsBtn.addEventListener('click', handleAllQuestionsClick);
@@ -288,7 +290,9 @@ function getQuestionsForTopic (topicId, randomNum = 0) {
     return false;
   }
 
-  const questions = APP.questionsArr.filter(q => q.topicId === topicId);
+  let questions = APP.questionsArr.filter(q => q.topicId === topicId && q.sortNo);
+  questions = questions.sort((a, b) => a.sortNo < b.sortNo ? -1 : 1);
+
   if (randomNum === 0) {
     return questions;
   }
@@ -313,7 +317,7 @@ function showQuizFinished () {
   const score = Math.floor(APP.correctAnswers / APP.totalAnswers * 100);
   scoreWrapper.style.display = 'none';
   endGameWrapper.style.display = 'flex';
-  endGameLabel.innerHTML = `KRAJ TESTA: ${score}% (${APP.correctAnswers}/${APP.totalAnswers}) TACNIH ODGOVORA.`;
+  endGameLabel.innerHTML = `KRAJ TESTA: ${score}% (${APP.correctAnswers}/${APP.totalAnswers}) TAČNIH ODGOVORA.`;
   endGameLabel.classList.add(score >= 80 ? 'success' : 'fail');
 }
 
@@ -321,6 +325,8 @@ function updateQuestion () {
   const question = APP.selectedQuestions[APP.currentQuestionIdx];
   const answers = shuffle(getAnswersForQuestion(question.id));
   currentQuestionText.innerHTML = question.question;
+  currentQuestionNumber.innerHTML = `Pitanje Br: ${APP.currentQuestionIdx + 1}`;
+  currentQuestionSortNumber.innerHTML = `(${question.sortNo})`;
 
   if (question.image) {
     APP.currentImage = question.image;

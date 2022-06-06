@@ -175,7 +175,7 @@ body {
 }
 #indicator {
   display: flex;
-  margin: 10px;
+  margin-left: 10px;
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -184,7 +184,19 @@ body {
 #zoom-in-btn, #zoom-out-btn {
   display: none;
 }
-
+.flex-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+#current-question-number-wrapper {
+  font-size: 16px;
+  color: #33f;
+  width: 98%;
+  margin-bottom: 10px;
+}
 @media only screen and (min-width: 600px) {
   #main {
     max-width: 600px;
