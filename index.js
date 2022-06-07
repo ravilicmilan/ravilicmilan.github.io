@@ -44,6 +44,7 @@ const APP = {
   answersArr: [],
   topicsArr: [],
   currentTopic: null,
+  currentTopicQuestionGroups: [],
   selectedQuestions: [],
   selectedAnswers: [],
   currentQuestionIdx: 0,
@@ -210,6 +211,7 @@ function zoomImage () {
 
 function handleTopicClick (e) {
   APP.currentTopic = this.dataset.topic;
+  APP.currentTopicQuestionGroups = APP.topicsArr.filter(t => t.topicId === this.dataset.topic)[0].questionGroups;
   subTitleEl.innerHTML = 'Tema: ' + this.innerHTML;
   topicButtonsContainer.style.display = 'flex';
   topicsList.style.display = 'none';
@@ -247,6 +249,7 @@ function handleAnswerClick (e) {
 
 function handleBackClick () {
   APP.currentTopic = null;
+  APP.currentTopicQuestionGroups = [];
   subTitleEl.innerHTML = 'IZABERITE TEMU';
   topicButtonsContainer.style.display = 'none';
   topicsList.style.display = 'flex';
@@ -254,6 +257,7 @@ function handleBackClick () {
 
 function handleNewTestClick () {
   APP.currentTopic = null;
+  APP.currentTopicQuestionGroups = [];
   APP.selectedQuestions = [];
   APP.currentQuestionIdx = 0;
   APP.selectedAnswers = [];
@@ -301,12 +305,26 @@ function getQuestionsForTopic (topicId, randomNum = 0) {
   const randomIndecies = [];
   const randomQuestions = [];
 
-  while (count < randomNum) {
-    const idx = randomInt(0, questions.length - 1);
-    if (!randomIndecies.includes(idx)) {
-      randomIndecies.push(idx);
-      randomQuestions.push(questions[idx]);
-      count++;
+  // while (count < randomNum) {
+  //   const idx = randomInt(0, questions.length - 1);
+  //   if (!randomIndecies.includes(idx)) {
+  //     randomIndecies.push(idx);
+  //     randomQuestions.push(questions[idx]);
+  //     count++;
+  //   }
+  // }
+  for (let i = 0; i < APP.currentTopicQuestionGroups.length; i++) {
+    const group = APP.currentTopicQuestionGroups[i];
+    let counter = 0;
+
+    while (counter < group.count) {
+      const randomSortNo = randomInt(group.from, group.to);
+      if (!randomIndecies.includes(randomSortNo)) {
+        randomIndecies.push(randomSortNo);
+        const randomQuestion = questions.filter(q => q.sortNo === randomSortNo)[0];
+        randomQuestions.push(randomQuestion);
+        counter++;
+      }
     }
   }
 
@@ -368,8 +386,8 @@ function handleNextQuestionClick () {
 }
 
 function shuffle (arr) {
-  // Create an array of the same size as `arr` filled with false
   const shuffled = [];
+
   for (let i = 0; i < arr.length; ++i) {
     shuffled.push(false);
   }
