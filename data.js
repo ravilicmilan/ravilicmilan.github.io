@@ -39124,7 +39124,7 @@ const DATA = {
     },
     {
       "topicId": "limits",
-      "topicName": "Ljudske mogucnosti",
+      "topicName": "Ljudske mogućnosti",
       "questionGroups": [
         { "groupId": 1, "count": 2, "from": 1, "to": 20 },
         { "groupId": 2, "count": 2, "from": 21, "to": 37 },

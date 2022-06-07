@@ -12,7 +12,6 @@ const randomQuestionsBtn = document.getElementById('random-questions-btn');
 const answersContainer = document.getElementById('answers-container');
 const nextQuestionBtn = document.getElementById('next-question-btn');
 const correctAnswersEl = document.getElementById('correct-answers');
-const totalAnswersEl = document.getElementById('total-answers');
 const footer = document.getElementById('footer');
 const scoreWrapper = document.getElementById('score-wrapper');
 const endGameWrapper = document.getElementById('end-game-wrapper');
@@ -27,7 +26,10 @@ const zoomInBtn = document.getElementById('zoom-in-btn');
 const zoomOutBtn = document.getElementById('zoom-out-btn');
 const currentQuestionNumber = document.getElementById('current-question-number');
 const currentQuestionSortNumber = document.getElementById('current-question-sort-number');
-
+const cancelTestBtn = document.getElementById('cancel-test-btn');
+const alertEl = document.getElementById('alert');
+const alertYesBtn = document.getElementById('alert-yes-btn');
+const alertNoBtn = document.getElementById('alert-no-btn');
 
 allQuestionsBtn.addEventListener('click', handleAllQuestionsClick);
 randomQuestionsBtn.addEventListener('click', handleRandomQuestionsClick);
@@ -38,6 +40,9 @@ closeModalBtn.addEventListener('click', handleCloseModalClick);
 openModalBtn.addEventListener('click', handleOpenModalClick);
 zoomInBtn.addEventListener('click', handleZoomIn);
 zoomOutBtn.addEventListener('click', handleZoomOut);
+cancelTestBtn.addEventListener('click', showAlert);
+alertYesBtn.addEventListener('click', handleCancelTest);
+alertNoBtn.addEventListener('click', hideAlert);
 
 const APP = {
   questionsArr: [],
@@ -97,6 +102,7 @@ function loadData () {
   APP.topicsArr = DATA.topics;
   addTopicsToDom(APP.topicsArr);
   loadAllImages();
+  loadState();
 }
 
 function addTopicsToDom (topicsArr) {
@@ -110,6 +116,20 @@ function addTopicsToDom (topicsArr) {
     topic.addEventListener('click', handleTopicClick);
     topicsList.appendChild(topic);
   }
+}
+
+function showAlert () {
+  alertEl.style.display = 'flex';
+}
+
+function hideAlert () {
+  alertEl.style.display = 'none';
+}
+
+function handleCancelTest () {
+  hideAlert();
+  handleNewTestClick();
+  deleteState();
 }
 
 function handleAllQuestionsClick () {
@@ -238,7 +258,6 @@ function handleAnswerClick (e) {
   }
 
   APP.totalAnswers++;
-  totalAnswersEl.innerHTML = APP.totalAnswers;
   APP.disableAnswersButtons = true;
 
   if (APP.currentQuestionIdx === APP.selectedQuestions.length - 1) {
@@ -266,7 +285,6 @@ function handleNewTestClick () {
   APP.nextQuestionDisabled = true;
   APP.disableAnswersButtons = false;
   correctAnswersEl.innerHTML = 0;
-  totalAnswersEl.innerHTML = 0;
   scoreWrapper.style.display = 'flex';
   endGameWrapper.style.display = 'none';
   questionsContainer.style.display = 'none';
@@ -275,6 +293,7 @@ function handleNewTestClick () {
   topicsList.style.display = 'flex';
   topicButtonsContainer.style.display = 'none';
   subTitleEl.innerHTML = 'IZABERITE TEMU';
+  deleteState();
 }
 
 function showFooter () {
@@ -343,7 +362,7 @@ function updateQuestion () {
   const question = APP.selectedQuestions[APP.currentQuestionIdx];
   const answers = shuffle(getAnswersForQuestion(question.id));
   currentQuestionText.innerHTML = question.question;
-  currentQuestionNumber.innerHTML = `Pitanje Br: ${APP.currentQuestionIdx + 1}`;
+  currentQuestionNumber.innerHTML = `Pitanje Br: ${APP.currentQuestionIdx + 1} / ${APP.selectedQuestions.length}`;
   currentQuestionSortNumber.innerHTML = `(${question.sortNo})`;
 
   if (question.image) {
@@ -383,6 +402,52 @@ function handleNextQuestionClick () {
   APP.currentImage = null;
   APP.nextQuestionDisabled = true;
   updateQuestion();
+  saveState();
+}
+
+function saveState () {
+  const {
+    correctAnswers,
+    totalAnswers,
+    currentQuestionIdx,
+    currentTopic,
+    currentTopicQuestionGroups,
+    selectedQuestions,
+    selectedAnswers
+  } = APP;
+  localStorage.setItem('APP_STATE', JSON.stringify({
+    correctAnswers,
+    totalAnswers,
+    currentQuestionIdx,
+    currentTopic,
+    currentTopicQuestionGroups,
+    selectedQuestions,
+    selectedAnswers
+  }));
+}
+
+function loadState () {
+  const str = localStorage.getItem('APP_STATE');
+  if (str) {
+    try {
+      const obj = JSON.parse(str);
+      APP.correctAnswers = obj.correctAnswers;
+      correctAnswersEl.innerHTML = obj.correctAnswers;
+      APP.totalAnswers = obj.totalAnswers;
+      APP.currentQuestionIdx = obj.currentQuestionIdx;
+      APP.currentTopic = obj.currentTopic;
+      APP.currentTopicQuestionGroups = obj.currentTopicQuestionGroups;
+      APP.selectedQuestions = obj.selectedQuestions;
+      APP.selectedAnswers = obj.selectedAnswers;
+      prepareQuestions();
+    } catch (err) {
+      console.log('NEMOZ DA UCITA STATE', err);
+    }
+  }
+}
+
+function deleteState () {
+  localStorage.removeItem('APP_STATE');
 }
 
 function shuffle (arr) {

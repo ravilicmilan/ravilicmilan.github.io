@@ -37,21 +37,31 @@
     <div id="score-wrapper" class="flex-row">
       <span class="label">Tacno:</span>
       <span class="label label-output" id="correct-answers">0</span>
-      <span class="label">Ukupno:</span>
-      <span class="label label-output" id="total-answers">0</span>
       <div class="flex-col btn" id="next-question-btn">SLEDEĆE</div>
+      <div class="flex-col btn" id="cancel-test-btn">PREKINI</div>
     </div>
     <div id="end-game-wrapper" class="flex-row">
       <span id="end-game-label" class="label">KRAJ TESTA</span>
       <div class="flex-col btn" id="new-test-btn">NOVI TEST</div>
     </div>
   </div>
+
   <div id="modal" class="flex-col">
     <div id="close-modal-btn" class="flex-col btn">ZATVORI</div>
     <div id="zoom-in-btn" class="flex-col btn">+</div>
     <div id="zoom-out-btn" class="flex-col btn">-</div>
     <div id="modal-inner" class="flex-col">
       <div id="image-wrapper"></div>
+    </div>
+  </div>
+
+  <div id="alert" class="flex-col">
+    <div id="alert-inner" class="flex-col">
+      <div id="alert-header" class="flex-col">Da li zaista želite da prekinete test?</div>
+      <div id="alert-buttons-wrapper" class="flex-row">
+        <div id="alert-yes-btn" class="flex-col btn">DA</div>
+        <div id="alert-no-btn" class="flex-col btn">NE</div>
+      </div>
     </div>
   </div>
 </div>
