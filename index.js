@@ -287,6 +287,7 @@ function handleNewTestClick () {
   correctAnswersEl.innerHTML = 0;
   scoreWrapper.style.display = 'flex';
   endGameWrapper.style.display = 'none';
+  endGameLabel.classList.remove('success', 'fail');
   questionsContainer.style.display = 'none';
   footer.style.display = 'none';
   topicsContainer.style.display = 'flex';
