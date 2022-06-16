@@ -325,14 +325,6 @@ function getQuestionsForTopic (topicId, randomNum = 0) {
   const randomIndecies = [];
   const randomQuestions = [];
 
-  // while (count < randomNum) {
-  //   const idx = randomInt(0, questions.length - 1);
-  //   if (!randomIndecies.includes(idx)) {
-  //     randomIndecies.push(idx);
-  //     randomQuestions.push(questions[idx]);
-  //     count++;
-  //   }
-  // }
   for (let i = 0; i < APP.currentTopicQuestionGroups.length; i++) {
     const group = APP.currentTopicQuestionGroups[i];
     let counter = 0;
@@ -357,6 +349,7 @@ function showQuizFinished () {
   endGameWrapper.style.display = 'flex';
   endGameLabel.innerHTML = `KRAJ TESTA: ${score}% (${APP.correctAnswers}/${APP.totalAnswers}) TAČNIH ODGOVORA.`;
   endGameLabel.classList.add(score >= 80 ? 'success' : 'fail');
+  deleteState();
 }
 
 function updateQuestion () {
