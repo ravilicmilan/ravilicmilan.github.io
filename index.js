@@ -30,6 +30,10 @@ const cancelTestBtn = document.getElementById('cancel-test-btn');
 const alertEl = document.getElementById('alert');
 const alertYesBtn = document.getElementById('alert-yes-btn');
 const alertNoBtn = document.getElementById('alert-no-btn');
+const historyBtn = document.getElementById('history-btn');
+const historyPage = document.getElementById('history-page');
+const closeHistoryPageBtn = document.getElementById('close-history-page-btn');
+const historyListWrapper = document.getElementById('history-list-wrapper');
 
 allQuestionsBtn.addEventListener('click', handleAllQuestionsClick);
 randomQuestionsBtn.addEventListener('click', handleRandomQuestionsClick);
@@ -43,6 +47,8 @@ zoomOutBtn.addEventListener('click', handleZoomOut);
 cancelTestBtn.addEventListener('click', showAlert);
 alertYesBtn.addEventListener('click', handleCancelTest);
 alertNoBtn.addEventListener('click', hideAlert);
+historyBtn.addEventListener('click', handleHistoryClick);
+closeHistoryPageBtn.addEventListener('click', handleHistoryCloseClick);
 
 const APP = {
   questionsArr: [],
@@ -63,7 +69,9 @@ const APP = {
   mouseY: null,
   imageScale: 1,
   imageWidth: null,
-  imageHeight: null
+  imageHeight: null,
+  testHistory: [],
+  currentTestId: null,
 };
 
 const images = [
@@ -118,18 +126,47 @@ function addTopicsToDom (topicsArr) {
   }
 }
 
+function showEl (el) {
+  el.style.display = 'flex';
+}
+
+function hideEl (el) {
+  el.style.display = 'none';
+}
+
 function showAlert () {
-  alertEl.style.display = 'flex';
+  showEl(alertEl);
 }
 
 function hideAlert () {
-  alertEl.style.display = 'none';
+  hideEl(alertEl);
+}
+
+function showHistoryBtn () {
+  showEl(historyBtn);
+}
+
+function hideHistoryBtn () {
+  hideEl(historyBtn);
+}
+
+function handleHistoryClick () {
+  loadTestsHistory();
+  showEl(historyPage);
+}
+
+function handleHistoryCloseClick () {
+  hideEl(historyPage);
 }
 
 function handleCancelTest () {
   hideAlert();
   handleNewTestClick();
   deleteState();
+}
+
+function handleHistoryTestClick () {
+  console.log('TEST HISTORY CLICK', this.dataset);
 }
 
 function handleAllQuestionsClick () {
@@ -150,7 +187,7 @@ function prepareQuestions () {
 }
 
 function handleCloseModalClick () {
-  modal.style.display = 'none';
+  hideEl(modal)
   modalInner.style.position = 'relative';
   modalInner.style.left = ``;
   modalInner.style.top = ``;
@@ -166,7 +203,7 @@ function handleOpenModalClick () {
   }
 
   imageWrapper.appendChild(imageToShow.el);
-  modal.style.display = 'flex';
+  showEl(modal)
 
   imageWrapper.addEventListener('mousedown', handleMouseDown);
 
@@ -233,8 +270,10 @@ function handleTopicClick (e) {
   APP.currentTopic = this.dataset.topic;
   APP.currentTopicQuestionGroups = APP.topicsArr.filter(t => t.topicId === this.dataset.topic)[0].questionGroups;
   subTitleEl.innerHTML = 'Tema: ' + this.innerHTML;
-  topicButtonsContainer.style.display = 'flex';
-  topicsList.style.display = 'none';
+  showEl(topicButtonsContainer);
+  hideEl(topicsList);
+  APP.currentTestId = `test-${Date.now()}`;
+  hideEl(historyBtn);
 }
 
 function handleAnswerClick (e) {
@@ -243,18 +282,22 @@ function handleAnswerClick (e) {
   }
 
   APP.nextQuestionDisabled = false;
-  const answerId = this.id;
+  const answerId = this.id.split('answer-')[1];
   const correct = this.dataset.correct;
 
   if (correct === '1') {
     this.classList.add('answer-correct');
     APP.correctAnswers++;
     correctAnswersEl.innerHTML = APP.correctAnswers;
+    APP.testHistory[APP.currentQuestionIdx].correct = answerId;
+    APP.testHistory[APP.currentQuestionIdx].wrong = false;
   } else {
     this.classList.add('answer-wrong');
     const correctAnswer = APP.selectedAnswers.filter(a => a.correct === '1')[0];
     const answerEl = answersContainer.querySelector('#answer-' + correctAnswer.id);
     answerEl.classList.add('answer-correct');
+    APP.testHistory[APP.currentQuestionIdx].correct = correctAnswer.id;
+    APP.testHistory[APP.currentQuestionIdx].wrong = answerId;
   }
 
   APP.totalAnswers++;
@@ -271,7 +314,8 @@ function handleBackClick () {
   APP.currentTopicQuestionGroups = [];
   subTitleEl.innerHTML = 'IZABERITE TEMU';
   topicButtonsContainer.style.display = 'none';
-  topicsList.style.display = 'flex';
+  showEl(topicsList);
+  showEl(historyBtn);
 }
 
 function handleNewTestClick () {
@@ -285,28 +329,29 @@ function handleNewTestClick () {
   APP.nextQuestionDisabled = true;
   APP.disableAnswersButtons = false;
   correctAnswersEl.innerHTML = 0;
-  scoreWrapper.style.display = 'flex';
-  endGameWrapper.style.display = 'none';
+  showEl(scoreWrapper);
+  hideEl(endGameWrapper);
   endGameLabel.classList.remove('success', 'fail');
-  questionsContainer.style.display = 'none';
-  footer.style.display = 'none';
-  topicsContainer.style.display = 'flex';
-  topicsList.style.display = 'flex';
-  topicButtonsContainer.style.display = 'none';
+  hideEl(questionsContainer);
+  hideEl(footer);
+  showEl(topicsContainer);
+  showEl(topicsList);
+  showEl(historyBtn);
+  hideEl(topicButtonsContainer);
   subTitleEl.innerHTML = 'IZABERITE TEMU';
   deleteState();
 }
 
 function showFooter () {
-  footer.style.display = 'flex';
+  showEl(footer);
 }
 
 function hideTopics () {
-  topicsContainer.style.display = 'none';
+  hideEl(topicsContainer);
 }
 
 function showQuestionAndAnswers () {
-  questionsContainer.style.display = 'flex';
+  showEl(questionsContainer);
 }
 
 function getQuestionsForTopic (topicId, randomNum = 0) {
@@ -349,6 +394,7 @@ function showQuizFinished () {
   endGameWrapper.style.display = 'flex';
   endGameLabel.innerHTML = `KRAJ TESTA: ${score}% (${APP.correctAnswers}/${APP.totalAnswers}) TAČNIH ODGOVORA.`;
   endGameLabel.classList.add(score >= 80 ? 'success' : 'fail');
+  saveTestHistory(score);
   deleteState();
 }
 
@@ -358,6 +404,8 @@ function updateQuestion () {
   currentQuestionText.innerHTML = question.question;
   currentQuestionNumber.innerHTML = `Pitanje Br: ${APP.currentQuestionIdx + 1} / ${APP.selectedQuestions.length}`;
   currentQuestionSortNumber.innerHTML = `(${question.sortNo})`;
+
+  APP.testHistory.push({ questionId: question.id });
 
   if (question.image) {
     APP.currentImage = question.image;
@@ -420,6 +468,27 @@ function saveState () {
   }));
 }
 
+function saveTestHistory (score) {
+  const date = new Date();
+  const obj = {
+    id: APP.currentTestId,
+    topic: APP.currentTopic,
+    date: date.toISOString().split('T')[0],
+    score: score,
+    questions: APP.testHistory
+  };
+
+  let prevTests = getTestsHistory();
+
+  if (!prevTests) {
+    const arr = [obj];
+    localStorage.setItem('_ARHIVA_TESTOVA_', JSON.stringify(arr));
+  } else {
+    prevTests.push(obj);
+    localStorage.setItem('_ARHIVA_TESTOVA_', JSON.stringify(prevTests));
+  }
+}
+
 function loadState () {
   const str = localStorage.getItem('APP_STATE');
   if (str) {
@@ -442,6 +511,48 @@ function loadState () {
 
 function deleteState () {
   localStorage.removeItem('APP_STATE');
+}
+
+function getTestsHistory () {
+  const tests = localStorage.getItem('_ARHIVA_TESTOVA_');
+  if (!tests) {
+    return false;
+  }
+
+  return testsArr = JSON.parse(tests);
+}
+
+function loadTestsHistory () {
+  const tests = getTestsHistory();
+
+  if (!tests) {
+    historyListWrapper.innerHTML = 'NEMA ISTORIJE TESTOVA';
+  } else {
+    historyListWrapper.innerHTML = '';
+
+    for (let i = 0; i < tests.length; i++) {
+      const test = tests[i];
+      const date = new Date(test.date);
+      const topic = APP.topicsArr.find(t => t.topicId === test.topic);
+      const el = document.createElement('div');
+      el.dataset.testId = test.id;
+      el.classList.add('flex-row', 'list-item');
+      el.innerHTML = `<span class="flex-col date">${date.toLocaleDateString()}</span>
+        <span class="flex-col topic">${topic.topicName}</span>
+        <span class="flex-col score">${test.score}%</span>
+      `;
+
+      if (test.score > 80) {
+        el.classList.add('success');
+      } else {
+        el.classList.add('fail');
+      }
+
+      el.addEventListener('click', handleHistoryTestClick);
+      historyListWrapper.appendChild(el);
+    }
+  }
+
 }
 
 function shuffle (arr) {

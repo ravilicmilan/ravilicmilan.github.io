@@ -7,8 +7,10 @@
   <link rel="stylesheet" type="text/css" href="/index.css">
   <meta name="description" content="Avijacijski kviz za pripremu za polaganje teorijskog ispita za PPL.">
 </head>
+
 <body>
 
+<div id="history-btn" class="btn flex-col">ISTORIJAT TESTOVA</div>
 <div id="main">
   <div id="title" class="flex-row">AVIJACIJSKI KVIZ <span id="indicator" class="flex-col"></span> </div>
   <div id="sub-title" class="flex-col">IZABERITE TEMU</div>
@@ -47,7 +49,7 @@
   </div>
 
   <div id="modal" class="flex-col">
-    <div id="close-modal-btn" class="flex-col btn">ZATVORI</div>
+    <div id="close-modal-btn" class="flex-col btn close-btn">ZATVORI</div>
     <div id="zoom-in-btn" class="flex-col btn">+</div>
     <div id="zoom-out-btn" class="flex-col btn">-</div>
     <div id="modal-inner" class="flex-col">
@@ -63,6 +65,14 @@
         <div id="alert-no-btn" class="flex-col btn">NE</div>
       </div>
     </div>
+  </div>
+</div>
+
+<div id="history-page" class="flex-col page">
+  <div id="history-page-inner" class="flex-col-start flex-1">
+    <div id="close-history-page-btn" class="flex-col btn close-btn">ZATVORI</div>
+    <div id="page-header" class="flex-col">ISTORIJAT TESTOVA</div>
+    <div id="history-list-wrapper" class="flex-col"></div>
   </div>
 </div>
 

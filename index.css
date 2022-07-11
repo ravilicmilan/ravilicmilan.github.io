@@ -1,3 +1,20 @@
+:root {
+  --primary-background-color: #333;
+  --secondary-background-color: #ccc;
+  --tertiary-background-color: #fff;
+  --topic-hover-color: #acf;
+  --border-color-hover: #fafafa;
+  --red-color: #f33;
+  --green-color: #2c2;
+  --light-green-color: #2c2;
+  --dark-green-color: #057a05;
+  --blue-color: #33f;
+  --yellow-color: #fd0;
+  --button-background-color: #0fb;
+  --button-hover-color: #0fc;
+  --z-first-level: 100;
+  --z-second-level: 110;
+}
 * {
   padding: 0;
   margin: 0;
@@ -12,8 +29,8 @@ body {
   width: 100%;
   height: 100%;
   min-height: 100vh;
-  background: #333;
-  color: #333;
+  background: var(--primary-background-color);
+  color: var(--primary-background-color);
 }
 .flex-col {
   display: flex;
@@ -27,10 +44,19 @@ body {
   align-items: center;
   flex-direction: row;
 }
+.flex-col-start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.flex-1 {
+  flex: 1;
+}
 #main {
   width: 100%;
   height: auto;
-  background: #ccc;
+  background: var(--secondary-background-color);
   min-height: 300px;
   padding-bottom: 20px;
 }
@@ -45,7 +71,7 @@ body {
   text-transform: uppercase;
 }
 #topics-container {
-  border:  1px solid #333;
+  border:  1px solid var(--primary-background-color);
   border-radius: 5px;
   width: 95%;
   margin: 0 auto;
@@ -66,7 +92,7 @@ body {
   font-size: 16px;
 }
 .topic:hover {
-  background: #acf;
+  background: var(--topic-hover-color);
 }
 #current-question-text {
   font-size: 16px;
@@ -76,18 +102,18 @@ body {
   height: auto;
   margin: 5px;
   cursor: pointer;
-  background: #fff;
+  background: var(--tertiary-background-color);
   padding: 10px;
-  border: 1px solid #333;
+  border: 1px solid var(--primary-background-color);
   font-size: 16px;
 }
 .answer:hover {
-  border-color: #fafafa;
+  border-color: var(--border-color-hover);
 }
 .btn {
   min-width: 120px;
   min-height: 40px;
-  background: #0fb;
+  background: var(--button-background-color);
   cursor: pointer;
   border-radius: 10px;
   text-align: center;
@@ -97,20 +123,20 @@ body {
   user-select: none;
 }
 .btn:hover {
-  background: #0fc;
+  background: var(--button-hover-color);
 }
 .answer-correct {
-  background: #2c2;
+  background: var(--light-green-color);
 }
 .answer-wrong {
-  background: #f33;
+  background: var(--red-color);
 }
 #current-question {
   padding: 10px;
-  border: 1px solid #333;
+  border: 1px solid var(--primary-background-color);
   margin-bottom: 20px;
   width: 98%;
-  background: #fd0;
+  background: var(--yellow-color);
 }
 #answers-container {
   width: 98%;
@@ -138,10 +164,10 @@ body {
   display: none;
 }
 .success {
-  color:  #057a05;
+  color: var(--dark-green-color);
 }
 .fail {
-  color: #f33;
+  color: var(--red-color);
 }
 #modal, #alert {
   display: none;
@@ -159,16 +185,17 @@ body {
   min-height: 200px;
   position: relative;
 }
-#close-modal-btn {
+.close-btn {
   position: absolute;
   top: 10px;
   left: 10px;
-  background: #f33;
-  color: #fff;
+  background: var(--red-color);
+  color: var(--tertiary-background-color);
   font-size: 15px;
-  border: 1px solid #fff;
+  border: 1px solid var(--tertiary-background-color);
   z-index: 100;
 }
+
 #image-wrapper {
   position: relative;
   width: 100%;
@@ -185,7 +212,7 @@ body {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: #f33;
+  background: var(--red-color);
 }
 #zoom-in-btn, #zoom-out-btn {
   display: none;
@@ -199,12 +226,12 @@ body {
 }
 #current-question-number-wrapper {
   font-size: 16px;
-  color: #33f;
+  color: var(--blue-color);
   width: 98%;
   margin-bottom: 10px;
 }
 #alert-inner {
-  background-color: #fafafa;
+  background-color: var(--border-color-hover);
 }
 #alert-header {
   font-size: 20px;
@@ -212,8 +239,8 @@ body {
   text-align: center;
 }
 #cancel-test-btn {
-  background-color: #f33;
-  color: #fff;
+  background-color: var(--red-color);
+  color: var(--tertiary-background-color);
   height: 50px;
 }
 #alert-buttons-wrapper {
@@ -222,8 +249,53 @@ body {
   justify-content: space-around;
 }
 #alert-no-btn {
-  background-color: #f33;
-  color: #fff;
+  background-color: var(--red-color);
+  color: var(--tertiary-background-color);
+}
+#history-btn {
+  display: flex;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  font-size: 15px;
+}
+.page {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  overflow-y: auto;
+  background-color: var(--secondary-background-color);
+  z-index: var(--z-second-level);
+}
+#history-page-inner, #history-list-wrapper {
+  width: 100%;
+}
+#page-header {
+  margin-top: 60px;
+}
+.list-item {
+  width: 96%;
+  border-bottom: 1px solid var(--primary-background-color);
+  cursor: pointer;
+}
+.list-item:hover {
+  background-color: var(--tertiary-background-color);
+}
+.list-item span {
+  font-size: 14px;
+}
+.list-item .date {
+  width: 25%;
+}
+.list-item .topic {
+  width: 60%;
+}
+.list-item .score {
+  width: 15%;
 }
 @media only screen and (min-width: 800px) {
   #main {
