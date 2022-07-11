@@ -33,7 +33,10 @@ const alertNoBtn = document.getElementById('alert-no-btn');
 const historyBtn = document.getElementById('history-btn');
 const historyPage = document.getElementById('history-page');
 const closeHistoryPageBtn = document.getElementById('close-history-page-btn');
-const historyListWrapper = document.getElementById('history-list-wrapper');
+const historyList = document.getElementById('history-list');
+const testDetailsPage = document.getElementById('test-details-page');
+const closeTestDetailsPageBtn = document.getElementById('close-test-details-page-btn');
+const testDetailsList = document.getElementById('test-details-list');
 
 allQuestionsBtn.addEventListener('click', handleAllQuestionsClick);
 randomQuestionsBtn.addEventListener('click', handleRandomQuestionsClick);
@@ -49,6 +52,7 @@ alertYesBtn.addEventListener('click', handleCancelTest);
 alertNoBtn.addEventListener('click', hideAlert);
 historyBtn.addEventListener('click', handleHistoryClick);
 closeHistoryPageBtn.addEventListener('click', handleHistoryCloseClick);
+closeTestDetailsPageBtn.addEventListener('click', handleTestDetailsCloseClick);
 
 const APP = {
   questionsArr: [],
@@ -72,6 +76,7 @@ const APP = {
   imageHeight: null,
   testHistory: [],
   currentTestId: null,
+  previousTestArr: []
 };
 
 const images = [
@@ -159,6 +164,10 @@ function handleHistoryCloseClick () {
   hideEl(historyPage);
 }
 
+function handleTestDetailsCloseClick () {
+  hideEl(testDetailsPage);
+}
+
 function handleCancelTest () {
   hideAlert();
   handleNewTestClick();
@@ -166,7 +175,10 @@ function handleCancelTest () {
 }
 
 function handleHistoryTestClick () {
-  console.log('TEST HISTORY CLICK', this.dataset);
+  const test = APP.previousTestArr.find(t => t.id === this.dataset.testId);
+  const questions = getQuestionsAndAnswers(test.questions);
+  populateTestDetailsList(questions);
+  showEl(testDetailsPage);
 }
 
 function handleAllQuestionsClick () {
@@ -354,6 +366,45 @@ function showQuestionAndAnswers () {
   showEl(questionsContainer);
 }
 
+function populateTestDetailsList (questions) {
+  testDetailsList.innerHTML = '';
+
+  for (let i = 0; i < questions.length; i++) {
+    const q = questions[i];
+    const el = document.createElement('div');
+    el.classList.add('flex-col', 'test-details-item');
+    el.innerHTML = `<div class="flex-row question">${q.questionNo}) ${q.question}</div>
+      <div class="flex-row correct-answer">Tačan Odgovor: ${q.correct}</div>
+    `
+
+    if (q.wrong) {
+      el.children[1].insertAdjacentHTML('beforebegin', `<div class="flex-row wrong-answer">Netačan Odgovor: ${q.wrong}</div>`);
+    }
+
+    testDetailsList.appendChild(el);
+  }
+}
+
+function getQuestionsAndAnswers (questions) {
+  const arr = [];
+
+  for (let i = 0; i < questions.length; i++) {
+    const q = questions[i];
+    const question = APP.questionsArr.find(question => question.id === q.questionId);
+    const correctAnswer = APP.answersArr.find(answer => answer.id === q.correct);
+    const obj = { questionNo: question.sortNo, question: question.question, correct: correctAnswer.answer };
+
+    if (q.wrong) {
+      const wrongAnswer = APP.answersArr.find(answer => answer.id === q.wrong);
+      obj.wrong = wrongAnswer.answer;
+    }
+
+    arr.push(obj);
+  }
+
+  return arr;
+}
+
 function getQuestionsForTopic (topicId, randomNum = 0) {
   if (!topicId || topicId === '') {
     return false;
@@ -526,9 +577,9 @@ function loadTestsHistory () {
   const tests = getTestsHistory();
 
   if (!tests) {
-    historyListWrapper.innerHTML = 'NEMA ISTORIJE TESTOVA';
+    historyList.innerHTML = 'NEMA ISTORIJE TESTOVA';
   } else {
-    historyListWrapper.innerHTML = '';
+    historyList.innerHTML = '';
 
     for (let i = 0; i < tests.length; i++) {
       const test = tests[i];
@@ -537,9 +588,9 @@ function loadTestsHistory () {
       const el = document.createElement('div');
       el.dataset.testId = test.id;
       el.classList.add('flex-row', 'list-item');
-      el.innerHTML = `<span class="flex-col date">${date.toLocaleDateString()}</span>
-        <span class="flex-col topic">${topic.topicName}</span>
-        <span class="flex-col score">${test.score}%</span>
+      el.innerHTML = `<span class="flex-row date">${date.toLocaleDateString()}</span>
+        <span class="flex-row topic">${topic.topicName}</span>
+        <span class="flex-row score">${test.score}%</span>
       `;
 
       if (test.score > 80) {
@@ -549,7 +600,8 @@ function loadTestsHistory () {
       }
 
       el.addEventListener('click', handleHistoryTestClick);
-      historyListWrapper.appendChild(el);
+      historyList.appendChild(el);
+      APP.previousTestArr = tests;
     }
   }
 

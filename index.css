@@ -5,6 +5,7 @@
   --topic-hover-color: #acf;
   --border-color-hover: #fafafa;
   --red-color: #f33;
+  --dark-red-color: #b81313;
   --green-color: #2c2;
   --light-green-color: #2c2;
   --dark-green-color: #057a05;
@@ -14,6 +15,7 @@
   --button-hover-color: #0fc;
   --z-first-level: 100;
   --z-second-level: 110;
+  --z-third-level: 120;
 }
 * {
   padding: 0;
@@ -195,7 +197,9 @@ body {
   border: 1px solid var(--tertiary-background-color);
   z-index: 100;
 }
-
+.close-btn:hover {
+  background-color: var(--dark-red-color);
+}
 #image-wrapper {
   position: relative;
   width: 100%;
@@ -276,31 +280,91 @@ body {
 }
 #page-header {
   margin-top: 60px;
+  margin-bottom: 10px;
+}
+#history-list {
+  width: 100%;
 }
 .list-item {
   width: 96%;
+  background-color: var(--tertiary-background-color);
   border-bottom: 1px solid var(--primary-background-color);
   cursor: pointer;
 }
 .list-item:hover {
-  background-color: var(--tertiary-background-color);
+  background-color: var(--topic-hover-color);
 }
 .list-item span {
   font-size: 14px;
 }
 .list-item .date {
   width: 25%;
+  justify-content: flex-start;
+  padding-left: 5px;
 }
 .list-item .topic {
   width: 60%;
+  justify-content: flex-start;
 }
 .list-item .score {
   width: 15%;
+}
+#test-details-page {
+  z-index: var(--z-third-level);
+}
+#test-details-page-inner {
+  height: auto;
+}
+#history-list-wrapper, #test-details-list-wrapper {
+  height: 80vh;
+  overflow-y: auto;
+  justify-content: flex-start;
+}
+.test-details-item {
+  width: 98%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid var(--primary-background-color);
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.test-details-item div {
+  font-size: 14px;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 5px;
+}
+.test-details-item .question {
+  background-color: var(--yellow-color);
+}
+.test-details-item .correct-answer {
+  background-color: var(--tertiary-background-color);
+  color: var(--dark-green-color);
+}
+.test-details-item .wrong-answer {
+  background-color: var(--tertiary-background-color);
+  color: var(--red-color);
 }
 @media only screen and (min-width: 800px) {
   #main {
     max-width: 800px;
     border-radius: 10px;
+  }
+  .page {
+    width: 800px;
+    min-width: unset;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  #test-details-list-wrapper, #history-list-wrapper {
+    height: 89vh;
+  }
+  .test-details-item div  {
+    font-size: 16px;
+  }
+  .list-item span {
+    font-size: 16px;
   }
   #current-question-text {
     font-size: 18px;
