@@ -37,6 +37,7 @@ const historyList = document.getElementById('history-list');
 const testDetailsPage = document.getElementById('test-details-page');
 const closeTestDetailsPageBtn = document.getElementById('close-test-details-page-btn');
 const testDetailsList = document.getElementById('test-details-list');
+const deleteHistoryBtn = document.getElementById('delete-history-btn');
 
 allQuestionsBtn.addEventListener('click', handleAllQuestionsClick);
 randomQuestionsBtn.addEventListener('click', handleRandomQuestionsClick);
@@ -53,6 +54,7 @@ alertNoBtn.addEventListener('click', hideAlert);
 historyBtn.addEventListener('click', handleHistoryClick);
 closeHistoryPageBtn.addEventListener('click', handleHistoryCloseClick);
 closeTestDetailsPageBtn.addEventListener('click', handleTestDetailsCloseClick);
+deleteHistoryBtn.addEventListener('click', handleDeleteHistoryClick);
 
 const APP = {
   questionsArr: [],
@@ -181,6 +183,13 @@ function handleHistoryTestClick () {
   showEl(testDetailsPage);
 }
 
+function handleDeleteHistoryClick () {
+  localStorage.removeItem('_ARHIVA_TESTOVA_');
+  APP.previousTestArr = [];
+  APP.testHistory = [];
+  historyList.innerHTML = `<h3>NEMA TESTOVA</h3>`;
+}
+
 function handleAllQuestionsClick () {
   APP.selectedQuestions = getQuestionsForTopic(APP.currentTopic, 0);
   prepareQuestions();
@@ -196,6 +205,7 @@ function prepareQuestions () {
   showQuestionAndAnswers();
   showFooter();
   updateQuestion();
+  hideEl(historyBtn);
 }
 
 function handleCloseModalClick () {
@@ -456,7 +466,11 @@ function updateQuestion () {
   currentQuestionNumber.innerHTML = `Pitanje Br: ${APP.currentQuestionIdx + 1} / ${APP.selectedQuestions.length}`;
   currentQuestionSortNumber.innerHTML = `(${question.sortNo})`;
 
-  APP.testHistory.push({ questionId: question.id });
+
+  const testExists = APP.testHistory.find(t => t.questionId === question.id);
+  if (!testExists) {
+    APP.testHistory.push({ questionId: question.id });
+  }
 
   if (question.image) {
     APP.currentImage = question.image;
@@ -506,7 +520,9 @@ function saveState () {
     currentTopic,
     currentTopicQuestionGroups,
     selectedQuestions,
-    selectedAnswers
+    selectedAnswers,
+    testHistory,
+    currentTestId
   } = APP;
   localStorage.setItem('APP_STATE', JSON.stringify({
     correctAnswers,
@@ -515,11 +531,14 @@ function saveState () {
     currentTopic,
     currentTopicQuestionGroups,
     selectedQuestions,
-    selectedAnswers
+    selectedAnswers,
+    testHistory,
+    currentTestId
   }));
 }
 
 function saveTestHistory (score) {
+  let prevTests = getTestsHistory();
   const date = new Date();
   const obj = {
     id: APP.currentTestId,
@@ -528,8 +547,6 @@ function saveTestHistory (score) {
     score: score,
     questions: APP.testHistory
   };
-
-  let prevTests = getTestsHistory();
 
   if (!prevTests) {
     const arr = [obj];
@@ -550,9 +567,12 @@ function loadState () {
       APP.totalAnswers = obj.totalAnswers;
       APP.currentQuestionIdx = obj.currentQuestionIdx;
       APP.currentTopic = obj.currentTopic;
+      subTitleEl.innerHTML = `TEMA: ${(APP.topicsArr.find(t => t.topicId === obj.currentTopic)).topicName}`;
       APP.currentTopicQuestionGroups = obj.currentTopicQuestionGroups;
       APP.selectedQuestions = obj.selectedQuestions;
       APP.selectedAnswers = obj.selectedAnswers;
+      APP.testHistory = obj.testHistory;
+      APP.currentTestId = obj.currentTestId;
       prepareQuestions();
     } catch (err) {
       console.log('NEMOZ DA UCITA STATE', err);
@@ -577,7 +597,7 @@ function loadTestsHistory () {
   const tests = getTestsHistory();
 
   if (!tests) {
-    historyList.innerHTML = 'NEMA ISTORIJE TESTOVA';
+    historyList.innerHTML = '<h3>NEMA TESTOVA</h3>';
   } else {
     historyList.innerHTML = '';
 
@@ -593,7 +613,7 @@ function loadTestsHistory () {
         <span class="flex-row score">${test.score}%</span>
       `;
 
-      if (test.score > 80) {
+      if (test.score >= 80) {
         el.classList.add('success');
       } else {
         el.classList.add('fail');
@@ -601,8 +621,9 @@ function loadTestsHistory () {
 
       el.addEventListener('click', handleHistoryTestClick);
       historyList.appendChild(el);
-      APP.previousTestArr = tests;
     }
+
+    APP.previousTestArr = tests;
   }
 
 }

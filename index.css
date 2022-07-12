@@ -346,6 +346,10 @@ body {
   background-color: var(--tertiary-background-color);
   color: var(--red-color);
 }
+#delete-history-btn {
+  right: 10px;
+  left: unset;
+}
 @media only screen and (min-width: 800px) {
   #main {
     max-width: 800px;
