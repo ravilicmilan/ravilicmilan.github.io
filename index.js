@@ -133,12 +133,22 @@ function addTopicsToDom (topicsArr) {
   }
 }
 
+function applyStyles (el, name, value) {
+  if (Array.isArray(el)) {
+    for (let i = 0; i < el.length; i++) {
+      el[i].style[name] = value;
+    }
+  } else if (typeof el === 'object') {
+    el.style[name] = value;
+  }
+}
+
 function showEl (el) {
-  el.style.display = 'flex';
+  applyStyles(el, 'display', 'flex');
 }
 
 function hideEl (el) {
-  el.style.display = 'none';
+  applyStyles(el, 'display', 'none');
 }
 
 function showAlert () {
@@ -147,14 +157,6 @@ function showAlert () {
 
 function hideAlert () {
   hideEl(alertEl);
-}
-
-function showHistoryBtn () {
-  showEl(historyBtn);
-}
-
-function hideHistoryBtn () {
-  hideEl(historyBtn);
 }
 
 function handleHistoryClick () {
@@ -201,11 +203,9 @@ function handleRandomQuestionsClick () {
 }
 
 function prepareQuestions () {
-  hideTopics();
-  showQuestionAndAnswers();
-  showFooter();
+  hideEl([topicsContainer, historyBtn]);
+  showEl([questionsContainer, footer]);
   updateQuestion();
-  hideEl(historyBtn);
 }
 
 function handleCloseModalClick () {
@@ -293,9 +293,8 @@ function handleTopicClick (e) {
   APP.currentTopicQuestionGroups = APP.topicsArr.filter(t => t.topicId === this.dataset.topic)[0].questionGroups;
   subTitleEl.innerHTML = 'Tema: ' + this.innerHTML;
   showEl(topicButtonsContainer);
-  hideEl(topicsList);
+  hideEl([topicsList, historyBtn]);
   APP.currentTestId = `test-${Date.now()}`;
-  hideEl(historyBtn);
 }
 
 function handleAnswerClick (e) {
@@ -336,8 +335,7 @@ function handleBackClick () {
   APP.currentTopicQuestionGroups = [];
   subTitleEl.innerHTML = 'IZABERITE TEMU';
   topicButtonsContainer.style.display = 'none';
-  showEl(topicsList);
-  showEl(historyBtn);
+  showEl([topicsList, historyBtn]);
 }
 
 function handleNewTestClick () {
@@ -351,29 +349,11 @@ function handleNewTestClick () {
   APP.nextQuestionDisabled = true;
   APP.disableAnswersButtons = false;
   correctAnswersEl.innerHTML = 0;
-  showEl(scoreWrapper);
-  hideEl(endGameWrapper);
+  showEl([scoreWrapper, topicsContainer, topicsList, historyBtn]);
+  hideEl([endGameWrapper, questionsContainer, footer, topicButtonsContainer]);
   endGameLabel.classList.remove('success', 'fail');
-  hideEl(questionsContainer);
-  hideEl(footer);
-  showEl(topicsContainer);
-  showEl(topicsList);
-  showEl(historyBtn);
-  hideEl(topicButtonsContainer);
   subTitleEl.innerHTML = 'IZABERITE TEMU';
   deleteState();
-}
-
-function showFooter () {
-  showEl(footer);
-}
-
-function hideTopics () {
-  hideEl(topicsContainer);
-}
-
-function showQuestionAndAnswers () {
-  showEl(questionsContainer);
 }
 
 function populateTestDetailsList (questions) {
@@ -451,8 +431,8 @@ function getQuestionsForTopic (topicId, randomNum = 0) {
 
 function showQuizFinished () {
   const score = Math.floor(APP.correctAnswers / APP.totalAnswers * 100);
-  scoreWrapper.style.display = 'none';
-  endGameWrapper.style.display = 'flex';
+  showEl(endGameWrapper);
+  hideEl(scoreWrapper);
   endGameLabel.innerHTML = `KRAJ TESTA: ${score}% (${APP.correctAnswers}/${APP.totalAnswers}) TAČNIH ODGOVORA.`;
   endGameLabel.classList.add(score >= 80 ? 'success' : 'fail');
   saveTestHistory(score);
@@ -474,9 +454,9 @@ function updateQuestion () {
 
   if (question.image) {
     APP.currentImage = question.image;
-    openModalBtn.style.display = 'flex';
+    showEl(openModalBtn);
   } else {
-    openModalBtn.style.display = 'none';
+    hideEl(openModalBtn)
   }
 
   answersContainer.innerHTML = '';
