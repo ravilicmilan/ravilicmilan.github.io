@@ -412,7 +412,7 @@ function getQuestionsForTopic (topicId, randomNum = 0) {
 
   let count = 0;
   const randomIndecies = [];
-  const randomQuestions = [];
+  let randomQuestions = [];
 
   for (let i = 0; i < APP.currentTopicQuestionGroups.length; i++) {
     const group = APP.currentTopicQuestionGroups[i];
@@ -428,6 +428,8 @@ function getQuestionsForTopic (topicId, randomNum = 0) {
       }
     }
   }
+
+  randomQuestions = randomQuestions.sort((a, b) => a.sortNo < b.sortNo ? -1 : 1);
 
   return randomQuestions;
 }
