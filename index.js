@@ -295,6 +295,7 @@ function handleTopicClick (e) {
   showEl(topicButtonsContainer);
   hideEl([topicsList, historyBtn]);
   APP.currentTestId = `test-${Date.now()}`;
+  APP.testHistory = [];
 }
 
 function handleAnswerClick (e) {
@@ -353,6 +354,8 @@ function handleNewTestClick () {
   hideEl([endGameWrapper, questionsContainer, footer, topicButtonsContainer]);
   endGameLabel.classList.remove('success', 'fail');
   subTitleEl.innerHTML = 'IZABERITE TEMU';
+  APP.currentTestId = null;
+  APP.testHistory = [];
   deleteState();
 }
 
