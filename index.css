@@ -359,13 +359,16 @@ body {
   min-width: unset;
 }
 #debug-list-wrapper {
-  overflow-y: auto;
+  width: 100%;
+  overflow: auto;
   height: 90vh;
   justify-content: flex-start;
   margin-top: 60px;
 }
 #debug-list {
-  width: 100%;
+  width: 96%;
+  margin-left: 2px;
+  padding: 4px;
   height: auto;
 }
 @media only screen and (min-width: 800px) {

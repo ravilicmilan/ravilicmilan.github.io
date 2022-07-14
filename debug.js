@@ -4,17 +4,20 @@ const debugList = document.getElementById('debug-list');
 
 closeDebugPageBtn.addEventListener('click', handleCloseDebugClick);
 
-function insertDebugBtn () {
+function insertDebugBtn (el) {
   const btn = document.createElement('div');
   btn.classList.add('btn', 'flex-col');
   btn.id = 'show-debug-page-btn';
   btn.innerHTML = 'SHOW DEBUG';
   btn.addEventListener('click', handleShowDebugPageClick);
-  historyPage.appendChild(btn);
+  el.appendChild(btn);
 }
 
 function handleShowDebugPageClick () {
   showEl(debugPage);
+  debugList.innerHTML = '';
+  showInfoFromStorage();
+  showAPPState();
 }
 
 function handleCloseDebugClick () {
@@ -25,8 +28,16 @@ function showInfoFromStorage () {
   const data = localStorage.getItem('_ARHIVA_TESTOVA_');
   // const arr = JSON.parse(data) || [];
   ///console.log('JEL NASO ARHIVU', data);
-  debugList.innerHTML = data;
+  debugList.innerHTML = JSON.stringify(JSON.parse(data), null, 2);
 }
 
-insertDebugBtn();
-showInfoFromStorage();
+function showAPPState () {
+  const data = localStorage.getItem('APP_STATE');
+  console.log('DATA', JSON.stringify(JSON.parse(data), null, 2));
+  debugList.innerHTML += '------------------------------------------------------';
+  debugList.innerHTML += '------------------------------------------------------\n';
+  debugList.innerHTML += JSON.stringify(JSON.parse(data), null, 2);
+}
+
+insertDebugBtn(historyPage);
+insertDebugBtn(questionsContainer);
