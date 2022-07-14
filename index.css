@@ -350,6 +350,24 @@ body {
   right: 10px;
   left: unset;
 }
+#show-debug-page-btn {
+  position: fixed;
+  top: 0;
+  left: 35%;
+  font-size: 14px;
+  width: 90px;
+  min-width: unset;
+}
+#debug-list-wrapper {
+  overflow-y: auto;
+  height: 90vh;
+  justify-content: flex-start;
+  margin-top: 60px;
+}
+#debug-list {
+  width: 100%;
+  height: auto;
+}
 @media only screen and (min-width: 800px) {
   #main {
     max-width: 800px;
