@@ -39209,7 +39209,7 @@ const DATA = {
     },
     {
       "topicId": "perfom",
-      "topicName": "Perfomanse leta",
+      "topicName": "Performanse leta",
       "questionGroups": [
         { "groupId": 1, "count": 3, "from": 1, "to": 14 },
         { "groupId": 2, "count": 2, "from": 15, "to": 30 },
