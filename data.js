@@ -4643,7 +4643,8 @@ const DATA = {
       "id": "2191",
       "question": "Proračunaj brzinu uzdizanja za vazduhoplov koji leti na visini 5000f na temperaturi spoljnjeg vazduha od \n0°C. (Vidi sliku PPL FPP-8) \n",
       "topicId": "perfom",
-      "sortNo": 104
+      "sortNo": 104,
+      "image": "Slika-PPL-FPP-8.jpg"
     },
     {
       "id": "2192",
@@ -4671,7 +4672,8 @@ const DATA = {
     {
       "id": "2196",
       "question": "Vazduhoplov leti na visini 2000ft i ima odobrenje za penjanje na 8000ft. Proračunaj potrebno vreme u minutima, utrošeno gorivo u galonima i pređeni put za vreme penjanja. Temperatura je standardna i ne duva vetar. (Vidi sliku PPL FPP-9) Vreme (min), Gorivo (gal), Rastojanje(n.m.)",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "image": "Slika-PPL-FPP-9.jpg"
     },
     {
       "id": "2197",
@@ -4689,7 +4691,8 @@ const DATA = {
       "id": "2199",
       "question": "Kojom brzinom maramo da letimo za maksimalni dolet? (Vidi sliku PPL FPP-10) \n",
       "topicId": "perfom",
-      "sortNo": 33
+      "sortNo": 33,
+      "image": "Slika-PPL-FPP-10.jpg"
     },
     {
       "id": "2200",
@@ -4771,7 +4774,8 @@ const DATA = {
       "id": "2213",
       "question": "Kojom brzinom označenom sa A, B, C ili D treba leteti za maksimalnu autonomiju leta? (Vidi sliku PPL \nFPP-10) \n",
       "topicId": "perfom",
-      "sortNo": 32
+      "sortNo": 32,
+      "image": "Slika-PPL-FPP-10.jpg"
     },
     {
       "id": "2214",
@@ -4836,13 +4840,15 @@ const DATA = {
       "id": "2224",
       "question": "Odredi da li je masa vazduhoplova u granicama limita (normalne kategorije) (Vidi sliku PPL FPP-17) \n                                                         Masa (lb)           moment (lbxin) \nMasa praznog vazduhoplova 1,350 lb           51.5 lbxin\nPilot I putnici napred                360 lb\nPutnici pozadi                              280 lb\nGorivo                                             30 US gal \nUlje                                                  8 qt                              -0.2",
       "topicId": "perfom",
-      "sortNo": 122
+      "sortNo": 122,
+      "image": "Slika-PPL-FPP-17.jpg"
     },
     {
       "id": "2225",
       "question": "Koliko se maksimalno može sipati goriva u vazduhoplov koji je natovaren na sledeći način? (Vidi sliku PPL FPP-17)\n Masa (lb)           moment (lbxin) \nMasa praznog vazduhoplova 1,350 lb         51.5 lbxin\nPilot i putnici napred                340 lb\nPutnici pozadi                              310 lb\nPrtljag                                              45lb\nUlje                                                  8 qt                              -0.2",
       "topicId": "perfom",
-      "sortNo": 102
+      "sortNo": 102,
+      "image": "Slika-PPL-FPP-17.jpg"
     },
     {
       "id": "2226",
@@ -4853,13 +4859,15 @@ const DATA = {
       "id": "2227",
       "question": "Odredi moment sa sledećim podacima: (Vidi sliku PPL FPP-17) \nMasa (lb) moment (lbxin) \nMasa praznog vazduhoplova 1,350 51.5 \nPilot i putnici napred 340 \nGorivo ( pun standardni rezervoar ) \nUlje , 8 qt -0.2 \n",
       "topicId": "perfom",
-      "sortNo": 103
+      "sortNo": 103,
+      "image": "Slika-PPL-FPP-17.jpg"
     },
     {
       "id": "2228",
       "question": "Koja je maksimalna količina prtljaga koja može biti natovarena na avion normalne kategorije, da bi centar težišta ostao u okviru odgovarajućeg limita? (Vidi sliku PPL FPP-17)\n  Masa (lb)           moment (lbxin) \nMasa praznog vazduhoplova 1,350 lb           51.5 lbxin\nPilot I putnici napred                250 lb\nPutnici pozadi                              400 lb\nGorivo                                             30 US gal \nUlje                                                  8 qt                              -0.2",
       "topicId": "perfom",
-      "sortNo": 101
+      "sortNo": 101,
+      "image": "Slika-PPL-FPP-17.jpg"
     },
     {
       "id": "2229",
@@ -5208,7 +5216,8 @@ const DATA = {
     {
       "id": "2162",
       "question": "Pretpostavimo da je vazduhoplov na zemlji, koji izraz najbolje opisuje prikaz \"D\". (Vidi sliku PPL FPP-2) \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "image": "Slika-PPL-FPP-2.jpg"
     },
     {
       "id": "2163",
@@ -5272,13 +5281,15 @@ const DATA = {
       "id": "2173",
       "question": "Pretpostavljajući da je vazduhoplov na zemlji „na odmoru“, koji izraz najbolje opisuje prikaz A? (Vidi \nsliku PPL FPP-2) \n",
       "topicId": "perfom",
-      "sortNo": 73
+      "sortNo": 73,
+      "image": "Slika-PPL-FPP-2.jpg"
     },
     {
       "id": "2174",
       "question": "U kojoj kategoriji, opštoj ili normalnoj, očekuješ da letiš vazduhoplov prikazan na dodatoj envelopi \ncentra težišta/moment, ako je njegova masa 2100 lbs i moment centra težišta 90,000 lb inches? (Vidi \nsliku PPL FPP-7) \n",
       "topicId": "perfom",
-      "sortNo": 88
+      "sortNo": 88,
+      "image": "Slika-PPL-FPP-7.jpg"
     },
     {
       "id": "2175",
@@ -5487,96 +5498,112 @@ const DATA = {
       "id": "2269",
       "question": "Odredi dužinu poletanja sa nadvišavanjem prepreka 50-foot pod sledećim uslovima. (Vidi sliku PPL \nFPP-15) \nVisina po pritisku 0 ft \nTemperatura standardna \nMasa 1900 lb \nVetar bez vetra \nPodloga trava, suva \n",
       "topicId": "perfom",
-      "sortNo": 114
+      "sortNo": 114,
+      "image": "Slika-PPL-FPP-15.jpg"
     },
     {
       "id": "2270",
       "question": "Odredi potrebnu dužinu zaleta u poletanju. (Vidi sliku PPL FPP-15) \nVisina 2,000 ft \ntemperatura 40°C \nmasa. 2100 lb \nvetar . leđni 4 kt \npodloga . šljunak sa katranom (tarmac ) \n",
       "topicId": "perfom",
-      "sortNo": 120
+      "sortNo": 120,
+      "image": "Slika-PPL-FPP-15.jpg"
     },
     {
       "id": "2271",
       "question": "Odredi dužinu poletanja sa nadvišavanjem prepreka 50-foot za sledeće uslove: (Vidi sliku PPL FPP- \n15) \nVisina po pritisku 4,000 ft \ntemperatura 15°C \nmasa 2300 lb \nvetar bez vetra \npodloga asvalt \n",
       "topicId": "perfom",
-      "sortNo": 116
+      "sortNo": 116,
+      "image": "Slika-PPL-FPP-15.jpg"
     },
     {
       "id": "2272",
       "question": "Odredi dužinu poletanja sa nadvišavanjem prepreka 50-foot pod sledećim uslovima:. (Vidi sliku PPL \nFPP-15) \nVisina po pritisku 2,000 ft \ntemperatura 30°C \nmasa 2100 lb \nvetar čeoni 18 kt \npodloga trava, suva \n",
       "topicId": "perfom",
-      "sortNo": 115
+      "sortNo": 115,
+      "image": "Slika-PPL-FPP-15.jpg"
     },
     {
       "id": "2273",
       "question": "Odredi ukupnu potrebnu dužinu sletanja. (Vidi sliku PPL FPP-16) \nVisina po pritisku 1,000 ft \nTemperatura 30°C \nMasa 2300 lb \nVetar čeoni 9 kt \nPodloga šljunak sa katranom (tarmac ) \n",
-      "topicId": "perfom"
+      "topicId": "perfom",
+      "image": "Slika-PPL-FPP-16.jpg"
     },
     {
       "id": "2274",
       "question": "Odredi dužinu protrčavanja po pisti posle sletanja. (Vidi sliku PPL FPP-16) \nVisina po gustini 0 ft \ntemperatura 10°C \nmasa 2300 lb \nvetar čeoni 9 kt \npodloga trava, suva \n",
       "topicId": "perfom",
-      "sortNo": 117
+      "sortNo": 117,
+      "image": "Slika-PPL-FPP-16.jpg"
     },
     {
       "id": "2275",
       "question": "Odredi dužinu protrčavanja posle sletanja. (Vidi sliku PPL FPP-16) \nVisina po pritisku 0 ft \ntemperatura 15°C \nmasa 2300 lb \nvetar bez vetra \npodloga šljunak sa katranom (tarmac ) \n",
       "topicId": "perfom",
-      "sortNo": 118
+      "sortNo": 118,
+      "image": "Slika-PPL-FPP-16.jpg"
     },
     {
       "id": "2276",
       "question": "Odredi dužinu protrčavanja posle sletanja. (Vidi sliku PPL FPP-16) \nvisina po pritisku 3,000 ft \ntemperatura 20°C \nmasa 2200 lb \nvetar bez vetra \npodloga trava, suva \n",
       "topicId": "perfom",
-      "sortNo": 119
+      "sortNo": 119,
+      "image": "Slika-PPL-FPP-16.jpg"
     },
     {
       "id": "2277",
       "question": "Odredi ukupnu dužinu sletanja sa nadvišavanjem prepreka 50-foot. (Vidi sliku PPL FPP-16) \nVisina po pritisku 1,000 ft \ntemperatura 10°C \nmasa 2300 lb \nvetar leđni10 kt \npodloga šljunak sa katranom (tarmac ) \n",
       "topicId": "perfom",
-      "sortNo": 121
+      "sortNo": 121,
+      "image": "Slika-PPL-FPP-16.jpg"
     },
     {
       "id": "2278",
       "question": "Odredi ukupnu potrebu dužinu sletanja sa nadvišavanjem prepreka 50-foot. (Vidi sliku PPL FPP-16) \nVisina po pritisku 1,500 ft \ntemperatura 30°C \nmasa 2300 lb \nvetar bez vetra \npodloga šljunak sa katranom (tarmac ) \n",
       "topicId": "perfom",
-      "sortNo": 124
+      "sortNo": 124,
+      "image": "Slika-PPL-FPP-16.jpg"
     },
     {
       "id": "2279",
       "question": "Odredi ukupnu potrebu dužinu sletanja sa nadvišavanjem prepreka 50-foot. (Vidi sliku PPL FPP-16) \nVisina po pritisku 0 ft \ntemperatura 0°C \nmasa 2300 lb \nvetar čeoni 18 kt \npodloga trava, suva \n",
       "topicId": "perfom",
-      "sortNo": 123
+      "sortNo": 123,
+      "image": "Slika-PPL-FPP-16.jpg"
     },
     {
       "id": "2280",
       "question": "Kolika će biti vazdušna brzina aviona u horizontalnom letu pri sledećim uslovima: (Vidi sliku PPL \nFPP-14) \nVisina po pritisku 8,000 ft \ntemperatura 20°C ispod standardne \npodešena snaga 55% \n",
       "topicId": "perfom",
-      "sortNo": 113
+      "sortNo": 113,
+      "image": "Slika-PPL-FPP-14.jpg"
     },
     {
       "id": "2281",
       "question": "Kolika će biti očekivana potrošnja goriva za let od 250 nm pod sledećim uslovima: (Vidi sliku PPL \nFPP-14) \nVisina po pritisku 6,000 ft \ntemperatura 20°C iznad standardne \npodešena snaga 60% \nvetar bez vetra \n",
       "topicId": "perfom",
-      "sortNo": 137
+      "sortNo": 137,
+      "image": "Slika-PPL-FPP-14.jpg"
     },
     {
       "id": "2282",
       "question": "Kolika će biti očekivana potrošnja goriva za let od 350 nm pod sledećim uslovima: (Vidi sliku PPL \nFPP-14) \nVisina po pritisku 4,000 ft \ntemperatura 20°C ispod standarda \npodešena snaga 60% \nvetar bez vetra \n",
       "topicId": "perfom",
-      "sortNo": 134
+      "sortNo": 134,
+      "image": "Slika-PPL-FPP-14.jpg"
     },
     {
       "id": "2283",
       "question": "Koliki obrtaji motora moraju biti približno podešeni za vreme krstarenja na 2,000 ft i na standardnoj \ntemperaturi kako bi ostvarili 60% snage? (Vidi sliku PPL FPP-14) \n",
       "topicId": "perfom",
-      "sortNo": 136
+      "sortNo": 136,
+      "image": "Slika-PPL-FPP-14.jpg"
     },
     {
       "id": "2284",
       "question": "Kolika je očekivana potrošnja goriva pod sledećim uslovima: (Vidi sliku PPL FPP-14) \nVisina po pritisku 8,000 ft \ntemperatura 20°C ispod standardna \npodešena snaga 55% \n",
       "topicId": "perfom",
-      "sortNo": 135
+      "sortNo": 135,
+      "image": "Slika-PPL-FPP-14.jpg"
     },
     {
       "id": "2285",
@@ -5617,61 +5644,71 @@ const DATA = {
       "id": "2291",
       "question": "Kolika je komponenta čeonog vetra pri sletanju na pistu 18 ako je vetar na sletanju 220°/30 kts? \n(Vidi sliku PPL FPP-13) \n",
       "topicId": "perfom",
-      "sortNo": 80
+      "sortNo": 80,
+      "image": "Slika-PPL-FPP-13.jpg"
     },
     {
       "id": "2292",
       "question": "Kolika je komponenta bočnog vetra pri sletanju na pistu 18 ako je vetar na sletanju 220°/30 kts? \n(Vidi sliku PPL FPP-13) \n",
       "topicId": "perfom",
-      "sortNo": 77
+      "sortNo": 77,
+      "image": "Slika-PPL-FPP-13.jpg"
     },
     {
       "id": "2293",
       "question": "Koju pistu ćete izabrati za sletanje (06, 14, 24, 32), ako je vetar na sletanju južni 20 Kts i ako je \nmaksimalna dozvoljena brzina bočnog vetra za vaš vazduhoplov 13 kts? (Vidi sliku PPL FPP-13) \n",
       "topicId": "perfom",
-      "sortNo": 76
+      "sortNo": 76,
+      "image": "Slika-PPL-FPP-13.jpg"
     },
     {
       "id": "2294",
       "question": "Sa javljenim vetrom 360°/20 kts vi prilazite aerodromu. Koju pistu (06,14 or 24) ćete izabrati za \nsletanje ako vaš avion ima maksimalno dozvoljenu brzinu bočnog vetra na sletanju 13-knots? (Vidi sliku \nPPL FPP-13) \n",
       "topicId": "perfom",
-      "sortNo": 85
+      "sortNo": 85,
+      "image": "Slika-PPL-FPP-13.jpg"
     },
     {
       "id": "2295",
       "question": "Kolike su komponente čeonog i bočnog vetra ako je vetar 280°/15 kts za pistu sa magnetnim \npravcem protezanja 220°? (Vidi sliku PPL FPP-13) \n",
       "topicId": "perfom",
-      "sortNo": 81
+      "sortNo": 81,
+      "image": "Slika-PPL-FPP-13.jpg"
     },
     {
       "id": "2296",
       "question": "Odredi maksimalnu brzinu bočnog vetra pod 45° ako je maksimalno dozvoljeni bočni vetar za avion \n25 kts? (Vidi sliku PPL FPP-13) \n",
       "topicId": "perfom",
-      "sortNo": 84
+      "sortNo": 84,
+      "image": "Slika-PPL-FPP-13.jpg"
     },
     {
       "id": "2297",
       "question": "Odredi maksimalnu brzinu bočnog vetra pod 40° ako je maksimalno dozvoljeni bočni vetar za avion \n10 kts? (Vidi sliku PPL FPP-13) \n",
       "topicId": "perfom",
-      "sortNo": 83
+      "sortNo": 83,
+      "image": "Slika-PPL-FPP-13.jpg"
     },
     {
       "id": "2298",
       "question": "Odredi maksimalnu brzinu bočnog vetra pod 30° ako je maksimalno dozvoljeni bočni vetar za avion \n10 kts? (Vidi sliku PPL FPP-13) \n",
       "topicId": "perfom",
-      "sortNo": 82
+      "sortNo": 82,
+      "image": "Slika-PPL-FPP-13.jpg"
     },
     {
       "id": "2299",
       "question": "Kolika je komponenta čeonog i bočnog vetra pri javljenom vetru 030°/10 kts za pistu magnetnog \npravca 330°? (Vidi sliku PPL FPP-13) \n",
       "topicId": "perfom",
-      "sortNo": 78
+      "sortNo": 78,
+      "image": "Slika-PPL-FPP-13.jpg"
     },
     {
       "id": "2300",
       "question": "Kolika je komponenta čeonog i bočnog vetra pri javljenom vetru 130°/20 kts za pistu magnetnog \npravca 040°? (Vidi sliku PPL FPP-13) \n",
       "topicId": "perfom",
-      "sortNo": 79
+      "sortNo": 79,
+      "image": "Slika-PPL-FPP-13.jpg"
     },
     {
       "id": "2301",
