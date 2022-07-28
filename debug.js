@@ -30,6 +30,7 @@ function showInfoFromStorage () {
 
   if (arr.length === 0) {
     debugList.innerHTML = 'NEMA TESTOVA!';
+    return;
   }
 
   for (let i = 0; i < arr.length; i++) {
@@ -51,6 +52,7 @@ function showAPPState () {
 
   if (!data) {
     debugList.innerHTML += 'NEMA STATE';
+    return;
   }
 
   data = JSON.parse(data);
@@ -84,5 +86,8 @@ function showAPPState () {
   });
 }
 
-insertDebugBtn(historyPage);
-insertDebugBtn(questionsContainer);
+if (document.location.search === '?debug=true') {
+  insertDebugBtn(historyPage);
+  insertDebugBtn(questionsContainer);
+
+}

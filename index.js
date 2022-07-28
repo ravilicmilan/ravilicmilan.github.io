@@ -368,7 +368,7 @@ function populateTestDetailsList (questions) {
     el.classList.add('flex-col', 'test-details-item');
     el.innerHTML = `<div class="flex-row question">${q.questionNo}) ${q.question}</div>
       <div class="flex-row correct-answer">Tačan Odgovor: ${q.correct}</div>
-    `
+    `;
 
     if (q.wrong) {
       el.children[1].insertAdjacentHTML('beforebegin', `<div class="flex-row wrong-answer">Netačan Odgovor: ${q.wrong}</div>`);
