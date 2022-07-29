@@ -307,19 +307,28 @@ function handleAnswerClick (e) {
   const answerId = this.id.split('answer-')[1];
   const correct = this.dataset.correct;
 
+  const question = APP.selectedQuestions[APP.currentQuestionIdx];
+  const testExists = APP.testHistory.find(t => t.questionId === question.id);
+
   if (correct === '1') {
     this.classList.add('answer-correct');
     APP.correctAnswers++;
     correctAnswersEl.innerHTML = APP.correctAnswers;
-    APP.testHistory[APP.currentQuestionIdx].correct = answerId;
-    APP.testHistory[APP.currentQuestionIdx].wrong = false;
+
+    if (testExists) {
+      APP.testHistory[APP.currentQuestionIdx].correct = answerId;
+      APP.testHistory[APP.currentQuestionIdx].wrong = false;
+    }
   } else {
     this.classList.add('answer-wrong');
     const correctAnswer = APP.selectedAnswers.filter(a => a.correct === '1')[0];
     const answerEl = answersContainer.querySelector('#answer-' + correctAnswer.id);
     answerEl.classList.add('answer-correct');
-    APP.testHistory[APP.currentQuestionIdx].correct = correctAnswer.id;
-    APP.testHistory[APP.currentQuestionIdx].wrong = answerId;
+
+    if (testExists) {
+      APP.testHistory[APP.currentQuestionIdx].correct = correctAnswer.id;
+      APP.testHistory[APP.currentQuestionIdx].wrong = answerId;
+    }
   }
 
   APP.totalAnswers++;
