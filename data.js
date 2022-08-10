@@ -25962,7 +25962,7 @@ const DATA = {
     {
       "id": "7830",
       "questionId": "2191",
-      "answer": "470 fpm. \nPPL FPP-8.jpg \n",
+      "answer": "470 fpm. \n",
       "correct": "0"
     },
     {
