@@ -66,11 +66,13 @@ body {
   font-size: 24px;
   margin-top: 20px;
   margin-bottom: 20px;
+  user-select: none;
 }
 #sub-title {
   font-size: 20px;
   margin-bottom: 20px;
   text-transform: uppercase;
+  user-select: none;
 }
 #topics-container {
   border:  1px solid var(--primary-background-color);
