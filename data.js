@@ -18948,7 +18948,7 @@ const DATA = {
     {
       "id": "5903",
       "questionId": "1691",
-      "answer": "11°C \n",
+      "answer": "11 °C \n",
       "correct": "0"
     },
     {
