@@ -6007,7 +6007,7 @@ const DATA = {
     },
     {
       "id": "2388",
-      "question": "Koji instrumenti se uobičajeno pokreću pomoću sistema vakuum pumpe? (1)Indikator pravca, \n(2)Kontrolnik leta, \n(3)Indikator položaja komandi, \n(4)Visinomer, \n(5)Magnempastni ko",
+      "question": "Koji instrumenti se uobičajeno pokreću pomoću sistema vakuum pumpe? (1)Indikator pravca, \n(2)Kontrolnik leta, \n(3)Indikator položaja komandi, \n(4)Visinomer, \n(5)Magnetni kompas",
       "topicId": "aircraft",
       "sortNo": 107
     },
@@ -6257,7 +6257,7 @@ const DATA = {
     },
     {
       "id": "2431",
-      "question": "U kojim letnim uslovima je najveći efekat obrtnog momenta kod jedednomotornih aviona? \n",
+      "question": "U kojim letnim uslovima je najveći efekat obrtnog momenta kod jednomotornih aviona? \n",
       "topicId": "aircraft",
       "sortNo": 98
     },
