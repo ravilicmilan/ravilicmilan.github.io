@@ -23610,7 +23610,7 @@ const DATA = {
     {
       "id": "6892",
       "questionId": "1951",
-      "answer": "Opadanje obrtaja motora RPM, a portom postepeno povećanje obrtaja motora RPM. \n",
+      "answer": "Opadanje obrtaja motora RPM, a potom postepeno povećanje obrtaja motora RPM. \n",
       "correct": "1"
     },
     {
@@ -24324,7 +24324,7 @@ const DATA = {
     {
       "id": "6966",
       "questionId": "1971",
-      "answer": "Iznad putanje leta završnog prilaza velikog vazduhoplova i sleteti pre tačke dodira velikog \nvazduhoplova. \n",
+      "answer": "Iznad putanje leta završnog prilaza velikog vazduhoplova i sleteti posle tačke dodira velikog \nvazduhoplova. \n",
       "correct": "0"
     },
     {
