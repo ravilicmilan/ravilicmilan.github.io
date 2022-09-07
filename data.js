@@ -27667,13 +27667,13 @@ const DATA = {
       "id": "8444",
       "questionId": "2346",
       "answer": "raste / opada / siromašnija \n",
-      "correct": "1"
+      "correct": "0"
     },
     {
       "id": "8445",
       "questionId": "2346",
       "answer": "raste / smanjuje / bogatija \n",
-      "correct": "0"
+      "correct": "1"
     },
     {
       "id": "8446",

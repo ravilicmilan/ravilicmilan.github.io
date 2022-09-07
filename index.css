@@ -33,6 +33,7 @@ body {
   min-height: 100vh;
   background: var(--primary-background-color);
   color: var(--primary-background-color);
+  overscroll-behavior-y: contain;
 }
 .flex-col {
   display: flex;
@@ -227,7 +228,16 @@ body {
   background: var(--red-color);
 }
 #zoom-in-btn, #zoom-out-btn {
-  display: none;
+  position: fixed;
+  display: flex;
+  top: 10px;
+  left: 140px;
+  width: 50px !important;
+  min-width: 30px !important;
+  z-index: 100;
+}
+#zoom-out-btn {
+  left: 200px;
 }
 .flex-between {
   display: flex;

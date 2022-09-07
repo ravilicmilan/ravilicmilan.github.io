@@ -228,23 +228,37 @@ function handleOpenModalClick () {
   showEl(modal)
 
   imageWrapper.addEventListener('mousedown', handleMouseDown);
+  imageWrapper.addEventListener('touchstart', handleMouseDown);
 
   APP.imageWidth = imageToShow.el.naturalWidth;
   APP.imageHeight = imageToShow.el.naturalHeight;
 }
 
 function handleMouseDown (e) {
-  APP.mouseX = e.clientX;
-  APP.mouseY = e.clientY;
+  console.log('TOUCH START', e);
+  const { x, y } = getCoordinates(e);
+  // APP.mouseX = e.clientX;
+  // APP.mouseY = e.clientY;
+  APP.mouseX = x;
+  APP.mouseY = y;
   imageWrapper.firstChild.draggable = false;
   APP.imageCss = modalInner.getBoundingClientRect();
   document.addEventListener('mousemove', handleMouseMove);
   document.addEventListener('mouseup', handleMouseUp);
+  if (e.type === 'touchstart' && e.touches && e.touches.length === 1) {
+    document.addEventListener('touchmove', handleMouseMove);
+    document.addEventListener('touchend', handleMouseUp);
+  }
+
 }
 
 function handleMouseMove (e) {
-  const dx = e.clientX - APP.mouseX;
-  const dy = e.clientY - APP.mouseY;
+  console.log('TOUCH MOVE:::', e);
+  const { x, y } = getCoordinates(e);
+  const dx = x - APP.mouseX;
+  const dy = y- APP.mouseY;
+  // const dx = e.clientX - APP.mouseX;
+  // const dy = e.clientY - APP.mouseY;
   const left = APP.imageCss.left + dx;
   const top = APP.imageCss.top + dy;
   modalInner.style.position = 'absolute';
@@ -255,6 +269,16 @@ function handleMouseMove (e) {
 function handleMouseUp () {
   document.removeEventListener('mousemove', handleMouseMove);
   document.removeEventListener('mouseup', handleMouseUp);
+  document.removeEventListener('touchmove', handleMouseMove);
+  document.removeEventListener('touchend', handleMouseUp);
+}
+
+function getCoordinates (e) {
+  if (e.type === 'mousedown' || e.type === 'mousemove') {
+    return { x: e.clientX, y: e.clientY };
+  } else if (e.type === 'touchstart' || e.type === 'touchmove') {
+    return { x: e.touches[0].clientX, y: e.touches[0].clientY };
+  }
 }
 
 function handleZoomIn () {
