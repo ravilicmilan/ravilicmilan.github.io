@@ -235,7 +235,7 @@ function handleOpenModalClick () {
 }
 
 function handleMouseDown (e) {
-  console.log('TOUCH START', e);
+  // console.log('TOUCH START', e);
   const { x, y } = getCoordinates(e);
   // APP.mouseX = e.clientX;
   // APP.mouseY = e.clientY;
@@ -253,7 +253,7 @@ function handleMouseDown (e) {
 }
 
 function handleMouseMove (e) {
-  console.log('TOUCH MOVE:::', e);
+  // console.log('TOUCH MOVE:::', e);
   const { x, y } = getCoordinates(e);
   const dx = x - APP.mouseX;
   const dy = y- APP.mouseY;

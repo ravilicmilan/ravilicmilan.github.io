@@ -162,6 +162,7 @@ body {
 .label {
   font-size: 15px;
   margin: 0 5px;
+  user-select: none;
 }
 .label-output {
   border: 1px solid #444;
@@ -251,6 +252,10 @@ body {
   color: var(--blue-color);
   width: 98%;
   margin-bottom: 10px;
+  user-select: none;
+}
+#current-question-sort-number {
+  user-select: none;
 }
 #alert-inner {
   background-color: var(--border-color-hover);
